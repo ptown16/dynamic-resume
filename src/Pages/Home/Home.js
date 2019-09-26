@@ -1,9 +1,6 @@
 import React from 'react';
 import './Home.css';
 
-import { BrowserRouter as NavLink} from "react-router-dom";
-
-
 function Home({ match }) {
   return (
     <div className="App">
