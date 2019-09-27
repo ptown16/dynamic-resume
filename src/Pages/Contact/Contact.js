@@ -3,10 +3,10 @@ import './Contact.css';
 
 function Contact() {
   return (
-    <div className="App">
-      <header className="App-header">
+    <div className="contact-page">
+      <header className="contact-box">
         <p>
-          Random contact page???
+          Contact!
         </p>
         <a href='/'>Back</a>
       </header>

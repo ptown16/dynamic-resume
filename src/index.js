@@ -7,6 +7,7 @@ import { BrowserRouter as StaticRouter, Route} from "react-router-dom";
 
 import Home from './Pages/Home/Home';
 import Contact from './Pages/Contact/Contact';
+import PageNotFound from './Pages/PageNotFound/PageNotFound';
 
 function Index() {
   return (
@@ -14,6 +15,7 @@ function Index() {
       <div>
         <Route exact path="/" component={Home} />
         <Route path="/contact/" component={Contact} />
+        <Route component={PageNotFound} />
       </div>
     </StaticRouter>
   );

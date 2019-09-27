@@ -3,10 +3,10 @@ import './Home.css';
 
 function Home({ match }) {
   return (
-    <div className="App">
-      <header className="App-header">
+    <div className="home-page">
+      <header className="home-box">
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          Home!
         </p>
         <a href='/contact/'>To Contact</a>
       </header>
