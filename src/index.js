@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import * as serviceWorker from './serviceWorker';
 
-import { BrowserRouter as StaticRouter, Route} from "react-router-dom";
+import { BrowserRouter as StaticRouter, Route, Switch} from "react-router-dom";
 
 import Home from './Pages/Home/Home';
 import Contact from './Pages/Contact/Contact';
@@ -19,9 +19,11 @@ function Index() {
         {link: "/contact", text: "Contact"}
       ]}/>
       <div>
-        <Route exact path="/" component={Home} />
-        <Route path="/contact/" component={Contact} />
-        <Route component={PageNotFound} />
+        <Switch>
+          <Route exact path="/" component={Home} />
+          <Route path="/contact/" component={Contact} />
+          <Route component={PageNotFound} />
+        </Switch>
       </div>
     </StaticRouter>
   );
