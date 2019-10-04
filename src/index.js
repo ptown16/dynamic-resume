@@ -9,9 +9,12 @@ import Home from './Pages/Home/Home';
 import Contact from './Pages/Contact/Contact';
 import PageNotFound from './Pages/PageNotFound/PageNotFound';
 
+import Header from './Groups/Header/Header'
+
 function Index() {
   return (
     <StaticRouter>
+      <Header pages={["test1", "abc", "123"]}/>
       <div>
         <Route exact path="/" component={Home} />
         <Route path="/contact/" component={Contact} />
