@@ -14,7 +14,10 @@ import Header from './Groups/Header/Header'
 function Index() {
   return (
     <StaticRouter>
-      <Header pages={["test1", "abc", "123"]}/>
+      <Header pages={[
+        {link: "/", text: "Home"},
+        {link: "/contact", text: "Contact"}
+      ]}/>
       <div>
         <Route exact path="/" component={Home} />
         <Route path="/contact/" component={Contact} />

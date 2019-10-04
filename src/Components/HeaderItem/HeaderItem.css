@@ -1,0 +1,33 @@
+.header-item {
+  background-color: #c4c4c4;
+  color: #333333;
+
+  width: 140px;
+  height: 50px;
+  left: 50px;
+  top: 0px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 35px;
+  display: inline-flex;
+  align-items: center;
+  text-align: center;
+}
+
+.header-item > p {
+  text-align: center;
+  width: 100%;
+}
+
+a {
+  text-decoration: none;
+}
+
+.header-item:hover, .highlighted {
+  top: 0;
+  background-color: #515151;
+  color: white;
+}
