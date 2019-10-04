@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {Fragment} from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import * as serviceWorker from './serviceWorker';
@@ -11,21 +11,31 @@ import PageNotFound from './Pages/PageNotFound/PageNotFound';
 
 import Header from './Groups/Header/Header'
 
+function PageObject(link, text) {
+  return {
+    link: link,
+    text: text,
+  }
+}
+
 function Index() {
   return (
-    <StaticRouter>
-      <Header pages={[
-        {link: "/", text: "Home"},
-        {link: "/contact", text: "Contact"}
+    <Fragment>
+      <Header pageObjects={[
+        PageObject("/", "Home"),
+        PageObject("/contact/", "Contact"),
+        PageObject("/404/", "404")
       ]}/>
-      <div>
-        <Switch>
-          <Route exact path="/" component={Home} />
-          <Route path="/contact/" component={Contact} />
-          <Route component={PageNotFound} />
-        </Switch>
-      </div>
-    </StaticRouter>
+      <StaticRouter>
+        <div>
+          <Switch>
+            <Route exact path="/" component={Home} />
+            <Route path="/contact/" component={Contact} />
+            <Route component={PageNotFound} />
+          </Switch>
+        </div>
+      </StaticRouter>
+    </Fragment>
   );
 }
 

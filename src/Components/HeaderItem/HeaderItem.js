@@ -14,11 +14,11 @@ function HeaderItem({
     );
   }
   return (
-    <a href={link ? link : "/"}>
       <div className="header-item">
-        <p>{text ? text : "null"}</p>
+        <a href={link ? link : "/"}>
+          <p>{text ? text : "null"}</p>
+        </a>
       </div>
-    </a>
   );
 }
 

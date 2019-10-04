@@ -2,32 +2,36 @@
   background-color: #c4c4c4;
   color: #333333;
 
-  width: 140px;
+  max-width: 160px;
   height: 50px;
-  left: 50px;
   top: 0px;
-
   font-family: Roboto;
-  font-style: normal;
   font-weight: bold;
   font-size: 24px;
-  line-height: 35px;
-  display: inline-flex;
+  flex: 1;
+  display: flex;
   align-items: center;
   text-align: center;
 }
 
-.header-item > p {
+.header-item > a {
   text-align: center;
   width: 100%;
-}
-
-a {
+  margin: 0;
+  color: #333333;
   text-decoration: none;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-.header-item:hover, .highlighted {
-  top: 0;
+.header-item > a > p {
+  margin: 0;
+}
+
+.header-item:hover, .highlighted, .header-item:hover > a, .highlighted > p {
   background-color: #515151;
   color: white;
+  width: 100%;
 }

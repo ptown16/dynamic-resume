@@ -7,3 +7,10 @@
   height: 50px;
   float: left;
 }
+
+.header-items-container {
+  position: absolute;
+  display: inline-flex;
+  width: calc(100% - 50px);
+  justify-content: flex-end;
+}
