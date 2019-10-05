@@ -15,7 +15,8 @@ function Header({
   }
   return (
     <div className="header-container">
-      <LogoBox size={50} logoColor="#ffffff" boxColor="#9e9e9e"/>
+      <LogoBox size={50} logoColor="#ffffff" boxColor="none"/>
+      <h3 className="logo-name">PEYTON TANZILLO</h3>
       <div className="header-items-container">
         {headerItems}
       </div>

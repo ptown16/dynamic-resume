@@ -1,13 +1,12 @@
 .header-item {
-  background-color: #c4c4c4;
-  color: #333333;
+  background-color: none;
 
   max-width: 160px;
   height: 50px;
   top: 0px;
   font-family: Roboto;
   font-weight: bold;
-  font-size: 24px;
+  font-size: calc(10px + 2vmin);
   flex: 1;
   display: flex;
   align-items: center;
@@ -18,7 +17,7 @@
   text-align: center;
   width: 100%;
   margin: 0;
-  color: #333333;
+  color: white;
   text-decoration: none;
   height: 100%;
   display: flex;
@@ -31,7 +30,7 @@
 }
 
 .header-item:hover, .highlighted, .header-item:hover > a, .highlighted > p {
-  background-color: #515151;
-  color: white;
+  background-color: white;
+  color: black;
   width: 100%;
 }
