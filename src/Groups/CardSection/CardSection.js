@@ -8,7 +8,9 @@ function CardSection({
   return (
     <div className="card-section">
       <h1 className="card-section-title">{title}</h1>
-      {children}
+      <div className="card-section-cards">
+        {children}
+      </div>
     </div>
   );
 }

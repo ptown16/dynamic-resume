@@ -1,11 +1,12 @@
 .card {
-  background-color: #666666;
+  background-color: #3a4a4a;
   display: block;
   padding: 10px;
   border-radius: 10px;
   width: 100%;
   box-sizing: border-box;
-  margin: 20px 0;
+  margin: 20px 10px;
+  flex: 1 1 400px;
 }
 
 .card-top {
