@@ -16,7 +16,7 @@ function Header({
   return (
     <div className="header-container">
       <LogoBox size={50} logoColor="#ffffff" boxColor="#9e9e9e"/>
-      <div class="header-items-container">
+      <div className="header-items-container">
         {headerItems}
       </div>
     </div>
