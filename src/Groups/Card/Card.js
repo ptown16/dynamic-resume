@@ -15,9 +15,13 @@ function Card({
   }
   return (
     <div className="card">
-      <div className="card-image">{image}</div>
-      <h2 className="card-title">{title}</h2>
-      <h4 className="card-subtitle">{subtitle}</h4>
+      <div className="card-top">
+        <div className="card-image">{image}</div>
+        <div className="card-title-container">
+          <h2 className="card-title">{title}</h2>
+          <h4 className="card-subtitle">{subtitle}</h4>
+        </div>
+      </div>
       <ul className="card-point-list">
         {pointListElements}
       </ul>
