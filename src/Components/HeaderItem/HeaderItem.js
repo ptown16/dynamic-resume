@@ -1,6 +1,8 @@
 import React from 'react';
 import './HeaderItem.css';
 
+import {Link} from 'react-router-dom';
+
 function HeaderItem({
   text,
   link
@@ -15,9 +17,9 @@ function HeaderItem({
   }
   return (
       <div className="header-item">
-        <a href={link ? link : "/"}>
+        <Link to={link ? link : "/home"} className="header-item-link">
           <p>{text ? text : "null"}</p>
-        </a>
+        </Link>
       </div>
   );
 }

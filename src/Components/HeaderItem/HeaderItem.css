@@ -13,7 +13,7 @@
   text-align: center;
 }
 
-.header-item > a {
+.header-item > .header-item-link {
   text-align: center;
   width: 100%;
   margin: 0;
@@ -25,11 +25,11 @@
   justify-content: center;
 }
 
-.header-item > a > p {
+.header-item > .header-item-link > p {
   margin: 0;
 }
 
-.header-item:hover, .highlighted, .header-item:hover > a, .highlighted > p {
+.header-item:hover, .highlighted, .header-item:hover > .header-item-link, .highlighted > p {
   background-color: white;
   color: black;
   width: 100%;

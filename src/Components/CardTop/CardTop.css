@@ -1,0 +1,26 @@
+.card-top {
+  width: 100%;
+  display: inline-flex;
+  align-items: center;
+}
+
+.card-image > img {
+  border-radius: 50%;
+  margin: 10px;
+  width: calc(10px + 10vmin);
+  height: calc(10px + 10vmin);
+}
+
+.card-title {
+  font-family: Roboto;
+  font-weight: bold;
+  font-size: calc(10px + 2vmin);
+  margin: 0;
+}
+
+.card-subtitle {
+  font-family: Roboto;
+  font-weight: 300;
+  font-size: calc(10px + .8vmin);
+  margin: 0;
+}

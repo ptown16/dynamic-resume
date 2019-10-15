@@ -1,31 +1,29 @@
 import React from 'react';
 import './Card.css';
 
+import CardTop from '../../Components/CardTop/CardTop'
+import {Link} from 'react-router-dom';
+
 function Card({
   image,
   title,
   subtitle,
   points,
   startTime,
-  endTime
+  endTime,
+  match
 }) {
   const pointListElements = [];
   for (const point of points) {
     pointListElements.push(<li key={pointListElements.length} className="card-point">{point}</li>)
   }
   return (
-    <div className="card">
-      <div className="card-top">
-        <div className="card-image">{image}</div>
-        <div className="card-title-container">
-          <h2 className="card-title">{title}</h2>
-          <h4 className="card-subtitle">{subtitle}</h4>
-        </div>
-      </div>
+    <Link to={match.url + "/" + 1} className="card">
+      <CardTop image={image} title={title} subtitle={subtitle}/>
       <ul className="card-point-list">
         {pointListElements}
       </ul>
-    </div>
+    </Link>
   );
 }
 

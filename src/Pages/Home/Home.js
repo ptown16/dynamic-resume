@@ -6,13 +6,14 @@ import nebraskaImage from '../../Resources/nebraskaN.jpg'
 import CardSection from '../../Groups/CardSection/CardSection'
 import Card from '../../Groups/Card/Card'
 
-function Home({ match }) {
+function Home({header}) {
   return (
     <div className="home-page">
+      {header}
       <CardSection title="Education">
         <Card
           image={<img src={nebraskaImage} alt="University of Nebraska Logo"/>}
-          title="University of Nebraska-Lincoln"
+          title="Testing123"
           subtitle="Software Engineering Major"
           points={[
             "GPA: 9.99",
