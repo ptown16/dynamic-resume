@@ -6,14 +6,15 @@ import {Link} from 'react-router-dom';
 
 function Card({
   image,
-  data
+  data,
+  location
 }) {
   const pointListElements = [];
   for (const point of data.points) {
     pointListElements.push(<li key={pointListElements.length} className="card-point">{point}</li>)
   }
   return (
-    <Link to={data.link} className="card">
+    <Link to={location + data.link} className="card">
       <CardTop image={data.image} title={data.title} subtitle={data.subtitle}/>
       <ul className="card-point-list">
         {pointListElements}

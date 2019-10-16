@@ -4,16 +4,13 @@ import './ExpandedCard.css';
 import CardTop from '../../Components/CardTop/CardTop'
 
 function ExpandedCard({
-  image,
-  title,
-  subtitle,
-  description
+  data
 }) {
   return (
   <div className="card-expanded">
-    <CardTop image={image} title={title} subtitle={subtitle} />
+    <CardTop image={data.image} title={data.title} subtitle={data.subtitle} />
     <p>
-      {description}
+      {data.description}
     </p>
   </div>
   );

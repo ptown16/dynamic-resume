@@ -11,18 +11,24 @@ import PageNotFound from './Pages/PageNotFound/PageNotFound';
 
 import Header from './Groups/Header/Header'
 
+import {generateRoutes} from './Utilities/generateRoutes'
+
 import cardPages from './Data/cardPages.json'
 
 function Index() {
   const header = (
     <Header pageObjects={cardPages.pages}/>
   )
+  const pages = {
+    "Home": Home,
+    "Contact": Contact
+  };
+  console.log(generateRoutes(cardPages, pages, header))
   return (
     <Fragment>
       <StaticRouter>
         <Switch>
-          <Route path="/home" render={() => <Home header={header} cardSections={cardPages.pages[0].cardSections}/>} />
-          <Route path="/contact" render={() => <Contact header={header}/>} />
+          {generateRoutes(cardPages, pages, header)}
           <Redirect exact from="/" to="/home" />
           <Route render={() => <PageNotFound header={header}/>} />
         </Switch>
