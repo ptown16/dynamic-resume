@@ -8,7 +8,7 @@ function CardTop({
 }) {
   return (
     <div className="card-top">
-      <div className="card-image">{image}</div>
+      <img src={require("../../Resources/cards/" + image.link)} className="card-image" alt={image.alt}/>
       <div className="card-title-container">
         <h2 className="card-title">{title}</h2>
         <h4 className="card-subtitle">{subtitle}</h4>

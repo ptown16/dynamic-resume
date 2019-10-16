@@ -10,7 +10,7 @@ function Header({
   const headerItems = []
   if (pageObjects && pageObjects.length > 0) {
     for (const page of pageObjects) {
-      headerItems.push(<HeaderItem key={headerItems.length} text={page.text ? page.text : null} link={page.link ? page.link : null} />)
+      headerItems.push(<HeaderItem key={headerItems.length} name={page.name ? page.name : null} link={page.link ? page.link : null} />)
     }
   }
   return (

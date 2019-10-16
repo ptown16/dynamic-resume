@@ -1,61 +1,77 @@
 {
-  pages: [
+  "pages": [
     {
-      name: "Home",
-      link: "/home",
-      cardSections: [
+      "name": "Home",
+      "link": "/home",
+      "cardSections": [
         {
-          title: "Education",
-          cards: [
+          "title": "Education",
+          "cards": [
             {
-              link: "/test-link-unl"
-              title: "University of Nebraska-Lincoln",
-              subtitle: "Software Engineering Major",
-              points: [
+              "image": {
+                "link": "nebraskaN.jpg",
+                "alt": "nebrasky"
+              },
+              "link": "/test-link-unl",
+              "title": "University of Nebraska-Lincoln",
+              "subtitle": "Software Engineering Major",
+              "points": [
                 "GPA: 12345",
                 "This is super cool"
               ]
             },
             {
-              link: "/griffin-school",
-              title: "The Griffin School",
-              subtitle: "High School",
-              points: [
+              "image": {
+                "link": "nebraskaN.jpg",
+                "alt": "nebrasky"
+              },
+              "link": "/griffin-school",
+              "title": "The Griffin School",
+              "subtitle": "High School",
+              "points": [
                 "GPA: 12345",
                 "Graduated with Honors"
               ]
-            },
+            }
           ]
         },
         {
-          title: "Something Else",
-          cards: [
+          "title": "Something Else",
+          "cards": [
             {
-              link: "/other-link"
-              title: "University of Nebraska-Lincoln",
-              subtitle: "Software Engineering Major",
-              points: [
+              "image": {
+                "link": "nebraskaN.jpg",
+                "alt": "nebrasky"
+              },
+              "link": "/other-link",
+              "title": "University of Nebraska-Lincoln",
+              "subtitle": "Software Engineering Major",
+              "points": [
                 "GPA: 12345",
                 "This is super cool"
               ]
             },
             {
-              link: "/yet-another-link",
-              title: "The Griffin School",
-              subtitle: "High School",
-              points: [
+              "image": {
+                "link": "nebraskaN.jpg",
+                "alt": "nebrasky"
+              },
+              "link": "/yet-another-link",
+              "title": "The Griffin School",
+              "subtitle": "High School",
+              "points": [
                 "GPA: 12345",
                 "Graduated with Honors"
               ]
-            },
+            }
           ]
         }
       ]
     },
     {
-      name: "Contact",
-      link: "/contact",
-      cardSections: []
+      "name": "Contact",
+      "link": "/contact",
+      "cardSections": []
     }
   ]
 }

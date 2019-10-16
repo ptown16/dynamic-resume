@@ -7,6 +7,8 @@
   box-sizing: border-box;
   margin: 20px 10px;
   flex: 1 1 400px;
+  text-decoration: none;
+  color: white;
 }
 
 .card-point-list {

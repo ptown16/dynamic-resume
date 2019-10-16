@@ -11,21 +11,17 @@ import PageNotFound from './Pages/PageNotFound/PageNotFound';
 
 import Header from './Groups/Header/Header'
 
-import {PageHeaderObject} from './Utilities/PageHeaderObject'
+import cardPages from './Data/cardPages.json'
 
 function Index() {
   const header = (
-    <Header pageObjects={[
-      PageHeaderObject("/home", "Home"),
-      PageHeaderObject("/contact", "Contact"),
-      PageHeaderObject("/404", "404")
-    ]}/>
+    <Header pageObjects={cardPages.pages}/>
   )
   return (
     <Fragment>
       <StaticRouter>
         <Switch>
-          <Route path="/home" render={() => <Home header={header}/>} />
+          <Route path="/home" render={() => <Home header={header} cardSections={cardPages.pages[0].cardSections}/>} />
           <Route path="/contact" render={() => <Contact header={header}/>} />
           <Redirect exact from="/" to="/home" />
           <Route render={() => <PageNotFound header={header}/>} />

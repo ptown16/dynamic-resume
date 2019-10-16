@@ -4,7 +4,7 @@
   align-items: center;
 }
 
-.card-image > img {
+.card-image {
   border-radius: 50%;
   margin: 10px;
   width: calc(10px + 10vmin);
