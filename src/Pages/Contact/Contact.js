@@ -1,17 +1,32 @@
 import React from 'react';
 import './Contact.css';
 
-function Contact({header}) {
+import {sectionDataToCards} from '../../Utilities/sectionDataToCards'
+
+function Contact({
+  header,
+  cardSections,
+  overlay,
+  location
+}) {
+  if (overlay) {
+    return (
+      <div className="home-page">
+          {header}
+          {sectionDataToCards(cardSections, location)}
+          <div class="overlay">
+            {overlay}
+          </div>
+      </div>
+    )
+  }
+
   return (
-    <div className="contact-page">
+    <div className="home-page">
       {header}
-      <header className="contact-box">
-        <p>
-          Contact!
-        </p>
-      </header>
+      {sectionDataToCards(cardSections, location)}
     </div>
-  );
+  )
 }
 
 export default Contact;

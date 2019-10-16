@@ -11,7 +11,7 @@ export function generateRoutes(data, pageComponents, header) {
     for (const section of page.cardSections) {
       for (const card of section.cards) {
         allRoutes.push(
-          <Route key={allRoutes.length} path={page.link + card.link} render={() => <SelectedPage header={header} cardSections={page.cardSections} overlay={<ExpandedCard data={card}/>} location={page.link} />} />
+          <Route key={allRoutes.length} path={page.link + card.link} render={() => <SelectedPage header={header} cardSections={page.cardSections} overlay={<ExpandedCard data={card} location={page.link}/>} location={page.link} />} />
         )
       }
     }

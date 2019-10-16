@@ -46,7 +46,33 @@
                 "link": "nebraskaN.jpg",
                 "alt": "nebrasky"
               },
-              "link": "/other-link",
+              "link": "/hi-conner",
+              "title": "Hi Conner",
+              "subtitle": "This is me messing around with a new site idea",
+              "points": [
+                "Brick",
+                "Empire"
+              ],
+              "description": "I'll talk to you about it later, but just know that this was easy to change"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Contact",
+      "componentName": "Contact",
+      "link": "/contact",
+      "cardSections": [
+        {
+          "title": "Contact",
+          "cards": [
+            {
+              "image": {
+                "link": "nebraskaN.jpg",
+                "alt": "nebrasky"
+              },
+              "link": "/test-link-unl",
               "title": "University of Nebraska-Lincoln",
               "subtitle": "Software Engineering Major",
               "points": [
@@ -60,7 +86,7 @@
                 "link": "nebraskaN.jpg",
                 "alt": "nebrasky"
               },
-              "link": "/yet-another-link",
+              "link": "/griffin-school",
               "title": "The Griffin School",
               "subtitle": "High School",
               "points": [
@@ -72,12 +98,6 @@
           ]
         }
       ]
-    },
-    {
-      "name": "Contact",
-      "componentName": "Contact",
-      "link": "/contact",
-      "cardSections": []
     }
   ]
 }
