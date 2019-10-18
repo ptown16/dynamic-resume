@@ -7,7 +7,7 @@ function HeaderItem({
   name,
   link
 }) {
-  if (link && link === window.location.pathname) {
+  if (link && window.location.pathname.includes(link)) {
     return (
       <div className="header-item highlighted">
         <p>{name ? name : "null"}</p>

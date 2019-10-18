@@ -2,18 +2,16 @@ import React from 'react';
 
 import './ExpandedCard.css';
 
-
 import CardTop from '../../Components/CardTop/CardTop'
 
 function ExpandedCard({
-  data,
-  location
+  card
 }) {
   return (
   <div className="card-expanded">
-    <CardTop image={data.image} title={data.title} subtitle={data.subtitle} closeLink={location}/>
+    <CardTop image={card.image} title={card.title} subtitle={card.subtitle} variant="closable"/>
     <p>
-      {data.description}
+      {card.description}
     </p>
   </div>
   );

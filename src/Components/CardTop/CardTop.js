@@ -2,17 +2,22 @@ import React from 'react';
 import './CardTop.css';
 import {Link} from 'react-router-dom';
 
+import ThemeDataContext from '../../Contexts/ThemeDataContext'
+import PageDataContext from '../../Contexts/PageDataContext'
+
 import { ReactComponent as XIcon } from '../../Resources/XIcon.svg'
 
 function CardTop({
   image,
   title,
   subtitle,
-  closeLink
+  variant,
 }) {
+  const theme = React.useContext(ThemeDataContext)
+  const page = React.useContext(PageDataContext)
   let x
-  if (closeLink) {
-    x = <Link className="x-icon" to={closeLink}><XIcon fill="#fff" width="20px" height="20px"/></Link>
+  if (variant === "closable") {
+    x = <Link className="x-icon" to={theme.link + page.link}><XIcon fill="#fff" width="20px" height="20px"/></Link>
   }
   return (
     <div className="card-top">

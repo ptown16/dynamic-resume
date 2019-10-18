@@ -1,16 +1,19 @@
 import React from 'react';
 import './Header.css';
 
+import pageData from '../../Data/cardPages.json'
+
+import ThemeDataContext from '../../Contexts/ThemeDataContext'
+
 import HeaderItem from '../../Components/HeaderItem/HeaderItem'
 import LogoBox from '../../Components/LogoBox/LogoBox'
 
-function Header({
-  pageObjects
-}) {
+function Header() {
+  const theme = React.useContext(ThemeDataContext)
   const headerItems = []
-  if (pageObjects && pageObjects.length > 0) {
-    for (const page of pageObjects) {
-      headerItems.push(<HeaderItem key={headerItems.length} name={page.name ? page.name : null} link={page.link ? page.link : null} />)
+  if (pageData.pages.length > 0) {
+    for (const page of pageData.pages) {
+      headerItems.push(<HeaderItem key={headerItems.length} name={page.name} link={theme.link + page.link} />)
     }
   }
   return (

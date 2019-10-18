@@ -1,4 +1,4 @@
-import React, {Fragment} from 'react';
+import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import * as serviceWorker from './serviceWorker';
@@ -9,31 +9,23 @@ import Home from './Pages/Home/Home';
 import Contact from './Pages/Contact/Contact';
 import PageNotFound from './Pages/PageNotFound/PageNotFound';
 
-import Header from './Groups/Header/Header'
-
 import {generateRoutes} from './Utilities/generateRoutes'
 
-import cardPages from './Data/cardPages.json'
 
 function Index() {
-  const header = (
-    <Header pageObjects={cardPages.pages}/>
-  )
   const pages = {
     "Home": Home,
     "Contact": Contact
   };
-  console.log(generateRoutes(cardPages, pages, header))
+  console.log(generateRoutes(pages))
   return (
-    <Fragment>
-      <StaticRouter>
-        <Switch>
-          {generateRoutes(cardPages, pages, header)}
-          <Redirect exact from="/" to="/home" />
-          <Route render={() => <PageNotFound header={header}/>} />
-        </Switch>
-      </StaticRouter>
-    </Fragment>
+    <StaticRouter>
+      <Switch>
+        {generateRoutes(pages)}
+        <Redirect exact from="/" to="/home" />
+        <Route render={() => <PageNotFound/>} />
+      </Switch>
+    </StaticRouter>
   );
 }
 

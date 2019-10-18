@@ -3,17 +3,21 @@ import './Contact.css';
 
 import {sectionDataToCards} from '../../Utilities/sectionDataToCards'
 
+import Header from '../../Groups/Header/Header'
+
+import PageDataContext from '../../Contexts/PageDataContext'
+
 function Contact({
-  header,
   cardSections,
   overlay,
   location
 }) {
+  const page = React.useContext(PageDataContext)
   if (overlay) {
     return (
       <div className="home-page">
-          {header}
-          {sectionDataToCards(cardSections, location)}
+          <Header />
+          {sectionDataToCards(page)}
           <div class="overlay">
             {overlay}
           </div>
@@ -23,8 +27,8 @@ function Contact({
 
   return (
     <div className="home-page">
-      {header}
-      {sectionDataToCards(cardSections, location)}
+      <Header />
+      {sectionDataToCards(page)}
     </div>
   )
 }

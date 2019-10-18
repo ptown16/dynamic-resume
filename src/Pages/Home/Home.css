@@ -1,9 +1,9 @@
 .home-page {
   padding-top: 50px;
-  background-color: #1c2424;
+  background-color: #white;
   min-height: 100vh;
   display: flex;
-  color: white;
+  color: #14171A;
   justify-content: center;
   flex-wrap: wrap;
 }

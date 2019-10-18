@@ -1,0 +1,36 @@
+{
+  "themes": {
+    "twitter": {
+      "name": "Twitter",
+      "link": "/twitter",
+      "colors": {
+        "primary": "#18A1D6",
+        "primaryDark": "#2b99c3",
+        "primaryLight": "#00abee",
+        "secondary": "#F5F8FA",
+        "black": "#14171A",
+        "white": "#FFFFFF",
+        "none": "none"
+      },
+      "location": {
+        "logo": "white",
+        "logoBackground": "none",
+        "logoText": "white",
+        "headerBackground": "primary",
+        "headerItem": "primary",
+        "headerItemText": "primary",
+        "headerItemHover": "primary",
+        "headerItemHoverText": "primary",
+        "pageBackground": "primary",
+        "cardSectionText": "primary",
+        "cardBackground": "primary",
+        "cardImageBorder": "primary",
+        "cardTitleText": "primary",
+        "cardSubtitleText": "primary",
+        "cardText": "primary",
+        "cardBackgroundHover": "primary",
+        "cardX": "primary"
+      }
+    }
+  }
+}

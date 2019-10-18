@@ -1,5 +1,5 @@
 .card {
-  background-color: #3a4a4a;
+  background-color: #E1E8ED;
   display: block;
   padding: 10px;
   border-radius: 10px;
@@ -8,7 +8,7 @@
   margin: 20px 10px;
   flex: 1 1 400px;
   text-decoration: none;
-  color: white;
+  color: #14171A;
 }
 
 .card-point-list {
