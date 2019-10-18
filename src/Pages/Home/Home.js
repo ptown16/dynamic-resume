@@ -1,7 +1,7 @@
 import React from 'react';
 import './Home.css';
 
-import Header from '../../Groups/Header/Header'
+import Page from '../Page/Page'
 
 import {sectionDataToCards} from '../../Utilities/sectionDataToCards'
 
@@ -11,23 +11,10 @@ function Home({
   overlay
 }) {
   const page = React.useContext(PageDataContext)
-  if (overlay) {
-    return (
-      <div className="home-page">
-          <Header />
-          {sectionDataToCards(page)}
-          <div className="overlay">
-            {overlay}
-          </div>
-      </div>
-    )
-  }
-
   return (
-    <div className="home-page">
-      <Header />
+    <Page overlay={overlay} className="home-page">
       {sectionDataToCards(page)}
-    </div>
+    </Page>
   )
 }
 

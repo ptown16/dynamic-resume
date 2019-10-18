@@ -15,16 +15,22 @@ function CardTop({
 }) {
   const theme = React.useContext(ThemeDataContext)
   const page = React.useContext(PageDataContext)
+  const colors = {
+    cardImageBorder: theme.colors[theme.location["cardImageBorder"]],
+    cardTitleText: theme.colors[theme.location["cardTitleText"]],
+    cardSubtitleText: theme.colors[theme.location["cardSubtitleText"]],
+    cardX: theme.colors[theme.location["cardX"]],
+  }
   let x
   if (variant === "closable") {
-    x = <Link className="x-icon" to={theme.link + page.link}><XIcon fill="#fff" width="20px" height="20px"/></Link>
+    x = <Link className="x-icon" to={theme.link + page.link}><XIcon fill={colors.cardX} width="20px" height="20px"/></Link>
   }
   return (
     <div className="card-top">
-      <img src={require("../../Resources/cards/" + image.link)} className="card-image" alt={image.alt}/>
+      <img src={require("../../Resources/cards/" + image.link)} className="card-image" alt={image.alt} style={{borderStyle: "solid", borderWidth: "2px", borderColor: colors.cardImageBorder}}/>
       <div className="card-title-container">
-        <h2 className="card-title">{title}</h2>
-        <h4 className="card-subtitle">{subtitle}</h4>
+        <h2 className="card-title" style={{color: colors.cardTitleText}}>{title}</h2>
+        <h4 className="card-subtitle" style={{color: colors.cardSubtitleText}}>{subtitle}</h4>
       </div>
       {x}
     </div>

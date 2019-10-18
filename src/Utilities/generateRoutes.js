@@ -29,7 +29,7 @@ export function generateRoutes(pageComponents) {
         <Redirect key={allRoutes.length} from={themeData.themes[themeKey].link + page.link} to={themeData.themes[themeKey].link + page.link} />
       )
       allRoutes.push(
-        <Redirect key={allRoutes.length} from={page.link} to={"/twitter" + page.link} />
+        <Redirect key={allRoutes.length} from={page.link} to={"/default" + page.link} />
       )
     }
   }

@@ -1,5 +1,5 @@
 .card-expanded {
-  background-color: #E1E8ED;
+  position: fixed;
   display: block;
   padding: 20px;
   border-radius: 10px;
@@ -9,5 +9,4 @@
   margin: 20px 10px;
   flex: 1 1 400px;
   text-decoration: none;
-  color: #14171A;
 }
