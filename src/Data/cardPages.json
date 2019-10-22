@@ -27,14 +27,12 @@
                 "link": "nebraskaN.jpg",
                 "alt": "nebrasky"
               },
-              "link": "/griffin-school",
               "title": "The Griffin School",
               "subtitle": "High School",
               "points": [
                 "GPA: 12345",
                 "Graduated with Honors"
-              ],
-              "description": "for now this is a test description that I will be changing later"
+              ]
             }
           ]
         },

@@ -17,7 +17,6 @@ function Index() {
     "Home": Home,
     "Contact": Contact
   };
-  console.log(generateRoutes(pages))
   return (
     <StaticRouter>
       <Switch>

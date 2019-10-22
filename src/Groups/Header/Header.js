@@ -1,6 +1,7 @@
 import React from 'react';
 import './Header.css';
 
+import themeData from '../../Data/themes.json'
 import pageData from '../../Data/cardPages.json'
 
 import ThemeDataContext from '../../Contexts/ThemeDataContext'
@@ -9,7 +10,10 @@ import HeaderItem from '../../Components/HeaderItem/HeaderItem'
 import LogoBox from '../../Components/LogoBox/LogoBox'
 
 function Header() {
-  const theme = React.useContext(ThemeDataContext)
+  let theme = React.useContext(ThemeDataContext)
+  if (!theme) {
+    theme = themeData.themes["default"]
+  }
   const headerItems = []
   const colors = {
     logoText: theme.colors[theme.location["logoText"]],

@@ -1,5 +1,5 @@
 import React from 'react';
 
-const PageDataContext = React.createContext({});
+const PageDataContext = React.createContext(false);
 
 export default PageDataContext;

@@ -32,6 +32,9 @@ export function generateRoutes(pageComponents) {
         <Redirect key={allRoutes.length} from={page.link} to={"/default" + page.link} />
       )
     }
+    allRoutes.push(
+      <Redirect key={allRoutes.length} from={themeData.themes[themeKey].link} to={themeData.themes[themeKey].link + "/home"} />
+    )
   }
   return allRoutes
 }

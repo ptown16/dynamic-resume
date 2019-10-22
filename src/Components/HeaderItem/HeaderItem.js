@@ -1,32 +1,26 @@
 import React from 'react';
 import './HeaderItem.css';
 
+import themeData from '../../Data/themes.json'
+
 import {Link} from 'react-router-dom';
 
 import ThemeDataContext from '../../Contexts/ThemeDataContext'
 
-class HeaderItem extends React.Component {
+import Hoverable from '../Hoverable/Hoverable'
 
-  constructor(props) {
-    super(props);
-    this.state = {
-      hovered: false
-    }
-    this.toggleHover = this.toggleHover.bind(this);
-  }
-
-  toggleHover() {
-    this.setState({
-      hovered: !this.state.hovered
-    })
-  }
+class HeaderItem extends Hoverable {
 
   render() {
+    let theme = this.context
+    if (!theme) {
+      theme = themeData.themes["default"]
+    }
     const colors = {
-      headerItem: this.context.colors[this.context.location["headerItem"]],
-      headerItemText: this.context.colors[this.context.location["headerItemText"]],
-      headerItemHover: this.context.colors[this.context.location["headerItemHover"]],
-      headerItemHoverText: this.context.colors[this.context.location["headerItemHoverText"]]
+      headerItem: theme.colors[theme.location["headerItem"]],
+      headerItemText: theme.colors[theme.location["headerItemText"]],
+      headerItemHover: theme.colors[theme.location["headerItemHover"]],
+      headerItemHoverText: theme.colors[theme.location["headerItemHoverText"]]
     }
     const { link, name } = this.props;
     if (link && window.location.pathname.includes(link)) {

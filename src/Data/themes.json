@@ -13,13 +13,13 @@
         "none": "rgba(1, 1, 1, 0)"
       },
       "location": {
-        "logo": "white",
+        "logo": "primary",
         "logoBackground": "none",
-        "logoText": "white",
-        "headerBackground": "primary",
-        "headerItem": "primary",
-        "headerItemText": "secondary",
-        "headerItemHover": "primaryDark",
+        "logoText": "primary",
+        "headerBackground": "none",
+        "headerItem": "none",
+        "headerItemText": "black",
+        "headerItemHover": "primary",
         "headerItemHoverText": "white",
         "pageBackground": "secondary",
         "cardSectionText": "black",
@@ -59,11 +59,11 @@
         "cardSectionText": "white",
         "cardBackground": "primaryLight",
         "cardImageBorder": "secondary",
-        "cardTitleText": "primary",
-        "cardSubtitleText": "primary",
-        "cardText": "primary",
-        "cardBackgroundHover": "primary",
-        "cardX": "primary"
+        "cardTitleText": "white",
+        "cardSubtitleText": "black",
+        "cardText": "black",
+        "cardBackgroundHover": "primaryDark",
+        "cardX": "black"
       }
     }
   }
