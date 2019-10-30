@@ -1,0 +1,17 @@
+.card {
+  display: block;
+  padding: 10px;
+  border-radius: 10px;
+  width: 100%;
+  box-sizing: border-box;
+  margin: 20px 10px;
+  flex: 1 1 400px;
+  text-decoration: none;
+}
+
+.card-point-list {
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: calc(10px + 1vmin);
+  margin: 0;
+}

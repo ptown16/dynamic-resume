@@ -45,7 +45,7 @@ function buildExpandedPage(key, theme, page, PageComponent, card) {
       return (
         <ThemeDataContext.Provider value={theme}>
           <PageDataContext.Provider value={page}>
-            <PageComponent overlay={<ExpandedCard card={card}/>} />} />
+            <PageComponent overlay={<ExpandedCard card={card}/>} />
           </PageDataContext.Provider>
         </ThemeDataContext.Provider>
       );
@@ -59,7 +59,7 @@ function buildNormalPage(key, theme, page, PageComponent) {
       return (
         <ThemeDataContext.Provider value={theme}>
           <PageDataContext.Provider value={page}>
-            <PageComponent />} />
+            <PageComponent />
           </PageDataContext.Provider>
         </ThemeDataContext.Provider>
       );

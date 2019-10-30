@@ -9,6 +9,8 @@ import ThemeDataContext from '../../Contexts/ThemeDataContext'
 
 import Hoverable from '../Hoverable/Hoverable'
 
+import {setThemeColors} from '../../Utilities/setThemeColors'
+
 class HeaderItem extends Hoverable {
 
   render() {
@@ -16,12 +18,7 @@ class HeaderItem extends Hoverable {
     if (!theme) {
       theme = themeData.themes["default"]
     }
-    const colors = {
-      headerItem: theme.colors[theme.location["headerItem"]],
-      headerItemText: theme.colors[theme.location["headerItemText"]],
-      headerItemHover: theme.colors[theme.location["headerItemHover"]],
-      headerItemHoverText: theme.colors[theme.location["headerItemHoverText"]]
-    }
+    const colors = setThemeColors(theme, ["headerItem", "headerItemText", "headerItemHover", "headerItemHoverText"])
     const { link, name } = this.props;
     if (link && window.location.pathname.includes(link)) {
       return (

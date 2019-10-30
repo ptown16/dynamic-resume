@@ -7,8 +7,9 @@
         "primary": "#18A1D6",
         "primaryDark": "#2b99c3",
         "primaryLight": "#00abee",
-        "secondary": "#eeeeee",
+        "secondary": "#dddddd",
         "black": "#14171A",
+        "background": "#eeeeee",
         "white": "#FFFFFF",
         "none": "rgba(1, 1, 1, 0)"
       },
@@ -43,28 +44,60 @@
         "secondaryLight": "#f37a7a",
         "secondaryDark": "#d61313",
         "black": "#14171A",
+        "background": "#eeeeee",
         "white": "#FFFFFF",
         "none": "rgba(1, 1, 1, 0)"
       },
       "location": {
         "logo": "secondary",
-        "logoBackground": "none",
         "logoText": "black",
         "headerBackground": "primary",
         "headerItem": "primary",
         "headerItemText": "white",
         "headerItemHover": "primaryDark",
-        "headerItemHoverText": "white",
         "pageBackground": "black",
         "cardSectionText": "white",
         "cardBackground": "primaryLight",
         "cardImageBorder": "secondary",
         "cardTitleText": "white",
         "cardSubtitleText": "black",
-        "cardText": "black",
-        "cardBackgroundHover": "primaryDark",
-        "cardX": "black"
+        "cardBackgroundHover": "primaryDark"
       }
+    },
+    "testing": {
+      "name": "Testing",
+      "link": "/test",
+      "colors": {
+        "primary": "#2424d4",
+        "primaryDark": "#0c0c87",
+        "primaryLight": "#5454e8",
+        "secondary": "#ffaa33",
+        "black": "#000000",
+        "background": "#eeeeee",
+        "white": "#FFFFFF",
+        "none": "rgba(1, 1, 1, 0)"
+      },
+      "location": {}
     }
+  },
+  "defaultLocation": {
+    "logo": "white",
+    "logoBackground": "none",
+    "logoText": "white",
+    "headerBackground": "primary",
+    "headerItem": "none",
+    "headerItemText": "white",
+    "headerItemHover": "primaryDark",
+    "headerItemHoverText": "white",
+    "pageBackground": "background",
+    "cardSectionText": "primaryDark",
+    "cardBackground": "white",
+    "cardImageBorder": "secondary",
+    "cardTitleText": "primaryDark",
+    "cardSubtitleText": "primary",
+    "cardText": "black",
+    "cardTextHover": "white",
+    "cardBackgroundHover": "primary",
+    "cardX": "black"
   }
 }

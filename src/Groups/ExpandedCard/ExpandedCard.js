@@ -6,14 +6,13 @@ import ThemeDataContext from '../../Contexts/ThemeDataContext'
 
 import CardTop from '../../Components/CardTop/CardTop'
 
+import {setThemeColors} from '../../Utilities/setThemeColors'
+
 function ExpandedCard({
   card
 }) {
   const theme = React.useContext(ThemeDataContext)
-  const colors = {
-    cardBackground: theme.colors[theme.location["cardBackground"]],
-    cardText: theme.colors[theme.location["cardText"]]
-  }
+  const colors = setThemeColors(theme, ["cardBackground", "cardText"])
   return (
   <div className="card-expanded" style={{backgroundColor: colors.cardBackground}}>
     <CardTop image={card.image} title={card.title} subtitle={card.subtitle} variant="closable"/>
