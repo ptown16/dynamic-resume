@@ -3,17 +3,16 @@ import './Home.css';
 
 import Page from '../Page/Page'
 
-import {sectionDataToCards} from '../../Utilities/sectionDataToCards'
-
-import PageDataContext from '../../Contexts/PageDataContext'
+import {displayCardSection} from '../../Utilities/displayCardSection'
 
 function Home({
   overlay
 }) {
-  const page = React.useContext(PageDataContext)
   return (
     <Page overlay={overlay} className="home-page">
-      {sectionDataToCards(page)}
+      {displayCardSection("education")}
+      <h1>hey this is cool to test</h1>
+      {displayCardSection("testing")}
     </Page>
   )
 }

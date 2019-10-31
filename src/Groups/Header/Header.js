@@ -2,7 +2,7 @@ import React from 'react';
 import './Header.css';
 
 import themeData from '../../Data/themes.json'
-import pageData from '../../Data/cardPages.json'
+import pageData from '../../Data/pages.json'
 
 import ThemeDataContext from '../../Contexts/ThemeDataContext'
 

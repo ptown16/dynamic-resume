@@ -1,0 +1,87 @@
+{
+  "cardSections": {
+    "education": {
+      "title": "Education",
+      "cards": [
+        {
+          "image": {
+            "link": "nebraskaN.jpg",
+            "alt": "nebrasky"
+          },
+          "link": "/test-link-unl",
+          "title": "University of Nebraska-Lincoln",
+          "subtitle": "Software Engineering Major",
+          "points": [
+            "GPA: 12345",
+            "This is super cool"
+          ],
+          "description": "for now this is a test description that I will be changing later"
+        },
+        {
+          "image": {
+            "link": "nebraskaN.jpg",
+            "alt": "nebrasky"
+          },
+          "title": "The Griffin School",
+          "subtitle": "High School",
+          "points": [
+            "GPA: 12345",
+            "Graduated with Honors"
+          ]
+        }
+      ]
+    },
+    "testing": {
+      "title": "Test Card Section",
+      "cards": [
+        {
+          "image": {
+            "link": "nebraskaN.jpg",
+            "alt": "nebrasky"
+          },
+          "link": "/hi-conner",
+          "title": "Hi Conner",
+          "subtitle": "This is me messing around with a new site idea",
+          "points": [
+            "Brick",
+            "Empire"
+          ],
+          "description": "I'll talk to you about it later, but just know that this was easy to change"
+        }
+      ]
+    },
+    "contact": {
+      "title": "Contact",
+      "cards": [
+        {
+          "image": {
+            "link": "nebraskaN.jpg",
+            "alt": "nebrasky"
+          },
+          "link": "/test-link-unl",
+          "title": "University of Nebraska-Lincoln",
+          "subtitle": "Software Engineering Major",
+          "points": [
+            "GPA: 12345",
+            "This is super cool"
+          ],
+          "description": "for now this is a test description that I will be changing later"
+        },
+        {
+          "image": {
+            "link": "nebraskaN.jpg",
+            "alt": "nebrasky"
+          },
+          "link": "/griffin-school",
+          "title": "The Griffin School",
+          "subtitle": "High School",
+          "points": [
+            "GPA: 12345",
+            "Graduated with Honors"
+          ],
+          "description": "for now this is a test description that I will be changing later"
+        }
+      ]
+    }
+  }
+}
