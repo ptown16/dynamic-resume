@@ -101,6 +101,6 @@
     "cardX": "black",
     "heroBannerBackground": "primary",
     "heroBannerText": "white",
-    "heroBannerTextBackground": "none"
+    "heroBannerTextBackground": "secondary"
   }
 }
