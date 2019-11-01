@@ -1,18 +1,17 @@
 import React from 'react';
 import './PageNotFound.css';
 
-import Header from '../../Groups/Header/Header'
+import Page from '../Page/Page'
 
-function PageNotFound({header}) {
+import HeroBanner from '../../Groups/HeroBanner/HeroBanner'
+
+function PageNotFound({
+  header
+}) {
   return (
-    <div className="page-not-found-page">
-      <Header/>
-      <header className="page-not-found-box">
-        <p>
-          This page was not found...
-        </p>
-      </header>
-    </div>
+    <Page className="page-not-found-page">
+      <HeroBanner image="testimg.jpeg" alt="A forest full of trees" text="404 Page Not Found" pctHeight={100}/>
+    </Page>
   );
 }
 

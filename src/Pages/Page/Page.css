@@ -1,6 +1,6 @@
 .page {
   padding-top: 50px;
-  min-height: 100vh;
+  min-height: calc(100vh - 50px);
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
