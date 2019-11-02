@@ -2,9 +2,9 @@ import React from 'react';
 
 import './HeroBanner.css';
 
-import ThemeDataContext from '../../Contexts/ThemeDataContext'
+import ThemeDataContext from 'Contexts/ThemeDataContext'
 
-import {setThemeColors} from '../../Utilities/setThemeColors'
+import {setThemeColors} from 'Utilities/setThemeColors'
 
 function HeroBanner({
   image,

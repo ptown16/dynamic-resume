@@ -2,12 +2,12 @@ import React from 'react';
 import './CardTop.css';
 import {Link} from 'react-router-dom';
 
-import ThemeDataContext from '../../Contexts/ThemeDataContext'
-import PageDataContext from '../../Contexts/PageDataContext'
+import ThemeDataContext from 'Contexts/ThemeDataContext'
+import PageDataContext from 'Contexts/PageDataContext'
 
-import {setThemeColors} from '../../Utilities/setThemeColors'
+import {setThemeColors} from 'Utilities/setThemeColors'
 
-import { ReactComponent as XIcon } from '../../Resources/XIcon.svg'
+import { ReactComponent as XIcon } from 'Resources/XIcon.svg'
 
 function CardTop({
   image,

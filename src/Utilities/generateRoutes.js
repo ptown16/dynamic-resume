@@ -2,14 +2,14 @@ import React from 'react'
 
 import {Route, Redirect} from "react-router-dom";
 
-import ExpandedCard from '../Groups/ExpandedCard/ExpandedCard'
+import ExpandedCard from 'Groups/ExpandedCard/ExpandedCard'
 
-import pageData from '../Data/pages.json'
-import themeData from '../Data/themes.json'
-import cardData from '../Data/cards.json'
+import pageData from 'Data/pages.json'
+import themeData from 'Data/themes.json'
+import cardData from 'Data/cards.json'
 
-import PageDataContext from '../Contexts/PageDataContext'
-import ThemeDataContext from '../Contexts/ThemeDataContext'
+import PageDataContext from 'Contexts/PageDataContext'
+import ThemeDataContext from 'Contexts/ThemeDataContext'
 
 export function generateRoutes(pageComponents) {
   const allRoutes = []

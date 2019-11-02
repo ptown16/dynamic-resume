@@ -1,9 +1,9 @@
 import React from 'react';
 import './PageNotFound.css';
 
-import Page from '../Page/Page'
+import Page from 'Pages/Page/Page'
 
-import HeroBanner from '../../Groups/HeroBanner/HeroBanner'
+import HeroBanner from 'Groups/HeroBanner/HeroBanner'
 
 function PageNotFound({
   header

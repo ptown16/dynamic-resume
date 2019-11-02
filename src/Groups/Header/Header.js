@@ -1,15 +1,15 @@
 import React from 'react';
 import './Header.css';
 
-import themeData from '../../Data/themes.json'
-import pageData from '../../Data/pages.json'
+import themeData from 'Data/themes.json'
+import pageData from 'Data/pages.json'
 
-import ThemeDataContext from '../../Contexts/ThemeDataContext'
+import ThemeDataContext from 'Contexts/ThemeDataContext'
 
-import HeaderItem from '../../Components/HeaderItem/HeaderItem'
-import LogoBox from '../../Components/LogoBox/LogoBox'
+import HeaderItem from 'Components/HeaderItem/HeaderItem'
+import LogoBox from 'Components/LogoBox/LogoBox'
 
-import {setThemeColors} from '../../Utilities/setThemeColors'
+import {setThemeColors} from 'Utilities/setThemeColors'
 
 function Header() {
   let theme = React.useContext(ThemeDataContext)

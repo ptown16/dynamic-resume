@@ -1,15 +1,15 @@
 import React from 'react';
 import './HeaderItem.css';
 
-import themeData from '../../Data/themes.json'
+import themeData from 'Data/themes.json'
 
 import {Link} from 'react-router-dom';
 
-import ThemeDataContext from '../../Contexts/ThemeDataContext'
+import ThemeDataContext from 'Contexts/ThemeDataContext'
 
-import Hoverable from '../Hoverable/Hoverable'
+import Hoverable from 'Components/Hoverable/Hoverable'
 
-import {setThemeColors} from '../../Utilities/setThemeColors'
+import {setThemeColors} from 'Utilities/setThemeColors'
 
 class HeaderItem extends Hoverable {
 

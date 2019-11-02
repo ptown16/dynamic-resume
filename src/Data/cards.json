@@ -5,11 +5,11 @@
       "cards": [
         {
           "image": {
-            "link": "nebraskaN.jpg",
+            "link": "testimg.jpeg",
             "alt": "nebrasky"
           },
           "link": "/test-link-unl",
-          "title": "University of Nebraska-Lincoln",
+          "title": "University of Nebraska",
           "subtitle": "Software Engineering Major",
           "points": [
             "GPA: 12345",
@@ -28,6 +28,20 @@
             "GPA: 12345",
             "Graduated with Honors"
           ]
+        },
+        {
+          "image": {
+            "link": "nebraskaN.jpg",
+            "alt": "nebrasky"
+          },
+          "link": "/hi-conner",
+          "title": "Hi Conner",
+          "subtitle": "Brick God",
+          "points": [
+            "Brick",
+            "Empire"
+          ],
+          "description": "I'll talk to you about it later, but just know that this was easy to change"
         }
       ]
     },
@@ -41,7 +55,7 @@
           },
           "link": "/hi-conner",
           "title": "Hi Conner",
-          "subtitle": "This is me messing around with a new site idea",
+          "subtitle": "Brick Emperor",
           "points": [
             "Brick",
             "Empire"

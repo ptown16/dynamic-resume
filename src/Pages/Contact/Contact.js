@@ -1,9 +1,9 @@
 import React from 'react';
 import './Contact.css';
 
-import {displayCardSection} from '../../Utilities/displayCardSection'
+import {displayCardSection} from 'Utilities/displayCardSection'
 
-import Page from '../Page/Page'
+import Page from 'Pages/Page/Page'
 
 function Contact({
   overlay

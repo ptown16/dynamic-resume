@@ -2,11 +2,11 @@ import React from 'react';
 
 import './ExpandedCard.css';
 
-import ThemeDataContext from '../../Contexts/ThemeDataContext'
+import ThemeDataContext from 'Contexts/ThemeDataContext'
 
-import CardTop from '../../Components/CardTop/CardTop'
+import CardTop from 'Components/CardTop/CardTop'
 
-import {setThemeColors} from '../../Utilities/setThemeColors'
+import {setThemeColors} from 'Utilities/setThemeColors'
 
 function ExpandedCard({
   card

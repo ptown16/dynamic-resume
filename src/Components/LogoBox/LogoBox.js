@@ -1,5 +1,5 @@
 import React from 'react';
-import { ReactComponent as Logo } from '../../Resources/PTLogo.svg'
+import { ReactComponent as Logo } from 'Resources/PTLogo.svg'
 
 function LogoBox({
   size,

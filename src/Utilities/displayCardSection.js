@@ -1,8 +1,8 @@
 import React from 'react'
 
-import CardSection from '../Groups/CardSection/CardSection'
-import Card from '../Groups/Card/Card'
-import cardData from '../Data/cards.json'
+import CardSection from 'Groups/CardSection/CardSection'
+import Card from 'Groups/Card/Card'
+import cardData from 'Data/cards.json'
 
 export function displayCardSection(sectionName) {
   const section = cardData.cardSections[sectionName]

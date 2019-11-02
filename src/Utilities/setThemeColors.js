@@ -1,4 +1,4 @@
-import themeData from '../Data/themes.json'
+import themeData from 'Data/themes.json'
 
 export function setThemeColors(theme, colorValues) {
   let usedTheme = theme

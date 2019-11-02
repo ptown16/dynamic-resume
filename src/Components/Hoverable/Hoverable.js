@@ -1,7 +1,5 @@
 import React from 'react';
 
-import ThemeDataContext from '../../Contexts/ThemeDataContext'
-
 class Hoverable extends React.Component {
 
   constructor(props) {
@@ -19,6 +17,5 @@ class Hoverable extends React.Component {
   }
 
 }
-Hoverable.contextType = ThemeDataContext
 
 export default Hoverable;

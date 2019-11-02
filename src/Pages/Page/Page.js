@@ -1,13 +1,13 @@
 import React from 'react';
 import './Page.css';
 
-import themeData from '../../Data/themes.json'
+import themeData from 'Data/themes.json'
 
-import Header from '../../Groups/Header/Header'
+import Header from 'Groups/Header/Header'
 
-import ThemeDataContext from '../../Contexts/ThemeDataContext'
+import ThemeDataContext from 'Contexts/ThemeDataContext'
 
-import {setThemeColors} from '../../Utilities/setThemeColors'
+import {setThemeColors} from 'Utilities/setThemeColors'
 
 function Page({
   overlay,

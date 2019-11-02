@@ -5,11 +5,11 @@ import * as serviceWorker from './serviceWorker';
 
 import { BrowserRouter as StaticRouter, Route, Switch, Redirect} from "react-router-dom";
 
-import Home from './Pages/Home/Home';
-import Contact from './Pages/Contact/Contact';
-import PageNotFound from './Pages/PageNotFound/PageNotFound';
+import Home from 'Pages/Home/Home';
+import Contact from 'Pages/Contact/Contact';
+import PageNotFound from 'Pages/PageNotFound/PageNotFound';
 
-import {generateRoutes} from './Utilities/generateRoutes'
+import {generateRoutes} from 'Utilities/generateRoutes'
 
 
 function Index() {
