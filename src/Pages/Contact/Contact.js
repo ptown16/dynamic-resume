@@ -1,6 +1,8 @@
 import React from 'react';
 import './Contact.css';
 
+import NavigationCards from 'Groups/NavigationCards/NavigationCards'
+
 import {displayCardSection} from 'Utilities/displayCardSection'
 
 import Page from 'Pages/Page/Page'
@@ -10,7 +12,7 @@ function Contact({
 }) {
   return (
     <Page overlay={overlay} className="contact-page">
-      {displayCardSection("testing")}
+      <NavigationCards pageOn="Contact"/>
       {displayCardSection("contact")}
     </Page>
   )

@@ -16,7 +16,7 @@ class Card extends Hoverable {
 
   render() {
     const theme = this.context
-    const { card, height } = this.props
+    const { card, height, variant = "normal" } = this.props
     const colors = {
       ...setThemeColors(theme, ["cardBackground", "cardBackgroundHover", "cardText", "cardTextHover", "cardTitleText", "cardTitleBackground", "cardSubtitleText", "cardSubtitleBackground"]),
       none: "rgba(1, 1, 1, 0)"
@@ -36,29 +36,43 @@ class Card extends Hoverable {
         </ul>
       )
     }
-    const cardBodyImg = require('Resources/cards/' + card.image.link)
-    console.log(imageHeight)
+
+    let subtitle
+    if (card.subtitle) {
+      subtitle = <h4 className="card-body-subtitle" style={{color: colors.cardSubtitleText, backgroundColor: colors.cardSubtitleBackground}}>{card.subtitle}</h4>
+    }
+
+    let cardImageStyle
+    if (card.image) {
+      const cardBodyImg = require('Resources/cards/' + card.image.link)
+      cardImageStyle = {backgroundImage: `url(${cardBodyImg})`, height: `${imageHeight}px`}
+    } else {
+      cardImageStyle = {backgroundColor: colors.cardBackground, height: `${imageHeight}px`}
+    }
+
     const cardBody = (
-      <>
-        <div className="card-body-image" style={{backgroundImage: `url(${cardBodyImg})`, height: `${imageHeight}px`}} alt={card.image.alt}>
-          <div className="card-hover-overlay" style={{backgroundColor: this.state.hovered ? colors.cardBackgroundHover : colors.none}} />
-          <div className="card-content" style={{marginTop: `-${imageHeight}px`}}>
-            <div className="card-title-subtitle">
-              <h2 className="card-body-title" style={{color: colors.cardTitleText, backgroundColor: colors.cardTitleBackground}}>{card.title}</h2>
-              <h4 className="card-body-subtitle" style={{color: colors.cardSubtitleText, backgroundColor: colors.cardSubtitleBackground}}>{card.subtitle}</h4>
-            </div>
-            {cardPoints}
+      <div className="card-body-image" style={cardImageStyle} alt={card.image ? card.image.alt : ""}>
+        <div className="card-hover-overlay" style={{backgroundColor: this.state.hovered ? colors.cardBackgroundHover : colors.none}} />
+        <div className="card-content" style={{marginTop: `-${imageHeight}px`}}>
+          <div className="card-title-subtitle">
+            <h2 className="card-body-title" style={{color: colors.cardTitleText, backgroundColor: colors.cardTitleBackground}}>{card.title}</h2>
+            {subtitle}
           </div>
+          {cardPoints}
         </div>
-      </>
+      </div>
     )
-    if (card.link && card.description) {
-      const linkedCard = (page) => {
+    if (card.link || variant === "navigation") {
+      const linkedCard = (page = {link: ""}) => {
+        console.log(theme.link + page.link + card.link)
         return (
           <Link to={theme.link + page.link + card.link} className="card" style={{backgroundColor: (this.state.hovered ? colors.cardBackgroundHover : colors.cardBackground), height: height, boxShadow: theme.shadow }} onMouseEnter={this.toggleHover} onMouseLeave={this.toggleHover}>
             {cardBody}
           </Link>
         )
+      }
+      if (variant === "navigation") {
+        return linkedCard()
       }
       return (
         <PageDataContext.Consumer>
