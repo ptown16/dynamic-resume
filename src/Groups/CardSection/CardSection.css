@@ -58,10 +58,18 @@
   .grid-fourths, .grid-sixths {
     grid-template-columns: repeat(2, calc(50% - 20px));
   }
+
+  .card-section {
+    padding: 0px 50px;
+  }
 }
 
 @media (max-width: 600px) {
   .grid-halves, .grid-fourths {
     grid-template-columns: 100%;
+  }
+
+  .card-section {
+    padding: 0px 25px;
   }
 }

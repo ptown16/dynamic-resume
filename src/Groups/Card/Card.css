@@ -2,7 +2,7 @@
   left: 0;
   top: 0;
   width: 100%;
-  height: 70%;
+  height: 210px;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -10,14 +10,14 @@
 
 .card-title-subtitle {
   position: absolute;
-  margin-top: -180px;
+  margin-top: 30px;
 }
 
 .card-body-title {
   position: relative;
   padding: 10px;
   margin: 0;
-  font-size: calc(5px + .8vw);
+  font-size: 1.4vw;
 }
 
 .card-body-subtitle {
@@ -25,7 +25,21 @@
   padding: 10px;
   margin: 0;
   clear: both;
-  font-size: calc(3px + .5vw)
+  font-size: 1vw;
+}
+
+.card-hover-overlay {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  opacity: .8;
+}
+
+.card-content {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  margin-top: -210px
 }
 
 .card {
@@ -40,9 +54,31 @@
 }
 
 .card-point-list {
+  position: absolute;
   padding: 10px 30px;
   font-family: Roboto;
   font-weight: 500;
   font-size: calc(10px + 1vmin);
   margin: 0;
+  margin-top: 210px;
+}
+
+@media (max-width: 900px) {
+  .card-body-title {
+    font-size: 2.4vw;
+  }
+
+  .card-body-subtitle {
+    font-size: 1.5vw;
+  }
+}
+
+@media (max-width: 600px) {
+  .card-body-title {
+    font-size: 5vw;
+  }
+
+  .card-body-subtitle {
+    font-size: 4vw;
+  }
 }

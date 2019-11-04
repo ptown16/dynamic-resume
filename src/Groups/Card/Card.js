@@ -16,7 +16,10 @@ class Card extends Hoverable {
   render() {
     const theme = this.context
     const { card } = this.props
-    const colors = setThemeColors(theme, ["cardBackground", "cardBackgroundHover", "cardText", "cardTextHover", "cardTitleText", "cardTitleBackground", "cardSubtitleText", "cardSubtitleBackground"])
+    const colors = {
+      ...setThemeColors(theme, ["cardBackground", "cardBackgroundHover", "cardText", "cardTextHover", "cardTitleText", "cardTitleBackground", "cardSubtitleText", "cardSubtitleBackground"]),
+      none: "rgba(1, 1, 1, 0)"
+    }
 
     const pointListElements = [];
     for (const point of card.points) {
@@ -26,14 +29,18 @@ class Card extends Hoverable {
     const cardBodyImg = require('Resources/cards/' + card.image.link)
     const cardBody = (
       <>
-        <div className="card-body-image" style={{backgroundImage: `url(${cardBodyImg})`}} alt={card.image.alt}/>
-        <div className="card-title-subtitle">
-          <h2 className="card-body-title" style={{color: colors.cardTitleText, backgroundColor: colors.cardTitleBackground}}>{card.title}</h2>
-          <h4 className="card-body-subtitle" style={{color: colors.cardSubtitleText, backgroundColor: colors.cardSubtitleBackground}}>{card.subtitle}</h4>
+        <div className="card-body-image" style={{backgroundImage: `url(${cardBodyImg})`}} alt={card.image.alt}>
+          <div className="card-hover-overlay" style={{backgroundColor: this.state.hovered ? colors.cardBackgroundHover : colors.none}} />
+          <div className="card-content">
+            <div className="card-title-subtitle">
+              <h2 className="card-body-title" style={{color: colors.cardTitleText, backgroundColor: colors.cardTitleBackground}}>{card.title}</h2>
+              <h4 className="card-body-subtitle" style={{color: colors.cardSubtitleText, backgroundColor: colors.cardSubtitleBackground}}>{card.subtitle}</h4>
+            </div>
+            <ul className="card-point-list" style={{color: this.state.hovered ? colors.cardTextHover : colors.cardText}}>
+              {pointListElements}
+            </ul>
+          </div>
         </div>
-        <ul className="card-point-list" style={{color: this.state.hovered ? colors.cardTextHover : colors.cardText}}>
-          {pointListElements}
-        </ul>
       </>
     )
     if (card.link && card.description) {

@@ -5,22 +5,22 @@
       "cards": [
         {
           "image": {
-            "link": "testimg.jpeg",
-            "alt": "nebrasky"
+            "link": "nebraskalincolncampus.jpg",
+            "alt": "The University of Nebraska-Lincoln"
           },
           "link": "/test-link-unl",
-          "title": "University of Nebraska",
+          "title": "University of Nebraska-Lincoln",
           "subtitle": "Software Engineering Major",
           "points": [
             "GPA: 12345",
-            "This is super cool"
+            "Math Minor"
           ],
           "description": "for now this is a test description that I will be changing later"
         },
         {
           "image": {
-            "link": "nebraskaN.jpg",
-            "alt": "nebrasky"
+            "link": "testimg.jpeg",
+            "alt": "A placeholder forest"
           },
           "title": "The Griffin School",
           "subtitle": "High School",
@@ -28,20 +28,6 @@
             "GPA: 12345",
             "Graduated with Honors"
           ]
-        },
-        {
-          "image": {
-            "link": "nebraskaN.jpg",
-            "alt": "nebrasky"
-          },
-          "link": "/hi-conner",
-          "title": "Hi Conner",
-          "subtitle": "Brick God",
-          "points": [
-            "Brick",
-            "Empire"
-          ],
-          "description": "I'll talk to you about it later, but just know that this was easy to change"
         }
       ]
     },
@@ -50,12 +36,12 @@
       "cards": [
         {
           "image": {
-            "link": "nebraskaN.jpg",
+            "link": "testimg.jpeg",
             "alt": "nebrasky"
           },
-          "link": "/hi-conner",
-          "title": "Hi Conner",
-          "subtitle": "Brick Emperor",
+          "link": "/hi-mom",
+          "title": "Hi Mom",
+          "subtitle": "Hello!",
           "points": [
             "Brick",
             "Empire"
