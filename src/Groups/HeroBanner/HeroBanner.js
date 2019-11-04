@@ -16,7 +16,7 @@ function HeroBanner({
   const colors = setThemeColors(theme, ["heroBannerBackground", "heroBannerText", "heroBannerTextBackground"])
   const bannerImg = require('../../Resources/banners/' + image)
   return (
-    <div className="hero-banner hero-banner-shadow" style={{backgroundImage: `url(${bannerImg})`, height: `${pctHeight}vh`}} alt={alt}>
+    <div className="hero-banner" style={{backgroundImage: `url(${bannerImg})`, height: `${pctHeight}vh`, boxShadow: theme.shadow }} alt={alt}>
       <div className="hero-overlay" style={{backgroundColor: colors.heroBannerBackground}}></div>
       <div className="hero-text-container">
         <h1 className="hero-text-overlay" style={{color: colors.heroBannerText, backgroundColor: colors.heroBannerTextBackground}}>{text}</h1>

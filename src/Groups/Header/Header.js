@@ -25,7 +25,7 @@ function Header() {
     }
   }
   return (
-    <div className="header-container" style={{backgroundColor: colors.headerBackground}}>
+    <div className="header-container" style={{backgroundColor: colors.headerBackground, boxShadow: theme.shadow }}>
       <LogoBox size={50} logoColor={colors.logo} boxColor={colors.logoBackground}/>
       <h3 className="logo-name" style={{color: colors.logoText}}>PEYTON TANZILLO</h3>
       <div className="header-items-container">

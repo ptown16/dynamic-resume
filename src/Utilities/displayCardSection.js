@@ -12,7 +12,7 @@ export function displayCardSection(sectionName) {
   const formattedCards = []
   for (const card of section.cards) {
     formattedCards.push(
-      <Card key={formattedCards.length} card={card} />
+      <Card key={formattedCards.length} card={card} height={section.height}/>
     )
   }
   return (

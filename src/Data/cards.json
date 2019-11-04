@@ -2,6 +2,7 @@
   "cardSections": {
     "education": {
       "title": "Education",
+      "height": 250,
       "cards": [
         {
           "image": {
@@ -33,6 +34,7 @@
     },
     "testing": {
       "title": "Test Card Section",
+      "height": 300,
       "cards": [
         {
           "image": {
@@ -42,16 +44,13 @@
           "link": "/hi-mom",
           "title": "Hi Mom",
           "subtitle": "Hello!",
-          "points": [
-            "Brick",
-            "Empire"
-          ],
           "description": "I'll talk to you about it later, but just know that this was easy to change"
         }
       ]
     },
     "contact": {
       "title": "Contact",
+      "height": 200,
       "cards": [
         {
           "image": {

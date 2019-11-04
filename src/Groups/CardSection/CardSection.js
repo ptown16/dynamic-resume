@@ -3,6 +3,8 @@ import './CardSection.css';
 
 import ThemeDataContext from 'Contexts/ThemeDataContext'
 
+import {setThemeColors} from 'Utilities/setThemeColors'
+
 function CardSection({
   section,
   children,
@@ -46,9 +48,10 @@ function CardSection({
   }
 
   const theme = React.useContext(ThemeDataContext)
+  const colors = setThemeColors(theme, ["cardSectionText"])
   return (
     <div className="card-section">
-      <h1 className="card-section-title" style={{color: theme.colors[theme.location["cardSectionText"]]}}>{section.title}</h1>
+      <h1 className="card-section-title" style={{color: colors.cardSectionText}}>{section.title}</h1>
       <div className={"card-section-cards " + gridClass}>
         {children}
       </div>
