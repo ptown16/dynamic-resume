@@ -30,7 +30,13 @@
               "text": "Test 3",
               "link": "https://www.w3schools.com/cssref/css3_pr_justify-content.asp"
             }
-          ]
+          ],
+          "table": {
+            "languages": "React (including Redux, Jest, Enzyme), HTML/CSS, C#, MySQL, Javascript, .NET",
+            "tickets": "JIRA",
+            "versionControl": "Bitbucket",
+            "documentation": "Confluence"
+          }
         },
         {
           "image": {
@@ -55,10 +61,16 @@
             "link": "testimg.jpeg",
             "alt": "nebrasky"
           },
-          "link": "/hi-mom",
-          "title": "Hi Mom",
-          "subtitle": "Hello!",
-          "description": "I'll talk to you about it later, but just know that this was easy to change"
+          "link": "/hello-world",
+          "title": "Hello World!",
+          "subtitle": "aaaaaaaa",
+          "description": "I'll talk to you about it later, but just know that this was easy to change",
+          "table": {
+            "languages": "React (including Redux, Jest, Enzyme), HTML/CSS, C#, MySQL, Javascript, .NET",
+            "tickets": "JIRA",
+            "versionControl": "Bitbucket",
+            "documentation": "Confluence"
+          }
         }
       ]
     },
@@ -78,7 +90,11 @@
             "GPA: 12345",
             "This is super cool"
           ],
-          "description": "for now this is a test description that I will be changing later"
+          "description": "for now this is a test description that I will be changing later",
+          "table": {
+            "languages": "React (including Redux, Jest, Enzyme), HTML, CSS, Javascript",
+            "versionControl": "Github"
+          }
         },
         {
           "image": {

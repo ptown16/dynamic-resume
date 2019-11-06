@@ -6,6 +6,7 @@ import ThemeDataContext from 'Contexts/ThemeDataContext'
 
 import Card from 'Groups/Card/Card'
 import Button from 'Components/Button/Button'
+import Table from 'Components/Table/Table'
 
 import {setThemeColors} from 'Utilities/setThemeColors'
 
@@ -15,19 +16,27 @@ function ExpandedCard({
   const theme = React.useContext(ThemeDataContext)
   const colors = setThemeColors(theme, ["cardBackground", "cardText"])
 
-  const cardButtons = []
+  let cardButtons
   if (card.buttons) {
+    const cardButtonList = []
     for (const button of card.buttons) {
-      cardButtons.push(
-        <Button key={cardButtons.length} button={button} />
+      cardButtonList.push(
+        <Button key={cardButtonList.length} button={button} />
       )
     }
+    cardButtons = <div className="button-container">{cardButtonList}</div>
+  }
+
+  let cardTable
+  if (card.table) {
+    cardTable = <div className="table-container"><Table table={card.table} /></div>
   }
 
   return (
   <div className="card-expanded" style={{backgroundColor: colors.cardBackground}}>
     <Card card={card} variant="expanded"/>
-    <div className="button-container">{cardButtons}</div>
+    {cardButtons}
+    {cardTable}
     <p className="card-description" style={{color: colors.cardText}}>
       {card.description}
     </p>

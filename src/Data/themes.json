@@ -111,6 +111,10 @@
     "buttonText": "white",
     "buttonTextHover": "black",
     "buttonBackground": "secondary",
-    "buttonBackgroundHover": "white"
+    "buttonBackgroundHover": "white",
+    "tableHeaderText": "white",
+    "tableHeaderBackground": "primaryDark",
+    "tableCellText": "black",
+    "tableCellBackground": "primaryLight"
   }
 }
