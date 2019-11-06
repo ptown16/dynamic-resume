@@ -103,7 +103,8 @@
     "cardText": "black",
     "cardTextHover": "white",
     "cardBackgroundHover": "primary",
-    "cardX": "black",
+    "cardX": "white",
+    "cardXBackground": "secondary",
     "heroBannerBackground": "primary",
     "heroBannerText": "white",
     "heroBannerTextBackground": "secondary"

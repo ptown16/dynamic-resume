@@ -5,6 +5,7 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  box-sizing: border-box;
 }
 
 .card-title-subtitle {
@@ -54,6 +55,18 @@
   font-size: calc(10px + 1vmin);
   margin: 0;
 }
+
+.x-icon-link {
+  position: absolute;
+  right: 20px;
+  top: 20px;
+  z-index: 20;
+}
+
+.x-icon {
+  padding: 3px;
+}
+
 
 @media (max-width: 900px) {
   .card-body-title {

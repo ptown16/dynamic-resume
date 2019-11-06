@@ -25,7 +25,7 @@ function NavigationCards({ pageOn }) {
   }
 
   return (
-    <CardSection section={{title: "To Page"}}>
+    <CardSection section={{title: "To Page"}} grid={4}>
       {pageCards}
     </CardSection>
   )

@@ -6,25 +6,31 @@ import './Card.css';
 import ThemeDataContext from 'Contexts/ThemeDataContext'
 import PageDataContext from 'Contexts/PageDataContext'
 
-//import CardTop from 'Components/CardTop/CardTop'
 import Hoverable from 'Components/Hoverable/Hoverable'
 
 import {setThemeColors} from 'Utilities/setThemeColors'
+
+import { ReactComponent as XIcon } from 'Resources/XIcon.svg'
 
 class Card extends Hoverable {
 
 
   render() {
+
+    // Get the values that the card needs
     const theme = this.context
-    const { card, height, variant = "normal" } = this.props
+    const { card, height = 200, variant = "normal" } = this.props
     const colors = {
-      ...setThemeColors(theme, ["cardBackground", "cardBackgroundHover", "cardText", "cardTextHover", "cardTitleText", "cardTitleBackground", "cardSubtitleText", "cardSubtitleBackground"]),
+      ...setThemeColors(theme, ["cardBackground", "cardBackgroundHover", "cardText", "cardTextHover", "cardTitleText", "cardTitleBackground", "cardSubtitleText", "cardSubtitleBackground", "cardX", "cardXBackground"]),
       none: "rgba(1, 1, 1, 0)"
     }
-    let cardPoints
     let imageHeight = height
 
-    if (card.points) {
+
+    // Set bullet points at bottom of card
+    let cardPoints
+
+    if (card.points && variant !== "expanded") {
       const pointListElements = [];
       for (const point of card.points) {
         pointListElements.push(<li key={pointListElements.length} className="card-point">{point}</li>)
@@ -37,11 +43,13 @@ class Card extends Hoverable {
       )
     }
 
+    // set subtitle if exists
     let subtitle
     if (card.subtitle) {
       subtitle = <h4 className="card-body-subtitle" style={{color: colors.cardSubtitleText, backgroundColor: colors.cardSubtitleBackground}}>{card.subtitle}</h4>
     }
 
+    // set image if exists
     let cardImageStyle
     if (card.image) {
       const cardBodyImg = require('Resources/cards/' + card.image.link)
@@ -50,9 +58,43 @@ class Card extends Hoverable {
       cardImageStyle = {backgroundColor: colors.cardBackground, height: `${imageHeight}px`}
     }
 
+    let x
+    let getHoverOverlay = () => <div className="card-hover-overlay" style={{backgroundColor: this.state.hovered ? colors.cardBackgroundHover : colors.none}} />
+    let hoverOverlay
+    let linkedCard = () => {
+      return (
+        <PageDataContext.Consumer>
+          { page =>
+          <Link to={theme.link + page.link + card.link} className="card" style={{backgroundColor: (this.state.hovered ? colors.cardBackgroundHover : colors.cardBackground), height: height, boxShadow: theme.shadow }} onMouseEnter={this.toggleHover} onMouseLeave={this.toggleHover}>
+            {cardBody}
+          </Link>
+          }
+        </PageDataContext.Consumer>
+      )
+    }
+
+    switch(variant) {
+      case "expanded":
+        x = (
+          <PageDataContext.Consumer>
+            {page => {
+              return <Link className="x-icon-link" to={theme.link + page.link} style={{marginTop: `-${imageHeight}px`}}><XIcon className="x-icon" fill={colors.cardX} style={{backgroundColor: colors.cardXBackground}} width="20px" height="20px"/></Link>
+            }
+          }
+          </PageDataContext.Consumer>
+        )
+        break
+      case "navigation":
+        hoverOverlay = getHoverOverlay()
+        break
+      default:
+        hoverOverlay = getHoverOverlay()
+    }
+
     const cardBody = (
       <div className="card-body-image" style={cardImageStyle} alt={card.image ? card.image.alt : ""}>
-        <div className="card-hover-overlay" style={{backgroundColor: this.state.hovered ? colors.cardBackgroundHover : colors.none}} />
+        {x}
+        {hoverOverlay}
         <div className="card-content" style={{marginTop: `-${imageHeight}px`}}>
           <div className="card-title-subtitle">
             <h2 className="card-body-title" style={{color: colors.cardTitleText, backgroundColor: colors.cardTitleBackground}}>{card.title}</h2>
@@ -62,23 +104,19 @@ class Card extends Hoverable {
         </div>
       </div>
     )
-    if (card.link || variant === "navigation") {
-      const linkedCard = (page = {link: ""}) => {
-        console.log(theme.link + page.link + card.link)
+
+    if (variant === "navigation") {
+      linkedCard = () => {
         return (
-          <Link to={theme.link + page.link + card.link} className="card" style={{backgroundColor: (this.state.hovered ? colors.cardBackgroundHover : colors.cardBackground), height: height, boxShadow: theme.shadow }} onMouseEnter={this.toggleHover} onMouseLeave={this.toggleHover}>
+          <Link to={theme.link + card.link} className="card" style={{backgroundColor: (this.state.hovered ? colors.cardBackgroundHover : colors.cardBackground), height: height, boxShadow: theme.shadow }} onMouseEnter={this.toggleHover} onMouseLeave={this.toggleHover}>
             {cardBody}
           </Link>
         )
       }
-      if (variant === "navigation") {
-        return linkedCard()
-      }
-      return (
-        <PageDataContext.Consumer>
-          { page => linkedCard(page)}
-        </PageDataContext.Consumer>
-      );
+    }
+
+    if (card.link && variant !== "expanded") {
+      return linkedCard()
     }
     return (<div className="card" style={{backgroundColor: colors.cardBackground, height: height, boxShadow: theme.shadow }}>{cardBody}</div>)
   }

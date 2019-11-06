@@ -1,12 +1,14 @@
 .card-expanded {
   position: fixed;
   display: block;
-  padding: 20px;
-  border-radius: 10px;
   max-width: 1000px;
   width: 80%;
   box-sizing: border-box;
   margin: 20px 10px;
   flex: 1 1 400px;
   text-decoration: none;
+}
+
+.card-description {
+  padding: 5px 20px;
 }
