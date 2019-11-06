@@ -16,7 +16,21 @@
             "GPA: 12345",
             "Math Minor"
           ],
-          "description": "for now this is a test description that I will be changing later"
+          "description": "for now this is a test description that I will be changing later",
+          "buttons": [
+            {
+              "text": "Test button 1",
+              "link": "https://canvas.unl.edu/"
+            },
+            {
+              "text": "Test button 2",
+              "link": "https://www.google.com/"
+            },
+            {
+              "text": "Test 3",
+              "link": "https://www.w3schools.com/cssref/css3_pr_justify-content.asp"
+            }
+          ]
         },
         {
           "image": {

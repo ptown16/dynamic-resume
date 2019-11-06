@@ -107,6 +107,10 @@
     "cardXBackground": "secondary",
     "heroBannerBackground": "primary",
     "heroBannerText": "white",
-    "heroBannerTextBackground": "secondary"
+    "heroBannerTextBackground": "secondary",
+    "buttonText": "white",
+    "buttonTextHover": "black",
+    "buttonBackground": "secondary",
+    "buttonBackgroundHover": "white"
   }
 }

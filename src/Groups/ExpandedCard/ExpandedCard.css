@@ -12,3 +12,9 @@
 .card-description {
   padding: 5px 20px;
 }
+
+.button-container {
+  padding: 20px 20px 0px 20px;
+  display: flex;
+  align-items: center;
+}
