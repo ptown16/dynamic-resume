@@ -1,0 +1,38 @@
+.hero-subtitle {
+  display: inline-flex;
+  padding: 10px;
+  font-weight: bold;
+  font-size: calc(10px + 1.3vw);
+  margin: 0;
+}
+
+.subtitle-wrapper {
+  padding: 0px 15vw;
+}
+
+.left-subtitle {
+  justify-content: flex-start;
+  text-align: center;
+}
+
+.middle-subtitle {
+  justify-content: center;
+  text-align: center;
+}
+
+.right-subtitle {
+  float: right;
+  justify-content: flex-end;
+  text-align: center;
+}
+
+@media (max-width: 800px) {
+  .subtitle-wrapper {
+    padding: 0;
+  }
+
+  .left-subtitle, .right-subtitle {
+    justify-content: center;
+    text-align: center;
+  }
+}

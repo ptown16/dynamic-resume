@@ -2,6 +2,7 @@
   "themes": {
     "twitter": {
       "name": "Twitter",
+      "positionApplied": "2020 development internship",
       "link": "/twitter",
       "colors": {
         "primary": "#18A1D6",
@@ -36,6 +37,7 @@
     },
     "default": {
       "name": "Default",
+      "positionApplied": "2020 software engineering internship",
       "link": "/default",
       "colors": {
         "primary": "#008080",
@@ -68,6 +70,7 @@
     },
     "testing": {
       "name": "Testing",
+      "positionApplied": "2020 frontend development internship",
       "link": "/test",
       "colors": {
         "primary": "#2424d4",
@@ -115,6 +118,8 @@
     "tableHeaderText": "white",
     "tableHeaderBackground": "primaryDark",
     "tableCellText": "black",
-    "tableCellBackground": "primaryLight"
+    "tableCellBackground": "primaryLight",
+    "subtitleText": "black",
+    "subtitleBackground": "white"
   }
 }

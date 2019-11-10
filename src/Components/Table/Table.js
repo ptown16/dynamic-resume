@@ -33,8 +33,8 @@ function Table({
     }
     return (
       <table>
-        <tr>{tableStyling.headers}</tr>
-        <tr>{tableStyling.values}</tr>
+        <thead><tr>{tableStyling.headers}</tr></thead>
+        <tbody><tr>{tableStyling.values}</tr></tbody>
       </table>
     )
   }
