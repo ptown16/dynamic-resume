@@ -4,7 +4,7 @@
   align-items: center;
   justify-content: center;
   max-width: 1200px;
-  padding: 0 100px;
+  padding: 50px 100px;
 }
 
 .card-section-title {
@@ -60,7 +60,7 @@
   }
 
   .card-section {
-    padding: 0px 50px;
+    padding: 35px 50px;
   }
 }
 
@@ -70,6 +70,6 @@
   }
 
   .card-section {
-    padding: 0px 25px;
+    padding: 25px 25px;
   }
 }

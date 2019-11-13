@@ -4,6 +4,7 @@ import './Page.css';
 import themeData from 'Data/themes.json'
 
 import Header from 'Groups/Header/Header'
+import Footer from 'Groups/Footer/Footer'
 
 import ThemeDataContext from 'Contexts/ThemeDataContext'
 
@@ -37,6 +38,7 @@ function Page({
     <div className="page" style={pageStyle}>
       <Header />
       {children}
+      <Footer />
     </div>
   )
 }

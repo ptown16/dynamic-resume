@@ -6,8 +6,8 @@
   margin: 0;
 }
 
-.subtitle-wrapper {
-  padding: 0px 15vw;
+.subtitle-wrapper :not(.middle-subtitle) {
+  padding: auto 15vw;
 }
 
 .left-subtitle {

@@ -1,0 +1,21 @@
+.footer {
+  width: 100%;
+}
+
+.footer-icons {
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-extra {
+  margin: 0;
+  padding: 5px;
+}
+
+.footer-extra-line {
+  margin: 0;
+  padding: 3px;
+  text-align: center;
+}

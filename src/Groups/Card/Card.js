@@ -65,7 +65,7 @@ class Card extends Hoverable {
       return (
         <PageDataContext.Consumer>
           { page =>
-          <Link to={theme.link + page.link + card.link} className="card" style={{backgroundColor: (this.state.hovered ? colors.cardBackgroundHover : colors.cardBackground), height: height, boxShadow: theme.shadow }} onMouseEnter={this.toggleHover} onMouseLeave={this.toggleHover}>
+          <Link to={theme.link + page.link + card.link} className="card" style={{backgroundColor: (this.state.hovered ? colors.cardBackgroundHover : colors.cardBackground), height: height, boxShadow: (!this.state.hovered && card.link ? theme.shadow : theme.shadowHover) }} onMouseEnter={this.toggleHover} onMouseLeave={this.toggleHover}>
             {cardBody}
           </Link>
           }
@@ -108,7 +108,7 @@ class Card extends Hoverable {
     if (variant === "navigation") {
       linkedCard = () => {
         return (
-          <Link to={theme.link + card.link} className="card" style={{backgroundColor: (this.state.hovered ? colors.cardBackgroundHover : colors.cardBackground), height: height, boxShadow: theme.shadow }} onMouseEnter={this.toggleHover} onMouseLeave={this.toggleHover}>
+          <Link to={theme.link + card.link} className="card" style={{backgroundColor: (this.state.hovered ? colors.cardBackgroundHover : colors.cardBackground), height: height, boxShadow: (!this.state.hovered ? theme.shadowHover : theme.shadow) }} onMouseEnter={this.toggleHover} onMouseLeave={this.toggleHover}>
             {cardBody}
           </Link>
         )
@@ -118,7 +118,7 @@ class Card extends Hoverable {
     if (card.link && variant !== "expanded") {
       return linkedCard()
     }
-    return (<div className="card" style={{backgroundColor: colors.cardBackground, height: height, boxShadow: theme.shadow }}>{cardBody}</div>)
+    return (<div className="card" style={{backgroundColor: colors.cardBackground, height: height, boxShadow: (this.state.hovered && card.link ? theme.shadow : theme.shadowHover) }}>{cardBody}</div>)
   }
 }
 Hoverable.contextType = ThemeDataContext

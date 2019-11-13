@@ -21,8 +21,8 @@ function HeroBanner({
   const colors = setThemeColors(theme, ["heroBannerBackground"])
   const bannerImg = require('../../Resources/banners/' + image)
 
-  const pretextItem = pretext ? <HeroSubtitle text={pretext} variant="left"/> : undefined
-  const subtextItem = subtext ? <HeroSubtitle text={subtext} variant="right"/> : undefined
+  const pretextItem = pretext ? <HeroSubtitle text={pretext} variant="middle"/> : undefined
+  const subtextItem = subtext ? <HeroSubtitle text={subtext} variant="middle"/> : undefined
 
 
   return (

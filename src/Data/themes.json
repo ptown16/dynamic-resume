@@ -15,6 +15,8 @@
         "none": "rgba(1, 1, 1, 0)"
       },
       "shadow": "0px 3px 6px 0px #555",
+      "shadowReverse": "0px -3px -6px 0px #555",
+      "shadowHover": "0px 1px 2px 0px #777",
       "location": {
         "logo": "primary",
         "logoBackground": "none",
@@ -51,7 +53,9 @@
         "white": "#FFFFFF",
         "none": "rgba(1, 1, 1, 0)"
       },
-      "shadow": "0px 3px 6px 0px #111",
+      "shadow": "0px 3px 6px 0px #555",
+      "shadowReverse": "0px -3px -6px 0px #555",
+      "shadowHover": "0px 1px 2px 0px #777",
       "location": {
         "logo": "secondary",
         "logoText": "black",
@@ -59,8 +63,6 @@
         "headerItem": "primary",
         "headerItemText": "white",
         "headerItemHover": "primaryDark",
-        "pageBackground": "black",
-        "cardSectionText": "white",
         "cardBackground": "primaryLight",
         "cardImageBorder": "secondary",
         "cardTitleText": "white",
@@ -83,6 +85,8 @@
         "none": "rgba(1, 1, 1, 0)"
       },
       "shadow": "0px 3px 6px 0px #555",
+      "shadowReverse": "0px -3px -6px 0px #555",
+      "shadowHover": "0px 1px 2px 0px #777",
       "location": {}
     }
   },
@@ -120,6 +124,13 @@
     "tableCellText": "black",
     "tableCellBackground": "primaryLight",
     "subtitleText": "black",
-    "subtitleBackground": "white"
+    "subtitleBackground": "white",
+    "footer": "primary",
+    "footerIcon": "white",
+    "footerIconHovered": "secondary",
+    "footerIconBackground": "secondary",
+    "footerIconBackgroundHovered": "white",
+    "footerExtra": "white",
+    "footerExtraBackground": "primaryDark"
   }
 }
