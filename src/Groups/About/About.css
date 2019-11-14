@@ -1,0 +1,20 @@
+.about-section {
+  max-width: 1400px;
+  padding: 50px 100px;
+  box-sizing: border-box;
+}
+
+.about-content {
+  display: grid;
+}
+
+.about-image {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-sizing: border-box;
+}
+
+.about-text-container {
+  padding: 20px;
+}

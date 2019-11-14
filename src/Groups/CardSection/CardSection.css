@@ -7,12 +7,6 @@
   padding: 50px 100px;
 }
 
-.card-section-title {
-  width: 100%;
-  display: inline-flex;
-  margin: 20px 0px 10px 0px;
-}
-
 .card-section-cards {
   display: grid;
   flex: 1 1 0;

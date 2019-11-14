@@ -1,9 +1,7 @@
 import React from 'react';
 import './CardSection.css';
 
-import ThemeDataContext from 'Contexts/ThemeDataContext'
-
-import {setThemeColors} from 'Utilities/setThemeColors'
+import SectionTitle from 'Components/SectionTitle/SectionTitle'
 
 function CardSection({
   section,
@@ -47,11 +45,9 @@ function CardSection({
       break
   }
 
-  const theme = React.useContext(ThemeDataContext)
-  const colors = setThemeColors(theme, ["cardSectionText"])
   return (
     <div className="card-section">
-      <h1 className="card-section-title" style={{color: colors.cardSectionText}}>{section.title}</h1>
+      <SectionTitle>{section.title}</SectionTitle>
       <div className={"card-section-cards " + gridClass}>
         {children}
       </div>

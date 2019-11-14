@@ -12,13 +12,18 @@ import {setThemeColors} from 'Utilities/setThemeColors'
 
 import { ReactComponent as XIcon } from 'Resources/XIcon.svg'
 
+import themeData from 'Data/themes.json'
+
 class Card extends Hoverable {
 
 
   render() {
 
     // Get the values that the card needs
-    const theme = this.context
+    let theme = this.context
+    if (!theme) {
+      theme = themeData.themes["default"]
+    }
     const { card, height = 200, variant = "normal" } = this.props
     const colors = {
       ...setThemeColors(theme, ["cardBackground", "cardBackgroundHover", "cardText", "cardTextHover", "cardTitleText", "cardTitleBackground", "cardSubtitleText", "cardSubtitleBackground", "cardX", "cardXBackground"]),
@@ -108,7 +113,7 @@ class Card extends Hoverable {
     if (variant === "navigation") {
       linkedCard = () => {
         return (
-          <Link to={theme.link + card.link} className="card" style={{backgroundColor: (this.state.hovered ? colors.cardBackgroundHover : colors.cardBackground), height: height, boxShadow: (!this.state.hovered ? theme.shadowHover : theme.shadow) }} onMouseEnter={this.toggleHover} onMouseLeave={this.toggleHover}>
+          <Link to={theme.link + card.link} className="card" style={{backgroundColor: (this.state.hovered ? colors.cardBackgroundHover : colors.cardBackground), height: height, boxShadow: (!this.state.hovered ? theme.shadow : theme.shadowHover) }} onMouseEnter={this.toggleHover} onMouseLeave={this.toggleHover}>
             {cardBody}
           </Link>
         )

@@ -1,9 +1,11 @@
 .page {
   padding-top: 50px;
-  min-height: calc(100vh - 50px);
+  padding-bottom: 200px;
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
+  position: relative;
+  min-height: calc(100vh - 200px);
 }
 
 .overlay {

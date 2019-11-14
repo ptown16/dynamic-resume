@@ -100,7 +100,7 @@
     "headerItemHover": "primaryDark",
     "headerItemHoverText": "white",
     "pageBackground": "background",
-    "cardSectionText": "primaryDark",
+    "sectionTitleText": "primaryDark",
     "cardBackground": "white",
     "cardImageBorder": "secondary",
     "cardTitleText": "white",
@@ -131,6 +131,8 @@
     "footerIconBackground": "secondary",
     "footerIconBackgroundHovered": "white",
     "footerExtra": "white",
-    "footerExtraBackground": "primaryDark"
+    "footerExtraBackground": "primaryDark",
+    "aboutContentBackground": "primary",
+    "aboutContentText": "black"
   }
 }

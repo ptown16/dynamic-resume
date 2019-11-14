@@ -12,13 +12,18 @@ import Hoverable from 'Components/Hoverable/Hoverable'
 
 import {setThemeColors} from 'Utilities/setThemeColors'
 
+import themeData from 'Data/themes.json'
+
 
 class FooterIcon extends Hoverable {
 
   render() {
     const ICON_SIZE = "40px";
 
-    const theme = this.context
+    let theme = this.context
+    if (!theme) {
+      theme = themeData.themes["default"]
+    }
     const {variant, link} = this.props
     const colors = setThemeColors(theme, ["footerIcon", "footerIconHovered", "footerIconBackground", "footerIconBackgroundHovered"])
 

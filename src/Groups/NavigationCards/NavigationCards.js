@@ -6,7 +6,7 @@ import pageData from 'Data/pages.json'
 import Card from 'Groups/Card/Card'
 import CardSection from 'Groups/CardSection/CardSection'
 
-function NavigationCards({ pageOn }) {
+function NavigationCards({ title, pageOn }) {
 
   const pageCards = []
   if (pageData.pages.length > 0) {
@@ -25,7 +25,7 @@ function NavigationCards({ pageOn }) {
   }
 
   return (
-    <CardSection section={{title: "To Page"}} grid={4}>
+    <CardSection section={{title: title}}>
       {pageCards}
     </CardSection>
   )

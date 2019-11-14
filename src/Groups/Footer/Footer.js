@@ -1,6 +1,8 @@
 import React from 'react';
 import './Footer.css';
 
+import themeData from 'Data/themes.json'
+
 import ThemeDataContext from 'Contexts/ThemeDataContext'
 
 import {setThemeColors} from 'Utilities/setThemeColors'
@@ -10,6 +12,9 @@ import FooterIcon from 'Components/FooterIcon/FooterIcon'
 function Footer() {
 
   let theme = React.useContext(ThemeDataContext)
+  if (!theme) {
+    theme = themeData.themes["default"]
+  }
   let colors = setThemeColors(theme, ["footer", "footerExtra", "footerExtraBackground"])
   return (
     <div className="footer" style={{ backgroundColor: colors.footer, boxShadow: theme.shadow }}>

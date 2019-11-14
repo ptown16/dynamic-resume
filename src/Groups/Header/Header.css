@@ -5,6 +5,7 @@
   height: 50px;
   float: left;
   z-index: 10;
+  box-sizing: border-box;
 }
 
 .header-items-container {

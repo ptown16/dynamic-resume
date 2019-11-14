@@ -28,8 +28,8 @@ function Table({
       values: []
     }
     for (const tableKey of Object.keys(table)) {
-      tableStyling.headers.push(<th style={{color: colors.tableHeaderText, backgroundColor: colors.tableHeaderBackground}}>{tableKeyToTitle(tableKey)}</th>)
-      tableStyling.values.push(<td style={{color: colors.tableCellText, backgroundColor: colors.tableCellBackground}}>{table[tableKey]}</td>)
+      tableStyling.headers.push(<th key={tableKey} style={{color: colors.tableHeaderText, backgroundColor: colors.tableHeaderBackground}}>{tableKeyToTitle(tableKey)}</th>)
+      tableStyling.values.push(<td key={tableKey} style={{color: colors.tableCellText, backgroundColor: colors.tableCellBackground}}>{table[tableKey]}</td>)
     }
     return (
       <table>
