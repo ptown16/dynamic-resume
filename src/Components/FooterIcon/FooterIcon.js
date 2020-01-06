@@ -18,8 +18,6 @@ import themeData from 'Data/themes.json'
 class FooterIcon extends Hoverable {
 
   render() {
-    const ICON_SIZE = "40px";
-
     let theme = this.context
     if (!theme) {
       theme = themeData.themes["default"]
@@ -32,16 +30,16 @@ class FooterIcon extends Hoverable {
     let iconSVG;
     switch(variant) {
       case "linkedin":
-        iconSVG = <LinkedIn className="footer-icon" fill={iconColor} width={ICON_SIZE} height={ICON_SIZE}/>
+        iconSVG = <LinkedIn className="footer-icon" fill={iconColor}/>
         break;
       case "email":
-        iconSVG = <Email className="footer-icon" fill={iconColor} width={ICON_SIZE} height={ICON_SIZE}/>
+        iconSVG = <Email className="footer-icon" fill={iconColor} />
         break;
       case "phone":
-        iconSVG = <Phone className="footer-icon" fill={iconColor} width={ICON_SIZE} height={ICON_SIZE}/>
+        iconSVG = <Phone className="footer-icon" fill={iconColor} />
         break;
       case "home":
-        iconSVG = <House className="footer-icon" fill={iconColor} width={ICON_SIZE} height={ICON_SIZE}/>
+        iconSVG = <House className="footer-icon" fill={iconColor} />
         break;
       default:
         iconSVG = <div/>

@@ -64,7 +64,7 @@
           "link": "/hello-world",
           "title": "Hello World!",
           "subtitle": "aaaaaaaa",
-          "description": "I'll talk to you about it later, but just know that this was easy to change",
+          "description": "<strong>I'll talk to you about it later, but just know that this was easy to change</strong><br/> ",
           "table": {
             "languages": "React (including Redux, Jest, Enzyme), HTML/CSS, C#, MySQL, Javascript, .NET",
             "tickets": "JIRA",

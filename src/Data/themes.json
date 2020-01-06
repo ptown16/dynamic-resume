@@ -133,6 +133,7 @@
     "footerExtra": "white",
     "footerExtraBackground": "primaryDark",
     "aboutContentBackground": "primary",
-    "aboutContentText": "black"
+    "aboutContentText": "black",
+    "veggieBurger": "white"
   }
 }

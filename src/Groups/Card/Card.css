@@ -6,6 +6,7 @@
   background-repeat: no-repeat;
   background-size: cover;
   box-sizing: border-box;
+  justify-content: end;
 }
 
 .card-title-subtitle {
@@ -17,22 +18,21 @@
   position: relative;
   padding: 10px;
   margin: 0;
-  font-size: calc(.8vmin + 10px);
+  font-size: calc(0.8vmin + 10px);
 }
 
 .card-body-subtitle {
   position: absolute;
   padding: 10px;
   margin: 0;
-  clear: both;
-  font-size: calc(.5vmin + 10px);
+  font-size: calc(0.5vmin + 10px);
 }
 
 .card-hover-overlay {
   position: relative;
   width: 100%;
   height: 100%;
-  opacity: .8;
+  opacity: 0.8;
 }
 
 .card-content {
@@ -45,6 +45,7 @@
   flex: 1 1 0;
   box-sizing: border-box;
   text-decoration: none;
+  display: flex;
 }
 
 .card-point-list {
@@ -52,12 +53,13 @@
   padding: 10px 30px;
   font-family: Roboto;
   font-weight: 500;
-  font-size: calc(10px + .6vmin);
+  font-size: calc(10px + 0.6vmin);
   margin: 0;
 }
 
 .x-icon-link {
   position: absolute;
+  display: flex;
   right: 20px;
   top: 20px;
   z-index: 20;
@@ -66,7 +68,6 @@
 .x-icon {
   padding: 3px;
 }
-
 
 @media (max-width: 900px) {
   .card-body-title {

@@ -1,14 +1,3 @@
-.card-expanded {
-  position: fixed;
-  display: block;
-  max-width: 1000px;
-  width: 80%;
-  box-sizing: border-box;
-  margin: 20px 10px;
-  flex: 1 1 400px;
-  text-decoration: none;
-}
-
 .card-description {
   padding: 5px 20px;
 }
@@ -23,4 +12,14 @@
   display: flex;
   justify-content: center;
   padding: 20px;
+}
+
+.overlain-card {
+  position: fixed;
+  display: table;
+  max-width: 1000px;
+  width: 80%;
+  box-sizing: border-box;
+  margin: 20px 10px;
+  text-decoration: none;
 }

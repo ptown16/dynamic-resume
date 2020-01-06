@@ -6,6 +6,7 @@
   float: left;
   z-index: 10;
   box-sizing: border-box;
+  padding: 0 30px;
 }
 
 .header-items-container {
@@ -15,6 +16,8 @@
   width: calc(100% - 240px);
   justify-content: flex-end;
   right: 0;
+  box-sizing: border-box;
+  padding: 0 30px;
 }
 
 .logo-name {
@@ -24,5 +27,38 @@
   width: auto;
   align-items: center;
   height: 100%;
-  width: 170px;
+  width: 50vw;
+  font-size: calc(1vmin + 10px)
+}
+
+.veggie-burger-container {
+  height: 50px;
+  width: 100%;
+  justify-content: flex-end;
+  align-items: center;
+  position: absolute;
+  top: 0;
+  box-sizing: border-box;
+  display: none;
+  padding-right: 60px;
+}
+
+.hide-mobile {
+  display: inline-flex;
+}
+
+@media (max-width: 700px) {
+  .veggie-burger-container {
+    display: flex;
+  }
+
+  .header-items-container {
+    margin-top: 50px;
+    width: 100%;
+    padding: 0;
+  }
+
+  .hide-mobile {
+    display: none;
+  }
 }

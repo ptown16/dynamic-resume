@@ -7,4 +7,18 @@
 .footer-icon {
   padding: 10px;
   font-size: 5px;
+  width: 40px;
+  height: 40px;
+}
+
+@media (max-width: 500px) {
+  .footer-icon {
+    padding: 10px;
+    width: 30px;
+    height: 30px;
+  }
+
+  .footer-icon-container {
+    margin: 0 10px;
+  }
 }

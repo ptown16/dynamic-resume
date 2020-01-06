@@ -6,6 +6,7 @@
   flex-wrap: wrap;
   position: relative;
   min-height: calc(100vh - 200px);
+  overflow: scroll;
 }
 
 .overlay {
@@ -18,4 +19,8 @@
   align-items: center;
   background-color: rgba(0, 0, 0, 0.5);
   z-index: 10;
+}
+
+.noscroll {
+  overflow: hidden;
 }
