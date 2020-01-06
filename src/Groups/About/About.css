@@ -17,4 +17,17 @@
 
 .about-text-container {
   padding: 20px;
+  overflow-y: scroll;
+}
+
+@media (max-width: 900px) {
+  .about-section {
+    padding: 35px 50px;
+  }
+}
+
+@media (max-width: 600px) {
+  .about-section {
+    padding: 25px 25px;
+  }
 }

@@ -19,7 +19,12 @@
   display: table;
   max-width: 1000px;
   width: 80%;
+  overflow-y: scroll;
   box-sizing: border-box;
-  margin: 20px 10px;
   text-decoration: none;
+}
+
+.card-expanded {
+  max-height: calc(90vh - 200px);
+  overflow-y: scroll;
 }

@@ -19,15 +19,16 @@ function Page({ overlay, children }) {
   const colors = setThemeColors(theme, ["pageBackground"]);
   const pageStyle = { backgroundColor: colors.pageBackground };
   if (overlay) {
+    document.body.className = "noscroll";
     return (
-      <div className="page noscroll" style={pageStyle}>
+      <div className="page" style={pageStyle}>
         <Header />
         {children}
         <div className="overlay">{overlay}</div>
       </div>
     );
   }
-
+  document.body.className = "";
   return (
     <div className="page" style={pageStyle}>
       <Header />
