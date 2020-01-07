@@ -1,10 +1,11 @@
 .hero-subtitle {
   display: inline-flex;
-  padding: 10px;
-  font-weight: bold;
-  font-size: calc(10px + 1.3vw);
+  padding: 5px 100px;
+  font-size: 3.5vmin;
   margin: 0;
   max-width: 80%;
+  font-weight: 500;
+  font-family: "Zilla Slab", serif;
 }
 
 .subtitle-wrapper :not(.middle-subtitle) {
@@ -13,7 +14,7 @@
 
 .left-subtitle {
   justify-content: flex-start;
-  text-align: center;
+  text-align: left;
 }
 
 .middle-subtitle {
@@ -23,18 +24,27 @@
 
 .right-subtitle {
   float: right;
-  justify-content: flex-end;
-  text-align: center;
+  text-align: right;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 900px) {
+  .hero-subtitle {
+    padding: 5px 50px;
+  }
+}
+
+@media (max-width: 600px) {
   .subtitle-wrapper {
     padding: 0;
   }
 
+  .hero-subtitle {
+    font-size: 4.5vmin;
+    padding: 5px 25px;
+  }
+
   .left-subtitle,
   .right-subtitle {
-    justify-content: center;
     text-align: center;
   }
 }

@@ -14,6 +14,9 @@
 .footer-extra {
   margin: 0;
   padding: 5px;
+  font-family: "Zilla Slab", serif;
+  font-weight: 300;
+  opacity: 0.5;
 }
 
 .footer-extra-line {

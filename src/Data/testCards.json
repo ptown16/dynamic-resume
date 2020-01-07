@@ -1,0 +1,116 @@
+{
+  "cardSections": {
+    "education": {
+      "title": "Education",
+      "height": 250,
+      "cards": [
+        {
+          "image": {
+            "link": "nebraskalincolncampus.jpg",
+            "alt": "The University of Nebraska-Lincoln"
+          },
+          "link": "/test-link-unl",
+          "title": "University of Nebraska-Lincoln",
+          "subtitle": "Software Engineering Major",
+          "points": [
+            "GPA: 12345",
+            "Math Minor"
+          ],
+          "description": "for now this is a test description that I will be changing later",
+          "buttons": [
+            {
+              "text": "Test button 1",
+              "link": "https://canvas.unl.edu/"
+            },
+            {
+              "text": "Test button 2",
+              "link": "https://www.google.com/"
+            },
+            {
+              "text": "Test 3",
+              "link": "https://www.w3schools.com/cssref/css3_pr_justify-content.asp"
+            }
+          ],
+          "table": {
+            "languages": "React (including Redux, Jest, Enzyme), HTML/CSS, C#, MySQL, Javascript, .NET",
+            "tickets": "JIRA",
+            "versionControl": "Bitbucket",
+            "documentation": "Confluence"
+          }
+        },
+        {
+          "image": {
+            "link": "testimg.jpeg",
+            "alt": "A placeholder forest"
+          },
+          "title": "The Griffin School",
+          "subtitle": "High School",
+          "points": [
+            "GPA: 12345",
+            "Graduated with Honors"
+          ]
+        }
+      ]
+    },
+    "testing": {
+      "title": "Test Card Section",
+      "height": 300,
+      "cards": [
+        {
+          "image": {
+            "link": "testimg.jpeg",
+            "alt": "nebrasky"
+          },
+          "link": "/hello-world",
+          "title": "Hello World!",
+          "subtitle": "aaaaaaaa",
+          "description": "<strong>I'll talk to you about it later, but just know that this was easy to change</strong><br/> ",
+          "table": {
+            "languages": "React (including Redux, Jest, Enzyme), HTML/CSS, C#, MySQL, Javascript, .NET",
+            "tickets": "JIRA",
+            "versionControl": "Bitbucket",
+            "documentation": "Confluence"
+          }
+        }
+      ]
+    },
+    "contact": {
+      "title": "Contact",
+      "height": 200,
+      "cards": [
+        {
+          "image": {
+            "link": "nebraskaN.jpg",
+            "alt": "nebrasky"
+          },
+          "link": "/test-link-unl",
+          "title": "University of Nebraska-Lincoln",
+          "subtitle": "Software Engineering Major",
+          "points": [
+            "GPA: 12345",
+            "This is super cool"
+          ],
+          "description": "for now this is a test description that I will be changing later",
+          "table": {
+            "languages": "React (including Redux, Jest, Enzyme), HTML, CSS, Javascript",
+            "versionControl": "Github"
+          }
+        },
+        {
+          "image": {
+            "link": "nebraskaN.jpg",
+            "alt": "nebrasky"
+          },
+          "link": "/griffin-school",
+          "title": "The Griffin School",
+          "subtitle": "High School",
+          "points": [
+            "GPA: 12345",
+            "Graduated with Honors"
+          ],
+          "description": "for now this is a test description that I will be changing later"
+        }
+      ]
+    }
+  }
+}

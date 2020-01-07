@@ -4,13 +4,13 @@
       "name": "Home",
       "componentName": "Home",
       "link": "/home",
-      "cardSections": ["education", "testing"]
+      "cardSections": ["education", "work-experience"]
     },
     {
       "name": "Contact",
       "componentName": "Contact",
       "link": "/contact",
-      "cardSections": ["contact", "testing"]
+      "cardSections": ["contact"]
     }
   ]
 }

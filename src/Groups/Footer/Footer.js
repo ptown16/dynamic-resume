@@ -43,7 +43,7 @@ function Footer() {
           color: colors.footerExtra
         }}
       >
-        <p className="footer-extra-line">Copyright © 2019 Peyton Tanzillo</p>
+        <p className="footer-extra-line">Copyright © 2020 Peyton Tanzillo</p>
         <p className="footer-extra-line">
           Footer Icons made by Flaticon users Freepik (Home, Phone, Email) and
           Dave Gandy (LinkedIn).

@@ -1,5 +1,14 @@
 .section-title {
   width: 100%;
-  display: inline-flex;
-  margin: 20px 0px 10px 0px;
+  display: flex;
+  margin: 10px 0px 10px 0px;
+  font-family: "Zilla Slab", serif;
+  font-weight: 700;
+  font-size: 6vmin;
+}
+
+@media (max-width: 600px) {
+  .section-title {
+    text-align: center;
+  }
 }

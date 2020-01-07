@@ -28,7 +28,9 @@
   align-items: center;
   height: 100%;
   width: 50vw;
-  font-size: calc(1vmin + 10px)
+  font-size: calc(1.5vmin + 10px);
+  font-family: "Zilla Slab", serif;
+  font-weight: 700;
 }
 
 .veggie-burger-container {

@@ -1,76 +1,111 @@
 {
   "cardSections": {
-    "education": {
-      "title": "Education",
-      "height": 250,
+    "work-experience": {
+      "title": "Work Experience",
+      "height": 330,
       "cards": [
         {
           "image": {
-            "link": "nebraskalincolncampus.jpg",
-            "alt": "The University of Nebraska-Lincoln"
+            "link": "speedwaymotors.jpg",
+            "alt": "Speedway Motors"
           },
-          "link": "/test-link-unl",
-          "title": "University of Nebraska-Lincoln",
-          "subtitle": "Software Engineering Major",
+          "link": "/speedway-motors",
+          "title": "Speedway Motors Ecommerce",
+          "subtitle": "Software Engineering Internship",
           "points": [
-            "GPA: 12345",
-            "Math Minor"
+            "August 2019 - Present",
+            "Develop and maintain the Speedway Motors ecommerce website using .NET and React.js.",
+            "Work closely with full-time software engineers in an Agile setting to organize our work efforts."
           ],
-          "description": "for now this is a test description that I will be changing later",
+          "description": "todo, talk about what i do",
           "buttons": [
             {
-              "text": "Test button 1",
-              "link": "https://canvas.unl.edu/"
-            },
-            {
-              "text": "Test button 2",
-              "link": "https://www.google.com/"
-            },
-            {
-              "text": "Test 3",
-              "link": "https://www.w3schools.com/cssref/css3_pr_justify-content.asp"
+              "text": "Speedway Motors Ecommerce Website",
+              "link": "https://www.speedwaymotors.com/"
             }
           ],
           "table": {
-            "languages": "React (including Redux, Jest, Enzyme), HTML/CSS, C#, MySQL, Javascript, .NET",
+            "languages": "React.js, Redux, Enzyme, Jest, HTML/CSS, Javascript, .NET, C#",
             "tickets": "JIRA",
-            "versionControl": "Bitbucket",
+            "versionControl": "BitBucket",
             "documentation": "Confluence"
           }
         },
         {
           "image": {
-            "link": "testimg.jpeg",
-            "alt": "A placeholder forest"
+            "link": "pmgfamily.jpg",
+            "alt": "PMG Digital Marketing Agency"
           },
-          "title": "The Griffin School",
-          "subtitle": "High School",
+          "link": "/pmg",
+          "title": "PMG Digital Marketing Agency",
+          "subtitle": "Full Stack Development Intern",
           "points": [
-            "GPA: 12345",
-            "Graduated with Honors"
+            "June 2019 - August 2019",
+            "Created custom, targeted, dynamic advertisements for companies like Madwell and Old Navy.",
+            "Created a Node.js tool to automate the process of creating dynamic advertisements."
+          ],
+          "description": "todo, talk about google studio / what i made / why",
+          "buttons": [
+            {
+              "text": "PMG's Website",
+              "link": "https://www.pmg.com/"
+            }
+          ],
+          "table": {
+            "languages": "Node.js, Javascript, HTML/CSS, Google Studio (Formerly known as Doubleclick Studio)",
+            "tickets": "ZenHub",
+            "versionControl": "GitHub",
+            "documentation": "Confluence"
+          }
+        },
+        {
+          "image": {
+            "link": "unlchem.jpg",
+            "alt": "Chemistry of Ice"
+          },
+          "link": "/unl-chemistry-department",
+          "title": "UNL Chemistry Department",
+          "subtitle": "Web Developer",
+          "points": [
+            "January 2018 - May 2019",
+            "Created custom webpages for the faculty and staff of Nebraska's chemistry department.",
+            "Maintained the chemistry website to show upcoming events and deadlines."
+          ],
+          "description": "again you can go in-depth later",
+          "buttons": [
+            {
+              "text": "UNL Chemistry Homepage",
+              "link": "https://chem.unl.edu/"
+            },
+            {
+              "text": "Sample Page",
+              "link": "https://chem.unl.edu/prospective-graduate"
+            }
           ]
         }
       ]
     },
-    "testing": {
-      "title": "Test Card Section",
+    "education": {
+      "title": "Education",
       "height": 300,
       "cards": [
         {
           "image": {
-            "link": "testimg.jpeg",
-            "alt": "nebrasky"
+            "link": "nebraskalincolncampus.jpg",
+            "alt": "University of Nebraska-Lincoln"
           },
-          "link": "/hello-world",
-          "title": "Hello World!",
-          "subtitle": "aaaaaaaa",
-          "description": "<strong>I'll talk to you about it later, but just know that this was easy to change</strong><br/> ",
-          "table": {
-            "languages": "React (including Redux, Jest, Enzyme), HTML/CSS, C#, MySQL, Javascript, .NET",
-            "tickets": "JIRA",
-            "versionControl": "Bitbucket",
-            "documentation": "Confluence"
-          }
+          "title": "University of Nebraska-Lincoln",
+          "subtitle": "Software Engineering",
+          "points": ["GPA: 3.777", "Expected Graduation: Spring 2021"]
+        },
+        {
+          "image": {
+            "link": "griffinschool.jpg",
+            "alt": "The Griffin School (New Building)"
+          },
+          "title": "The Griffin School",
+          "subtitle": "High School",
+          "points": ["Graduated with Honors"]
         }
       ]
     },
@@ -86,10 +121,7 @@
           "link": "/test-link-unl",
           "title": "University of Nebraska-Lincoln",
           "subtitle": "Software Engineering Major",
-          "points": [
-            "GPA: 12345",
-            "This is super cool"
-          ],
+          "points": ["GPA: 12345", "This is super cool"],
           "description": "for now this is a test description that I will be changing later",
           "table": {
             "languages": "React (including Redux, Jest, Enzyme), HTML, CSS, Javascript",
@@ -104,10 +136,7 @@
           "link": "/griffin-school",
           "title": "The Griffin School",
           "subtitle": "High School",
-          "points": [
-            "GPA: 12345",
-            "Graduated with Honors"
-          ],
+          "points": ["GPA: 12345", "Graduated with Honors"],
           "description": "for now this is a test description that I will be changing later"
         }
       ]

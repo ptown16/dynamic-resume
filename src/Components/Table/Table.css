@@ -1,8 +1,18 @@
-th, td {
+th,
+td {
   border: 1px solid black;
   border-spacing: 0px;
   margin: 0px;
   padding: 10px;
+  font-family: "Zilla Slab", serif;
+}
+
+th {
+  font-weight: 700;
+}
+
+td {
+  font-weight: 500;
 }
 
 table {

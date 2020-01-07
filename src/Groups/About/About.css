@@ -18,6 +18,8 @@
 .about-text-container {
   padding: 20px;
   overflow-y: scroll;
+  font-family: "Zilla Slab", serif;
+  font-weight: 500;
 }
 
 @media (max-width: 900px) {
