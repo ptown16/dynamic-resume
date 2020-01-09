@@ -19,7 +19,9 @@ function ExpandedCard({ card }) {
     const cardButtonList = [];
     for (const button of card.buttons) {
       cardButtonList.push(
-        <Button key={cardButtonList.length} button={button} newTab />
+        <Button key={cardButtonList.length} link={button.link} newTab>
+          {button.text}
+        </Button>
       );
     }
     cardButtons = <div className="button-container">{cardButtonList}</div>;

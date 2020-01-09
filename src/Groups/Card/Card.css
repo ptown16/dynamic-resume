@@ -9,11 +9,14 @@
   justify-content: end;
 }
 
-.card-title-subtitle {
+.card-body {
+  width: 100%;
+}
+
+.card-titles {
   position: absolute;
-  margin-top: 30px;
-  font-family: "Zilla Slab", serif;
-  font-weight: 700;
+  margin-top: 40px;
+  max-width: 100%;
 }
 
 .card-body-title {
@@ -26,24 +29,18 @@
 }
 
 .card-body-subtitle {
-  position: absolute;
+  position: relative;
   padding: 10px;
   margin: 0;
-  font-size: calc(0.7vmin + 10px);
+  font-size: calc(0.7vmin + 11px);
   font-family: "Zilla Slab", serif;
-  font-weight: 500;
+  font-weight: 700;
   font-style: italic;
 }
 
 .card-hover-overlay {
   position: relative;
-  width: 100%;
-  height: 100%;
   opacity: 0.8;
-}
-
-.card-content {
-  position: relative;
   width: 100%;
   height: 100%;
 }
@@ -53,18 +50,8 @@
   box-sizing: border-box;
   text-decoration: none;
   display: flex;
-}
-
-.card-point-list {
-  position: absolute;
-  padding: 10px 30px;
-  font-family: Roboto;
-  font-weight: 500;
-  font-size: calc(10px + 0.6vmin);
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif;
+  overflow: hidden;
+  height: auto;
 }
 
 .x-icon-link {
@@ -79,13 +66,42 @@
   padding: 3px;
 }
 
+.card-short-description {
+  margin: 0;
+  font-size: 13px;
+  margin-top: 5px;
+}
+
+.short-description-title {
+  margin: 0px;
+  font-family: "Zilla Slab", serif;
+  font-weight: 700;
+  opacity: 1;
+}
+
+.short-description-subtitle {
+  margin: 1px 0px;
+  font-family: "Zilla Slab", serif;
+  font-weight: 300;
+  font-style: italic;
+  text-decoration: underline;
+  opacity: 1;
+}
+
+.card-content {
+  position: relative;
+  padding: 10px;
+  opacity: 0.9;
+  display: grid;
+}
+
 @media (max-width: 900px) {
   .card-body-title {
     font-size: 2.4vw;
   }
 
   .card-body-subtitle {
-    font-size: 1.5vw;
+    font-size: 2vw;
   }
 }
 

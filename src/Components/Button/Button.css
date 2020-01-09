@@ -5,6 +5,16 @@
   justify-content: center;
   align-items: center;
   padding: 0px 15px;
-  margin-right: 20px;
   border-radius: 5px;
+}
+
+.button-small {
+  height: 20px;
+  padding: 7px;
+  font-size: 14px;
+}
+
+.button-float-right {
+  float: right;
+  justify-self: end;
 }

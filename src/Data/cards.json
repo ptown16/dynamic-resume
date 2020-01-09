@@ -1,6 +1,6 @@
 {
   "cardSections": {
-    "work-experience": {
+    "workExperience": {
       "title": "Work Experience",
       "height": 330,
       "cards": [
@@ -10,13 +10,10 @@
             "alt": "Speedway Motors"
           },
           "link": "/speedway-motors",
-          "title": "Speedway Motors Ecommerce",
-          "subtitle": "Software Engineering Internship",
-          "points": [
-            "August 2019 - Present",
-            "Develop and maintain the Speedway Motors ecommerce website using .NET and React.js.",
-            "Work closely with full-time software engineers in an Agile setting to organize our work efforts."
-          ],
+          "title": "Speedway Motors",
+          "shortDescriptionTitle": "Software Engineering Intern",
+          "shortDescriptionSubtitle": "August 2019 - Present",
+          "shortDescription": "Develop and maintain the Speedway Motors ecommerce website using .NET and React.js.",
           "description": "todo, talk about what i do",
           "buttons": [
             {
@@ -38,12 +35,9 @@
           },
           "link": "/pmg",
           "title": "PMG Digital Marketing Agency",
-          "subtitle": "Full Stack Development Intern",
-          "points": [
-            "June 2019 - August 2019",
-            "Created custom, targeted, dynamic advertisements for companies like Madwell and Old Navy.",
-            "Created a Node.js tool to automate the process of creating dynamic advertisements."
-          ],
+          "shortDescriptionTitle": "Full Stack Development Intern",
+          "shortDescriptionSubtitle": "June 2019 - August 2019",
+          "shortDescription": "Created custom, targeted, dynamic advertisements for companies like Madwell and Old Navy.",
           "description": "todo, talk about google studio / what i made / why",
           "buttons": [
             {
@@ -65,12 +59,9 @@
           },
           "link": "/unl-chemistry-department",
           "title": "UNL Chemistry Department",
-          "subtitle": "Web Developer",
-          "points": [
-            "January 2018 - May 2019",
-            "Created custom webpages for the faculty and staff of Nebraska's chemistry department.",
-            "Maintained the chemistry website to show upcoming events and deadlines."
-          ],
+          "shortDescriptionTitle": "Web Assistant (Student Worker)",
+          "shortDescriptionSubtitle": "January 2018 - May 2019",
+          "shortDescription": "Created custom, targeted, dynamic advertisements for companies like Madwell and Old Navy.",
           "description": "again you can go in-depth later",
           "buttons": [
             {
@@ -95,8 +86,9 @@
             "alt": "University of Nebraska-Lincoln"
           },
           "title": "University of Nebraska-Lincoln",
-          "subtitle": "Software Engineering",
-          "points": ["GPA: 3.777", "Expected Graduation: Spring 2021"]
+          "shortDescriptionTitle": "Software Engineering Major",
+          "shortDescriptionSubtitle": "Expected Graduation: Spring 2021",
+          "shortDescription": "<b>GPA is 3.777</b>, with dean's list for Spring 2018, Fall 2018, Spring 2019, and Fall 2019 semesters."
         },
         {
           "image": {
@@ -104,8 +96,9 @@
             "alt": "The Griffin School (New Building)"
           },
           "title": "The Griffin School",
-          "subtitle": "High School",
-          "points": ["Graduated with Honors"]
+          "shortDescriptionTitle": "High School",
+          "shortDescriptionSubtitle": "Graduated Spring 2017",
+          "shortDescription": "Graduated with honors."
         }
       ]
     },

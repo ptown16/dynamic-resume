@@ -44,12 +44,16 @@
   }
 }
 
-@media (max-width: 900px) {
-  .grid-thirds, .grid-fifths {
+@media (max-width: 1000px) {
+  .grid-thirds,
+  .grid-fifths {
     grid-template-columns: 100%;
   }
+}
 
-  .grid-fourths, .grid-sixths {
+@media (max-width: 900px) {
+  .grid-fourths,
+  .grid-sixths {
     grid-template-columns: repeat(2, calc(50% - 20px));
   }
 
@@ -59,7 +63,8 @@
 }
 
 @media (max-width: 600px) {
-  .grid-halves, .grid-fourths {
+  .grid-halves,
+  .grid-fourths {
     grid-template-columns: 100%;
   }
 

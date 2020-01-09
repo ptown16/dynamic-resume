@@ -10,7 +10,7 @@ import { setThemeColors } from "Utilities/setThemeColors";
 
 class Button extends Hoverable {
   render() {
-    const { button, variant, newTab } = this.props;
+    const { link, variant, newTab = false, children } = this.props;
 
     const theme = this.context;
 
@@ -22,31 +22,42 @@ class Button extends Hoverable {
     ]);
 
     const clickHandler = () => {
-      window.open(button.link, newTab ? "_blank" : "");
+      if (newTab) {
+        window.open(link, "_blank");
+      } else {
+        window.location.href = link;
+      }
     };
 
+    let buttonClassName;
     switch (variant) {
+      case "small-right":
+        buttonClassName = "button-small button-float-right button";
+        break;
       default:
-        return (
-          <div
-            className="button"
-            onClick={clickHandler}
-            style={{
-              color: this.state.hovered
-                ? colors.buttonTextHover
-                : colors.buttonText,
-              backgroundColor: this.state.hovered
-                ? colors.buttonBackgroundHover
-                : colors.buttonBackground,
-              boxShadow: this.state.hovered ? "" : theme.shadow
-            }}
-            onMouseEnter={this.toggleHover}
-            onMouseLeave={this.toggleHover}
-          >
-            {button.text}
-          </div>
-        );
+        buttonClassName = "button";
+        break;
     }
+
+    return (
+      <div
+        className={buttonClassName}
+        onClick={clickHandler}
+        style={{
+          color: this.state.hovered
+            ? colors.buttonTextHover
+            : colors.buttonText,
+          backgroundColor: this.state.hovered
+            ? colors.buttonBackgroundHover
+            : colors.buttonBackground,
+          boxShadow: this.state.hovered ? "" : theme.shadow
+        }}
+        onMouseEnter={this.toggleHover}
+        onMouseLeave={this.toggleHover}
+      >
+        {children}
+      </div>
+    );
   }
 }
 Hoverable.contextType = ThemeDataContext;

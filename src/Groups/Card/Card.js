@@ -7,6 +7,7 @@ import ThemeDataContext from "Contexts/ThemeDataContext";
 import PageDataContext from "Contexts/PageDataContext";
 
 import Hoverable from "Components/Hoverable/Hoverable";
+import Button from "Components/Button/Button";
 
 import { setThemeColors } from "Utilities/setThemeColors";
 
@@ -21,13 +22,15 @@ class Card extends Hoverable {
     if (!theme) {
       theme = themeData.themes["default"];
     }
-    const { card, height = 200, variant = "normal" } = this.props;
+    const { card, variant = "normal", imageHeight = 250 } = this.props;
     const colors = {
       ...setThemeColors(theme, [
         "cardBackground",
         "cardBackgroundHover",
-        "cardText",
-        "cardTextHover",
+        "cardShortDescriptionTitle",
+        "cardShortDescriptionSubtitle",
+        "cardShortDescriptionText",
+        "cardShortDescriptionTextHover",
         "cardTitleText",
         "cardTitleBackground",
         "cardSubtitleText",
@@ -37,31 +40,70 @@ class Card extends Hoverable {
       ]),
       none: "rgba(1, 1, 1, 0)"
     };
-    let imageHeight = height;
 
     // Set bullet points at bottom of card
-    let cardPoints;
-
-    if (card.points && variant !== "expanded") {
-      const pointListElements = [];
-      for (const point of card.points) {
-        pointListElements.push(
-          <li key={pointListElements.length} className="card-point">
-            {point}
-          </li>
+    let shortDescription;
+    let shortDescriptionTitle;
+    let shortDescriptionSubtitle;
+    let CTAbutton;
+    if (card.shortDescription && variant !== "expanded") {
+      if (card.shortDescriptionTitle) {
+        shortDescriptionTitle = (
+          <h4
+            className="short-description-title"
+            style={{
+              color: this.state.hovered
+                ? colors.cardShortDescriptionTextHover
+                : colors.cardShortDescriptionTitle
+            }}
+          >
+            {card.shortDescriptionTitle}
+          </h4>
         );
       }
-      imageHeight = height - height / 3;
-      cardPoints = (
-        <ul
-          className="card-point-list"
-          style={{
-            marginTop: `${imageHeight}px`,
-            color: this.state.hovered ? colors.cardTextHover : colors.cardText
-          }}
-        >
-          {pointListElements}
-        </ul>
+      if (card.shortDescriptionSubtitle) {
+        shortDescriptionSubtitle = (
+          <h5
+            className="short-description-subtitle"
+            style={{
+              color: this.state.hovered
+                ? colors.cardShortDescriptionTextHover
+                : colors.cardShortDescriptionSubtitle
+            }}
+          >
+            {card.shortDescriptionSubtitle}
+          </h5>
+        );
+      }
+      if (card.link) {
+        CTAbutton = (
+          <PageDataContext.Consumer>
+            {page => (
+              <Button
+                link={theme.link + page.link + card.link}
+                variant="small-right"
+              >
+                Learn More...
+              </Button>
+            )}
+          </PageDataContext.Consumer>
+        );
+      }
+      shortDescription = (
+        <>
+          {shortDescriptionTitle}
+          {shortDescriptionSubtitle}
+          <p
+            className="card-short-description"
+            style={{
+              color: this.state.hovered
+                ? colors.cardShortDescriptionTextHover
+                : colors.cardShortDescriptionText
+            }}
+            dangerouslySetInnerHTML={{ __html: card.shortDescription }}
+          ></p>
+          {CTAbutton}
+        </>
       );
     }
 
@@ -91,8 +133,7 @@ class Card extends Hoverable {
       };
     } else {
       cardImageStyle = {
-        backgroundColor: colors.cardBackground,
-        height: `${imageHeight}px`
+        backgroundColor: colors.cardBackground
       };
     }
 
@@ -119,11 +160,11 @@ class Card extends Hoverable {
                 backgroundColor: this.state.hovered
                   ? colors.cardBackgroundHover
                   : colors.cardBackground,
-                height: height,
                 boxShadow:
                   !this.state.hovered && card.link
                     ? theme.shadow
-                    : theme.shadowHover
+                    : theme.shadowHover,
+                borderRadius: variant === "expanded" ? "0px" : "10px"
               }}
               onMouseEnter={this.toggleHover}
               onMouseLeave={this.toggleHover}
@@ -163,33 +204,28 @@ class Card extends Hoverable {
     }
 
     const cardBody = (
-      <div
-        className="card-body-image"
-        style={cardImageStyle}
-        alt={card.image ? card.image.alt : ""}
-      >
-        {x}
-        {hoverOverlay}
-        <div
-          className="card-content"
-          style={{
-            marginTop: variant === "expanded" ? `` : `-${imageHeight}px`
-          }}
-        >
-          <div className="card-title-subtitle">
-            <h2
-              className="card-body-title"
-              style={{
-                color: colors.cardTitleText,
-                backgroundColor: colors.cardTitleBackground
-              }}
-            >
-              {card.title}
-            </h2>
-            {subtitle}
-          </div>
-          {cardPoints}
+      <div className="card-body">
+        <div className="card-titles">
+          <h2
+            className="card-body-title"
+            style={{
+              color: colors.cardTitleText,
+              backgroundColor: colors.cardTitleBackground
+            }}
+          >
+            {card.title}
+          </h2>
+          {subtitle}
         </div>
+        <div
+          className="card-body-image"
+          style={cardImageStyle}
+          alt={card.image ? card.image.alt : ""}
+        >
+          {hoverOverlay}
+        </div>
+        {x}
+        <div className="card-content">{shortDescription}</div>
       </div>
     );
 
@@ -203,8 +239,8 @@ class Card extends Hoverable {
               backgroundColor: this.state.hovered
                 ? colors.cardBackgroundHover
                 : colors.cardBackground,
-              height: height,
-              boxShadow: !this.state.hovered ? theme.shadow : theme.shadowHover
+              boxShadow: !this.state.hovered ? theme.shadow : theme.shadowHover,
+              borderRadius: variant === "expanded" ? "0px" : "10px"
             }}
             onMouseEnter={this.toggleHover}
             onMouseLeave={this.toggleHover}
@@ -223,9 +259,9 @@ class Card extends Hoverable {
         className="card"
         style={{
           backgroundColor: colors.cardBackground,
-          height: height,
           boxShadow:
-            this.state.hovered && card.link ? theme.shadow : theme.shadowHover
+            this.state.hovered && card.link ? theme.shadow : theme.shadowHover,
+          borderRadius: variant === "expanded" ? "0px" : "10px"
         }}
       >
         {cardBody}

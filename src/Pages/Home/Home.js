@@ -21,7 +21,7 @@ function Home({ overlay }) {
         alt="A forest full of trees"
         text="Peyton Tanzillo"
       />
-      {displayCardSection("work-experience")}
+      {displayCardSection("workExperience")}
       {displayCardSection("education")}
     </Page>
   );

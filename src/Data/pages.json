@@ -4,7 +4,7 @@
       "name": "Home",
       "componentName": "Home",
       "link": "/home",
-      "cardSections": ["education", "work-experience"]
+      "cardSections": ["education", "workExperience"]
     },
     {
       "name": "Contact",
