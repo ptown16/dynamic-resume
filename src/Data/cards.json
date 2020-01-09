@@ -2,7 +2,7 @@
   "cardSections": {
     "workExperience": {
       "title": "Work Experience",
-      "height": 330,
+      "imageHeight": 300,
       "cards": [
         {
           "image": {

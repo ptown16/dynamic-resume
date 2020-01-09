@@ -36,7 +36,8 @@ class Card extends Hoverable {
         "cardSubtitleText",
         "cardSubtitleBackground",
         "cardX",
-        "cardXBackground"
+        "cardXBackground",
+        "navigationCardTitle"
       ]),
       none: "rgba(1, 1, 1, 0)"
     };
@@ -90,7 +91,7 @@ class Card extends Hoverable {
         );
       }
       shortDescription = (
-        <>
+        <div className="card-content">
           {shortDescriptionTitle}
           {shortDescriptionSubtitle}
           <p
@@ -103,7 +104,7 @@ class Card extends Hoverable {
             dangerouslySetInnerHTML={{ __html: card.shortDescription }}
           ></p>
           {CTAbutton}
-        </>
+        </div>
       );
     }
 
@@ -196,9 +197,6 @@ class Card extends Hoverable {
           </PageDataContext.Consumer>
         );
         break;
-      case "navigation":
-        hoverOverlay = getHoverOverlay();
-        break;
       default:
         hoverOverlay = getHoverOverlay();
     }
@@ -210,7 +208,10 @@ class Card extends Hoverable {
             className="card-body-title"
             style={{
               color: colors.cardTitleText,
-              backgroundColor: colors.cardTitleBackground
+              backgroundColor:
+                variant === "navigation"
+                  ? colors.navigationCardTitle
+                  : colors.cardTitleBackground
             }}
           >
             {card.title}
@@ -225,7 +226,7 @@ class Card extends Hoverable {
           {hoverOverlay}
         </div>
         {x}
-        <div className="card-content">{shortDescription}</div>
+        {shortDescription}
       </div>
     );
 

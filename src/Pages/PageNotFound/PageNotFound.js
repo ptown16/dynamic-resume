@@ -10,7 +10,7 @@ function PageNotFound() {
   return (
     <Page className="page-not-found-page">
       <HeroBanner
-        image="testimg.jpeg"
+        image="mountains.jpg"
         alt="A forest full of trees"
         text="404 Page Not Found"
         pctHeight={50}

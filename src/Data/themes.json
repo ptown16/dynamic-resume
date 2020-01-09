@@ -107,6 +107,7 @@
     "cardBackgroundHover": "primary",
     "cardX": "white",
     "cardXBackground": "secondary",
+    "navigationCardTitle": "secondary",
     "heroBannerBackground": "primary",
     "heroBannerText": "white",
     "heroBannerTextBackground": "secondary",

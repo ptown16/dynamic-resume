@@ -17,7 +17,7 @@ function Home({ overlay }) {
       <HeroBanner
         pretext="Please consider"
         subtext={`for your ${theme.positionApplied}.`}
-        image="testimg.jpeg"
+        image="mountains.jpg"
         alt="A forest full of trees"
         text="Peyton Tanzillo"
       />
