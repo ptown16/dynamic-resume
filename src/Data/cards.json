@@ -102,35 +102,329 @@
         }
       ]
     },
-    "contact": {
-      "title": "Contact",
-      "height": 200,
+    "about": {
+      "title": "About Me",
+      "imageHeight": 200,
       "cards": [
         {
           "image": {
-            "link": "nebraskaN.jpg",
-            "alt": "nebrasky"
+            "link": "bushbanner.jpg",
+            "alt": "Peyton Tanzillo hiding behind a bush."
           },
-          "link": "/test-link-unl",
-          "title": "University of Nebraska-Lincoln",
-          "subtitle": "Software Engineering Major",
-          "points": ["GPA: 12345", "This is super cool"],
-          "description": "for now this is a test description that I will be changing later",
+          "shortDescriptionTitle": "Peyton Tanzillo",
+          "shortDescriptionSubtitle": "June 1999 - Present",
+          "shortDescription": "Welcome to my website!<br/><br/>My name is Peyton Tanzillo, and I am a Software Engineering student currently attending the University of Nebraska-Lincoln. I am looking for a summer 2020 internship in web development.<br/><br/>I am a motivated web developer with an eye for design and something to prove. I have experience working in fast-paced agile development teams with version control systems. However, what separates me from most candidates is that I can figure stuff out. I used this skill when I taught myself how to make websites with HTML/CSS, how to use Adobe Photoshop + Illustrator, and how to use React.js.<br/><br/>Outside of coding, you’ll likely find me playing video games or learning music production. I am a huge fan of more obscure games like Ori and the Blind Forest, Hollow Knight, Transistor, and a lot more! I also have played Rocket League competitively for a while, and was on UNL’s team for few months! As far as music production goes, you don’t want to hear any of the stuff I make in Ableton. Trust me.<br/><br/>Anyways, that’s about it as far as getting to know me. If you have any questions or want to reach out to me feel free to email me at peytontanzillo@icloud.com. Have a great day!"
+        }
+      ]
+    },
+    "personalProjects": {
+      "title": "Personal Projects",
+      "imageHeight": 300,
+      "cards": [
+        {
+          "title": "This Website",
+          "link": "/this-website",
+          "image": {
+            "link": "bushbanner.jpg",
+            "alt": "Peyton Tanzillo hiding behind a bush."
+          },
+          "shortDescriptionTitle": "About This Website",
+          "shortDescription": "An adaptive website that ",
+          "buttons": [
+            {
+              "text": "Default Theme",
+              "link": "https://peytontanzillo.com/default/home"
+            },
+            {
+              "text": "Test Theme",
+              "link": "https://peytontanzillo.com/test/home"
+            },
+            {
+              "text": "GitHub",
+              "link": "https://github.com/peytontanzillo/dynamic-resume"
+            }
+          ],
           "table": {
             "languages": "React (including Redux, Jest, Enzyme), HTML, CSS, Javascript",
             "versionControl": "Github"
-          }
+          },
+          "description": "write more about this website when you can"
         },
         {
+          "title": "Pente Web",
+          "link": "/pente-web",
           "image": {
-            "link": "nebraskaN.jpg",
-            "alt": "nebrasky"
+            "link": "bushbanner.jpg",
+            "alt": "Peyton Tanzillo hiding behind a bush."
           },
-          "link": "/griffin-school",
-          "title": "The Griffin School",
-          "subtitle": "High School",
-          "points": ["GPA: 12345", "Graduated with Honors"],
-          "description": "for now this is a test description that I will be changing later"
+          "shortDescriptionTitle": "Pente Web",
+          "shortDescription": "A remake of the board game Pente using React.js",
+          "buttons": [
+            {
+              "text": "Pente Rules",
+              "link": "https://www.pente.net/instructions.html"
+            },
+            {
+              "text": "GitHub",
+              "link": "https://github.com/peytontanzillo/pente-web"
+            }
+          ],
+          "table": {
+            "languages": "React (including Redux, Jest, Enzyme), HTML, CSS, Javascript",
+            "versionControl": "Github"
+          },
+          "description": "write more about this website when you can"
+        }
+      ]
+    },
+    "schoolProjects": {
+      "title": "School Projects",
+      "imageHeight": 300,
+      "cards": [
+        {
+          "title": "Senior Design (Junior Year)",
+          "subtitle": "Fall 2019 and Spring 2020",
+          "link": "/regular-phil",
+          "image": {
+            "link": "bushbanner.jpg",
+            "alt": "Peyton Tanzillo hiding behind a bush."
+          },
+          "shortDescriptionTitle": "Regular Phil App",
+          "shortDescriptionSubtitle": "A smart scheduling tool for recurring events.",
+          "shortDescription": "We worked closely with a sponsor to execute his vision of a new scheduling product.<br/>This was a group project with <a href=\"\">Max Danley</a>, <a href=\"\">Taher Ahmed</a>, <a href=\"\">Jesse Reyes-Cortez</a>, <a href=\"\">David Garza</a>, and <a href=\"\">Rinish Reddy</a>.",
+          "buttons": [
+            {
+              "text": "Regular Phil Website",
+              "link": "https://regularphil.com"
+            }
+          ],
+          "table": {
+            "languages": "React.js, Django, Javascript, HTML/CSS, Python",
+            "tickets": "ZenHub",
+            "versionControl": "GitHub",
+            "documentation": "GitHub Wiki"
+          },
+          "description": "write more about this website when you can"
+        },
+        {
+          "title": "Software Security",
+          "subtitle": "Fall 2019",
+          "link": "/visual-password",
+          "image": {
+            "link": "bushbanner.jpg",
+            "alt": "Peyton Tanzillo hiding behind a bush."
+          },
+          "shortDescriptionTitle": "Visual Password",
+          "shortDescriptionSubtitle": "A grid-based password concept",
+          "shortDescription": "An experiment to test the viability of a grid-based password compared to a traditional string password.<br>This was a group project with <a href=\"\">Jacob Orellana</a>.",
+          "buttons": [
+            {
+              "text": "GitHub",
+              "link": "https://github.com/peytontanzillo/visual-password"
+            }
+          ],
+          "table": {
+            "languages": "React.js, Javascript, HTML/CSS",
+            "versionControl": "GitHub"
+          },
+          "description": "write more about this website when you can"
+        },
+        {
+          "title": "Human Computer Interaction",
+          "subtitle": "Fall 2018",
+          "link": "/hubio",
+          "image": {
+            "link": "bushbanner.jpg",
+            "alt": "Peyton Tanzillo hiding behind a bush."
+          },
+          "shortDescriptionTitle": "Hub.io",
+          "shortDescriptionSubtitle": "A streaming service aggregator wireframe.",
+          "shortDescription": "A web service that conglomerates movies and tv shows (on Netflix, Hulu etc.) all in one place.<br>This was a group project with <a href=\"\">Joey Ballentine</a>, <a href=\"\">Samir Kashyap</a>, and <a href=\"\">Braydon Clyde</a>.<br/>Since we were only testing for human interaction with the software, the project is just a proof-of-concept demo.",
+          "buttons": [
+            {
+              "text": "GitHub",
+              "link": "https://github.com/peytontanzillo/hci-hubio"
+            }
+          ],
+          "table": {
+            "languages": "HTML/CSS, Javascript",
+            "versionControl": "GitHub"
+          },
+          "description": "write more about this website when you can"
+        }
+      ]
+    },
+    "codingSkills": {
+      "title": "Coding Skills",
+      "imageHeight": 100,
+      "cards": [
+        {
+          "title": "React.js",
+          "image": {
+            "link": "bushbanner.jpg",
+            "alt": "Peyton Tanzillo hiding behind a bush."
+          },
+          "shortDescriptionTitle": "Experience with this skill",
+          "shortDescription": "Examples: Speedway Motors, This Website, Pente Web, Visual Password"
+        },
+        {
+          "title": "Python",
+          "image": {
+            "link": "bushbanner.jpg",
+            "alt": "Peyton Tanzillo hiding behind a bush."
+          },
+          "shortDescriptionTitle": "Experience with this skill",
+          "shortDescription": "Examples: Regular Phil App (Django)"
+        },
+        {
+          "title": "Java",
+          "image": {
+            "link": "bushbanner.jpg",
+            "alt": "Peyton Tanzillo hiding behind a bush."
+          },
+          "shortDescriptionTitle": "Experience with this skill",
+          "shortDescription": "Example: Minecraft Plugins (lol)"
+        },
+        {
+          "title": "C#",
+          "image": {
+            "link": "bushbanner.jpg",
+            "alt": "Peyton Tanzillo hiding behind a bush."
+          },
+          "shortDescriptionTitle": "Experience with this skill",
+          "shortDescription": "Example: Speedway Motors"
+        },
+        {
+          "title": "Git / Version Control",
+          "image": {
+            "link": "bushbanner.jpg",
+            "alt": "Peyton Tanzillo hiding behind a bush."
+          },
+          "shortDescriptionTitle": "Experience with this skill",
+          "shortDescription": "Example: My Personal Github"
+        },
+        {
+          "title": "MySQL",
+          "image": {
+            "link": "bushbanner.jpg",
+            "alt": "Peyton Tanzillo hiding behind a bush."
+          },
+          "shortDescriptionTitle": "Experience with this skill",
+          "shortDescription": "Example: PMG"
+        },
+        {
+          "title": "Enzyme / Jest",
+          "image": {
+            "link": "bushbanner.jpg",
+            "alt": "Peyton Tanzillo hiding behind a bush."
+          },
+          "shortDescriptionTitle": "Experience with this skill",
+          "shortDescription": "Examples: Speedway Motors, Pente Web"
+        },
+        {
+          "title": "Vanilla Javascript",
+          "image": {
+            "link": "bushbanner.jpg",
+            "alt": "Peyton Tanzillo hiding behind a bush."
+          },
+          "shortDescriptionTitle": "Experience with this skill",
+          "shortDescription": "Examples: Hub.io, PMG"
+        },
+        {
+          "title": "Swift",
+          "image": {
+            "link": "bushbanner.jpg",
+            "alt": "Peyton Tanzillo hiding behind a bush."
+          },
+          "shortDescriptionTitle": "Experience with this skill",
+          "shortDescription": "No published examples."
+        },
+        {
+          "title": "jQuery",
+          "image": {
+            "link": "bushbanner.jpg",
+            "alt": "Peyton Tanzillo hiding behind a bush."
+          },
+          "shortDescriptionTitle": "Experience with this skill",
+          "shortDescription": "Examples: UNL Chemistry Department, PMG"
+        },
+        {
+          "title": "HTML/CSS",
+          "image": {
+            "link": "bushbanner.jpg",
+            "alt": "Peyton Tanzillo hiding behind a bush."
+          },
+          "shortDescriptionTitle": "Experience with this skill",
+          "shortDescription": "Examples: UNL Chemistry Department, This Website"
+        },
+        {
+          "title": "AWS",
+          "image": {
+            "link": "bushbanner.jpg",
+            "alt": "Peyton Tanzillo hiding behind a bush."
+          },
+          "shortDescriptionTitle": "Experience with this skill",
+          "shortDescription": "Examples: Regular Phil, This Website"
+        }
+      ]
+    },
+    "graphicDesignSkills": {
+      "title": "Graphic Design Skills",
+      "imageHeight": 100,
+      "cards": [
+        {
+          "title": "Adobe Illustrator",
+          "image": {
+            "link": "bushbanner.jpg",
+            "alt": "Peyton Tanzillo hiding behind a bush."
+          },
+          "shortDescriptionTitle": "Experience with this skill",
+          "shortDescription": "Examples: Illustator Examples"
+        },
+        {
+          "title": "Adobe Photoshop",
+          "image": {
+            "link": "bushbanner.jpg",
+            "alt": "Peyton Tanzillo hiding behind a bush."
+          },
+          "shortDescriptionTitle": "Experience with this skill",
+          "shortDescription": "Examples: Photoshop Examples"
+        },
+        {
+          "title": "Adobe After Effects",
+          "image": {
+            "link": "bushbanner.jpg",
+            "alt": "Peyton Tanzillo hiding behind a bush."
+          },
+          "shortDescriptionTitle": "Experience with this skill",
+          "shortDescription": "Examples: After Effects Examples"
+        },
+        {
+          "title": "Adobe Premiere",
+          "image": {
+            "link": "bushbanner.jpg",
+            "alt": "Peyton Tanzillo hiding behind a bush."
+          },
+          "shortDescriptionTitle": "Experience with this skill",
+          "shortDescription": "Examples: Premiere Examples"
+        },
+        {
+          "title": "Figma",
+          "image": {
+            "link": "bushbanner.jpg",
+            "alt": "Peyton Tanzillo hiding behind a bush."
+          },
+          "shortDescriptionTitle": "Experience with this skill",
+          "shortDescription": "No examples, mostly experimentation."
+        },
+        {
+          "title": "Cinema4D",
+          "image": {
+            "link": "bushbanner.jpg",
+            "alt": "Peyton Tanzillo hiding behind a bush."
+          },
+          "shortDescriptionTitle": "Experience with this skill",
+          "shortDescription": "Examples: Cinema4D"
         }
       ]
     }

@@ -18,7 +18,7 @@ function NavigationCards({ title, pageOn }) {
             variant="navigation"
             card={{
               link: page.link,
-              title: page.name,
+              title: `Go to ${page.name.toLowerCase()} page`,
               image: {
                 link: "mountains.jpg",
                 alt: "Mountains"

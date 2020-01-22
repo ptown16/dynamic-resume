@@ -4,9 +4,9 @@ import "./Home.css";
 import Page from "Pages/Page/Page";
 
 import HeroBanner from "Groups/HeroBanner/HeroBanner";
+import NavigationCards from "Groups/NavigationCards/NavigationCards";
 
 import ThemeDataContext from "Contexts/ThemeDataContext";
-
 import { displayCardSection } from "Utilities/displayCardSection";
 
 function Home({ overlay }) {
@@ -22,7 +22,7 @@ function Home({ overlay }) {
         text="Peyton Tanzillo"
       />
       {displayCardSection("workExperience")}
-      {displayCardSection("education")}
+      <NavigationCards title="Pages" pageOn="Home" />
     </Page>
   );
 }

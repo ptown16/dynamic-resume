@@ -53,9 +53,7 @@ class Card extends Hoverable {
           <h4
             className="short-description-title"
             style={{
-              color: this.state.hovered
-                ? colors.cardShortDescriptionTextHover
-                : colors.cardShortDescriptionTitle
+              color: colors.cardShortDescriptionTitle
             }}
           >
             {card.shortDescriptionTitle}
@@ -67,9 +65,7 @@ class Card extends Hoverable {
           <h5
             className="short-description-subtitle"
             style={{
-              color: this.state.hovered
-                ? colors.cardShortDescriptionTextHover
-                : colors.cardShortDescriptionSubtitle
+              color: colors.cardShortDescriptionSubtitle
             }}
           >
             {card.shortDescriptionSubtitle}
@@ -97,9 +93,7 @@ class Card extends Hoverable {
           <p
             className="card-short-description"
             style={{
-              color: this.state.hovered
-                ? colors.cardShortDescriptionTextHover
-                : colors.cardShortDescriptionText
+              color: colors.cardShortDescriptionText
             }}
             dangerouslySetInnerHTML={{ __html: card.shortDescription }}
           ></p>
@@ -139,41 +133,32 @@ class Card extends Hoverable {
     }
 
     let x;
-    let getHoverOverlay = () => (
-      <div
-        className="card-hover-overlay"
-        style={{
-          backgroundColor: this.state.hovered
-            ? colors.cardBackgroundHover
-            : colors.none
-        }}
-      />
-    );
     let hoverOverlay;
+
+    if (this.state.hovered && variant === "navigation") {
+      hoverOverlay = (
+        <div
+          className="card-hover-overlay"
+          style={{
+            backgroundColor: this.state.hovered
+              ? colors.cardBackgroundHover
+              : colors.none
+          }}
+        />
+      );
+    }
     let linkedCard = () => {
       return (
-        <PageDataContext.Consumer>
-          {page => (
-            <Link
-              to={theme.link + page.link + card.link}
-              className="card"
-              style={{
-                backgroundColor: this.state.hovered
-                  ? colors.cardBackgroundHover
-                  : colors.cardBackground,
-                boxShadow:
-                  !this.state.hovered && card.link
-                    ? theme.shadow
-                    : theme.shadowHover,
-                borderRadius: variant === "expanded" ? "0px" : "10px"
-              }}
-              onMouseEnter={this.toggleHover}
-              onMouseLeave={this.toggleHover}
-            >
-              {cardBody}
-            </Link>
-          )}
-        </PageDataContext.Consumer>
+        <div
+          className="card"
+          style={{
+            backgroundColor: colors.cardBackground,
+            boxShadow: theme.shadow,
+            borderRadius: variant === "expanded" ? "0px" : "10px"
+          }}
+        >
+          {cardBody}
+        </div>
       );
     };
 
@@ -198,24 +183,27 @@ class Card extends Hoverable {
         );
         break;
       default:
-        hoverOverlay = getHoverOverlay();
+        break;
     }
+    const title = (
+      <h2
+        className="card-body-title"
+        style={{
+          color: colors.cardTitleText,
+          backgroundColor:
+            variant === "navigation"
+              ? colors.navigationCardTitle
+              : colors.cardTitleBackground
+        }}
+      >
+        {card.title}
+      </h2>
+    );
 
     const cardBody = (
       <div className="card-body">
         <div className="card-titles">
-          <h2
-            className="card-body-title"
-            style={{
-              color: colors.cardTitleText,
-              backgroundColor:
-                variant === "navigation"
-                  ? colors.navigationCardTitle
-                  : colors.cardTitleBackground
-            }}
-          >
-            {card.title}
-          </h2>
+          {card.title ? title : false}
           {subtitle}
         </div>
         <div
@@ -237,10 +225,8 @@ class Card extends Hoverable {
             to={theme.link + card.link}
             className="card"
             style={{
-              backgroundColor: this.state.hovered
-                ? colors.cardBackgroundHover
-                : colors.cardBackground,
-              boxShadow: !this.state.hovered ? theme.shadow : theme.shadowHover,
+              backgroundColor: colors.cardBackground,
+              boxShadow: theme.shadow,
               borderRadius: variant === "expanded" ? "0px" : "10px"
             }}
             onMouseEnter={this.toggleHover}
@@ -252,7 +238,7 @@ class Card extends Hoverable {
       };
     }
 
-    if (card.link && variant !== "expanded") {
+    if (variant !== "expanded") {
       return linkedCard();
     }
     return (

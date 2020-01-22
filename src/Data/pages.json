@@ -7,10 +7,22 @@
       "cardSections": ["education", "workExperience"]
     },
     {
-      "name": "Contact",
-      "componentName": "Contact",
-      "link": "/contact",
-      "cardSections": ["contact"]
+      "name": "About",
+      "componentName": "About",
+      "link": "/about",
+      "cardSections": ["about"]
+    },
+    {
+      "name": "Projects",
+      "componentName": "Projects",
+      "link": "/projects",
+      "cardSections": ["workExperience", "personalProjects", "schoolProjects"]
+    },
+    {
+      "name": "Skills",
+      "componentName": "Skills",
+      "link": "/skills",
+      "cardSections": ["codingSkills", "graphicDesignSkills"]
     }
   ]
 }
