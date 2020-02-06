@@ -22,6 +22,7 @@ function Home({ overlay }) {
         text="Peyton Tanzillo"
       />
       {displayCardSection("workExperience")}
+      {displayCardSection("education")}
       <NavigationCards title="Pages" pageOn="Home" />
     </Page>
   );
