@@ -125,11 +125,11 @@
           "title": "This Website",
           "link": "/this-website",
           "image": {
-            "link": "bushbanner.jpg",
+            "link": "thiswebsite.jpg",
             "alt": "Peyton Tanzillo hiding behind a bush."
           },
           "shortDescriptionTitle": "About This Website",
-          "shortDescription": "An adaptive website that ",
+          "shortDescription": "An adaptive website that changes the color scheme based on which website was passed in. For example, the link <a href=\"https://peytontanzillo.com/crazypants/projects\">peytontanzillo.com/crazypants/projects</a> will change this page to look super crazy!",
           "buttons": [
             {
               "text": "Default Theme",
@@ -148,17 +148,17 @@
             "languages": "React (including Redux, Jest, Enzyme), HTML, CSS, Javascript",
             "versionControl": "Github"
           },
-          "description": "write more about this website when you can"
+          "description": "<b>Why did I make this website?</b><br/><br/>I wanted to improve upon my first attempt at making a website, which was thrown together one weekend to reflect my resumé. I really liked my old website, however I ran into a lot of issues when I tried to start maintaining the website, and I learned more and more about modern web development:<ul><li>The website was difficult to maintain, as I would need to study and understand my old code in order to do it.</li><li>The technologies I used for the site are old for web development.</li><li>There was no logic behind the code, so it was a better showcase of graphic design skills rather than coding tech.</li></ul>I decided to get to work making a new website, and I learned a lot doing so.<br/><br/><b>What is different about this website?</b><br/><br/>The basic concept of this website is that I’d be able to create a customized web experience for every single company I applied for. Since I was submitting a resumé to a lot of companies, I wanted to make this customization easy on my end, so I wouldn’t have to spend an unnecessary amount of work time getting something to look good. The easiest way to do this, in my eyes, was to change the colors of the website to match the colors of the company I was applying to. That way I have control over the shape and layout of my website, but I can reach that goal.<br/><br/>The content on the website (including the specific themes) is controlled through json files, so I wouldn’t run into the problem I had before where I found it difficult to maintain the website. This time, if I wanted to make a change to the site, it was as easy as saving a change to my json file and pushing it to my repository. In fact, I’ve made a large number of changes to the website since initially publishing it to my domain.<br/><br/>Overall, this was one of the most fun project I have worked on, and I had a really good time figuring out applying my new React knowledge and learning how to use contexts in a meaningful way."
         },
         {
           "title": "Pente Web",
           "link": "/pente-web",
           "image": {
-            "link": "bushbanner.jpg",
+            "link": "penteweb.jpg",
             "alt": "Peyton Tanzillo hiding behind a bush."
           },
           "shortDescriptionTitle": "Pente Web",
-          "shortDescription": "A remake of the board game Pente using React.js",
+          "shortDescription": "A makeover of a board game I love playing called <a href=/“https://www.pente.net/instructions.html/“>Pente</a>! Think of it as advanced, strategic, tic-tac-toe.",
           "buttons": [
             {
               "text": "Pente Rules",
@@ -173,7 +173,7 @@
             "languages": "React (including Redux, Jest, Enzyme), HTML, CSS, Javascript",
             "versionControl": "Github"
           },
-          "description": "write more about this website when you can"
+          "description": "This project was my first ever experience with React.js, which is why it looks suspiciously like a more advanced version of the React tutorial :). It was honestly the perfect way to get into modern frameworks of web development, and I learned a lot from messing around with this project!<br/><br/><b>Features:</b><ul><li>Scorekeeping & win screen</li><li>Color picker for each team, so somebody can change colors if they want to.</li><li>Undo move (up to 2), so you can give somebody who made a terrible mistake some leeway.</li></ul>"
         }
       ]
     },
@@ -191,7 +191,7 @@
           },
           "shortDescriptionTitle": "Regular Phil App",
           "shortDescriptionSubtitle": "A smart scheduling tool for recurring events.",
-          "shortDescription": "We worked closely with a sponsor to execute his vision of a new scheduling product.<br/>This was a group project with <a href=\"\">Max Danley</a>, <a href=\"\">Taher Ahmed</a>, <a href=\"\">Jesse Reyes-Cortez</a>, <a href=\"\">David Garza</a>, and <a href=\"\">Rinish Reddy</a>.",
+          "shortDescription": "We worked closely with a sponsor to execute his vision of a new scheduling product.<br/>This was a group project with <a href=\"https://www.linkedin.com/in/max-danley/\">Max Danley</a>, <a href=\"https://www.linkedin.com/in/taher-ahmed-53231b150/\">Taher Ahmed</a>, <a href=\"https://www.linkedin.com/in/jessereyescortes0416/\">Jesse Reyes-Cortez</a>, <a href=\"https://github.com/Davidagz\">David Garza</a>, and <a href=\"https://github.com/rinish06\">Rinish Reddy</a>.",
           "buttons": [
             {
               "text": "Regular Phil Website",
@@ -216,7 +216,7 @@
           },
           "shortDescriptionTitle": "Visual Password",
           "shortDescriptionSubtitle": "A grid-based password concept",
-          "shortDescription": "An experiment to test the viability of a grid-based password compared to a traditional string password.<br>This was a group project with <a href=\"\">Jacob Orellana</a>.",
+          "shortDescription": "An experiment to test the viability of a grid-based password compared to a traditional string password.<br>This was a group project with <a href=\"https://www.linkedin.com/in/jacob-orellana401/\">Jacob Orellana</a>.",
           "buttons": [
             {
               "text": "GitHub",
@@ -239,7 +239,7 @@
           },
           "shortDescriptionTitle": "Hub.io",
           "shortDescriptionSubtitle": "A streaming service aggregator wireframe.",
-          "shortDescription": "A web service that conglomerates movies and tv shows (on Netflix, Hulu etc.) all in one place.<br>This was a group project with <a href=\"\">Joey Ballentine</a>, <a href=\"\">Samir Kashyap</a>, and <a href=\"\">Braydon Clyde</a>.<br/>Since we were only testing for human interaction with the software, the project is just a proof-of-concept demo.",
+          "shortDescription": "A web service that conglomerates movies and tv shows (on Netflix, Hulu etc.) all in one place.<br>This was a group project with <a href=\"https://www.linkedin.com/in/joey-ballentine-6459a9194/\">Joey Ballentine</a>, <a href=\"https://www.linkedin.com/in/samir-kashyap-b29566176/\">Samir Kashyap</a>, and Braydon Clyde.<br/>Since we were only testing for human interaction with the software, the project is just a proof-of-concept demo.",
           "buttons": [
             {
               "text": "GitHub",
