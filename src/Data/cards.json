@@ -204,7 +204,7 @@
             "versionControl": "GitHub",
             "documentation": "GitHub Wiki"
           },
-          "description": "write more about this website when you can"
+          "description": "<b>Senior Design</b><br/><br/>Senior Design is a year-long class where a group of 6 Computer Science / Software Engineering students work with a company as software developers, similar to an internship. The students are expected to follow agile methodologies and focus on communicating with sponsors effectively. I chose to take on a leadership position, and so my focus for this project was more on making sure everyone followed Agile, and working on our development environment.<br/><br/><b>The Regular Phil App</b><br/><br/>Our sponsor was the Regular Phil App. To be blunt, this project started out very much like a startup. Henry, our sponsor, had an idea for an app, and paid for us to execute his idea. The basic idea for the app was that it was like a smart scheduling app. The app would take an input of people, possible times, and possible event titles and set up a poll that gets sent to that list of people, then chooses the best event and creates a calendar invite for that best event. It also incorporates some NLP so that the bot can understand anything that is sent in the group chat and adjust accordingly.<br/><br/>"
         },
         {
           "title": "Software Security",
@@ -227,7 +227,7 @@
             "languages": "React.js, Javascript, HTML/CSS",
             "versionControl": "GitHub"
           },
-          "description": "write more about this website when you can"
+          "description": "The visual password we created was an experiment that we conducted for a software security class to find an alternative to the traditional string password. The basic concept was that, with a grid-based password, we can make a blank space its own set of characters that can make passwords harder to decipher, longer, and stronger. We conducted our own study that showed that users were more likely to remember these grid passwords, rather than a newly created string password. However, we found that the grid password was extremely annoying and frustrating for users to use, and and the time it took to enter their password was around 3x longer than that of a normal password. Overall, it was an interesting experiment that gave us some insight into the challenges of the interfaces behind software security."
         },
         {
           "title": "Human Computer Interaction",
@@ -250,7 +250,7 @@
             "languages": "HTML/CSS, Javascript",
             "versionControl": "GitHub"
           },
-          "description": "write more about this website when you can"
+          "description": "This was a prototype for a class called Human Computer Interaction. This was the demo that we showed to users of a streaming platform aggregator, so people don’t have to search across different platforms to find a show they want to watch. This was a user interface where we made a wireframe, a mockup, and then a prototype and tested it on users."
         }
       ]
     },
