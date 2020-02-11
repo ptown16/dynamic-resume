@@ -186,7 +186,7 @@
           "subtitle": "Fall 2019 and Spring 2020",
           "link": "/regular-phil",
           "image": {
-            "link": "bushbanner.jpg",
+            "link": "reg-phil.jpg",
             "alt": "Peyton Tanzillo hiding behind a bush."
           },
           "shortDescriptionTitle": "Regular Phil App",
@@ -211,7 +211,7 @@
           "subtitle": "Fall 2019",
           "link": "/visual-password",
           "image": {
-            "link": "bushbanner.jpg",
+            "link": "visual-pass.jpg",
             "alt": "Peyton Tanzillo hiding behind a bush."
           },
           "shortDescriptionTitle": "Visual Password",
@@ -234,7 +234,7 @@
           "subtitle": "Fall 2018",
           "link": "/hubio",
           "image": {
-            "link": "bushbanner.jpg",
+            "link": "hubio.jpg",
             "alt": "Peyton Tanzillo hiding behind a bush."
           },
           "shortDescriptionTitle": "Hub.io",
@@ -261,7 +261,7 @@
         {
           "title": "React.js",
           "image": {
-            "link": "bushbanner.jpg",
+            "link": "react.png",
             "alt": "Peyton Tanzillo hiding behind a bush."
           },
           "shortDescriptionTitle": "Experience with this skill",
@@ -270,7 +270,7 @@
         {
           "title": "Python",
           "image": {
-            "link": "bushbanner.jpg",
+            "link": "python.jpeg",
             "alt": "Peyton Tanzillo hiding behind a bush."
           },
           "shortDescriptionTitle": "Experience with this skill",
@@ -279,7 +279,7 @@
         {
           "title": "Java",
           "image": {
-            "link": "bushbanner.jpg",
+            "link": "java.jpeg",
             "alt": "Peyton Tanzillo hiding behind a bush."
           },
           "shortDescriptionTitle": "Experience with this skill",
@@ -288,7 +288,7 @@
         {
           "title": "C#",
           "image": {
-            "link": "bushbanner.jpg",
+            "link": "csharp.png",
             "alt": "Peyton Tanzillo hiding behind a bush."
           },
           "shortDescriptionTitle": "Experience with this skill",
@@ -297,7 +297,7 @@
         {
           "title": "Git / Version Control",
           "image": {
-            "link": "bushbanner.jpg",
+            "link": "github.jpeg",
             "alt": "Peyton Tanzillo hiding behind a bush."
           },
           "shortDescriptionTitle": "Experience with this skill",
@@ -306,7 +306,7 @@
         {
           "title": "MySQL",
           "image": {
-            "link": "bushbanner.jpg",
+            "link": "mysql.jpeg",
             "alt": "Peyton Tanzillo hiding behind a bush."
           },
           "shortDescriptionTitle": "Experience with this skill",
@@ -315,7 +315,7 @@
         {
           "title": "Enzyme / Jest",
           "image": {
-            "link": "bushbanner.jpg",
+            "link": "enzyme.png",
             "alt": "Peyton Tanzillo hiding behind a bush."
           },
           "shortDescriptionTitle": "Experience with this skill",
@@ -324,7 +324,7 @@
         {
           "title": "Vanilla Javascript",
           "image": {
-            "link": "bushbanner.jpg",
+            "link": "js.png",
             "alt": "Peyton Tanzillo hiding behind a bush."
           },
           "shortDescriptionTitle": "Experience with this skill",
@@ -333,7 +333,7 @@
         {
           "title": "Swift",
           "image": {
-            "link": "bushbanner.jpg",
+            "link": "swift.jpeg",
             "alt": "Peyton Tanzillo hiding behind a bush."
           },
           "shortDescriptionTitle": "Experience with this skill",
@@ -342,7 +342,7 @@
         {
           "title": "jQuery",
           "image": {
-            "link": "bushbanner.jpg",
+            "link": "jquery.jpg",
             "alt": "Peyton Tanzillo hiding behind a bush."
           },
           "shortDescriptionTitle": "Experience with this skill",
@@ -351,7 +351,7 @@
         {
           "title": "HTML/CSS",
           "image": {
-            "link": "bushbanner.jpg",
+            "link": "htmlcss.jpeg",
             "alt": "Peyton Tanzillo hiding behind a bush."
           },
           "shortDescriptionTitle": "Experience with this skill",
@@ -360,7 +360,7 @@
         {
           "title": "AWS",
           "image": {
-            "link": "bushbanner.jpg",
+            "link": "aws.png",
             "alt": "Peyton Tanzillo hiding behind a bush."
           },
           "shortDescriptionTitle": "Experience with this skill",
@@ -375,7 +375,7 @@
         {
           "title": "Adobe Illustrator",
           "image": {
-            "link": "bushbanner.jpg",
+            "link": "ai.jpeg",
             "alt": "Peyton Tanzillo hiding behind a bush."
           },
           "shortDescriptionTitle": "Experience with this skill",
@@ -384,7 +384,7 @@
         {
           "title": "Adobe Photoshop",
           "image": {
-            "link": "bushbanner.jpg",
+            "link": "ps.png",
             "alt": "Peyton Tanzillo hiding behind a bush."
           },
           "shortDescriptionTitle": "Experience with this skill",
@@ -393,7 +393,7 @@
         {
           "title": "Adobe After Effects",
           "image": {
-            "link": "bushbanner.jpg",
+            "link": "ae.png",
             "alt": "Peyton Tanzillo hiding behind a bush."
           },
           "shortDescriptionTitle": "Experience with this skill",
@@ -402,7 +402,7 @@
         {
           "title": "Adobe Premiere",
           "image": {
-            "link": "bushbanner.jpg",
+            "link": "pr.png",
             "alt": "Peyton Tanzillo hiding behind a bush."
           },
           "shortDescriptionTitle": "Experience with this skill",
@@ -411,7 +411,7 @@
         {
           "title": "Figma",
           "image": {
-            "link": "bushbanner.jpg",
+            "link": "figma.png",
             "alt": "Peyton Tanzillo hiding behind a bush."
           },
           "shortDescriptionTitle": "Experience with this skill",
@@ -420,7 +420,7 @@
         {
           "title": "Cinema4D",
           "image": {
-            "link": "bushbanner.jpg",
+            "link": "c4d.jpeg",
             "alt": "Peyton Tanzillo hiding behind a bush."
           },
           "shortDescriptionTitle": "Experience with this skill",
