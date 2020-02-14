@@ -82,15 +82,15 @@
       "shadowHover": "0px 1px 2px 0px #777",
       "location": {}
     },
-    "where-is-parker": {
-      "name": "Where is Parker?",
-      "positionApplied": "2020 frontend development internship",
-      "link": "/where-is-parker",
+    "apple": {
+      "name": "Apple",
+      "positionApplied": "2020 software engineering internship in Cupertino",
+      "link": "/apple",
       "colors": {
-        "primary": "#999999",
-        "primaryDark": "#595959",
-        "primaryLight": "#e2e2e2",
-        "secondary": "#3daa0a",
+        "primary": "#222222",
+        "primaryDark": "#111111",
+        "primaryLight": "#333333",
+        "secondary": "rgb(0, 122, 255)",
         "black": "#000000",
         "background": "#eeeeee",
         "white": "#FFFFFF",
@@ -99,7 +99,10 @@
       "shadow": "0px 3px 6px 0px #555",
       "shadowReverse": "0px -3px -6px 0px #555",
       "shadowHover": "0px 1px 2px 0px #777",
-      "location": {}
+      "location": {
+        "heroBannerTextBackground": "black",
+        "tableCellBackground": "white"
+      }
     },
     "crazyPants": {
       "name": "Crazy Pants",
