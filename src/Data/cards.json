@@ -1,432 +1,432 @@
 {
-  "cardSections": {
-    "workExperience": {
-      "title": "Work Experience",
-      "imageHeight": 300,
-      "cards": [
-        {
-          "image": {
-            "link": "speedwaymotors.jpg",
-            "alt": "Speedway Motors"
-          },
-          "link": "/speedway-motors",
-          "title": "Speedway Motors",
-          "shortDescriptionTitle": "Software Engineering Intern",
-          "shortDescriptionSubtitle": "August 2019 - Present",
-          "shortDescription": "Develop and maintain the Speedway Motors ecommerce website using .NET and React.js.",
-          "description": "My internship at Speedway is a little different than most internships. Instead of being given a project and using the full-time developers as resources,  I am a fully-integrated team member that participates in completing regular issues. This means I am an active participant in common agile processes such as stand ups, sprint planning meetings, and postmortems. I work on the frontend-focused team, so I mostly focus on getting backend information from .NET and displaying it well using React.js. However, I get a wide variety of issues such as:<ul><li>Find a bug in an image file processor / optimizer, where the image thumbnail does not display.</li><li>Add a sliding animation to a product carousel when the user interacts with the carousel.</li><li>Implement the LogRocket tracking pixel onto the site for UX help & debugging information.</li><li>Help create the design framework for the server-side rendered footer.</li></ul>",
-          "buttons": [
-            {
-              "text": "Speedway Motors Ecommerce Website",
-              "link": "https://www.speedwaymotors.com/"
-            }
-          ],
-          "table": {
-            "languages": "React.js, Redux, Enzyme, Jest, HTML/CSS, Javascript, .NET, C#",
-            "tickets": "JIRA",
-            "versionControl": "BitBucket",
-            "documentation": "Confluence"
-          }
+    "cardSections": {
+        "workExperience": {
+            "title": "Work Experience",
+            "imageHeight": 300,
+            "cards": [
+                {
+                    "image": {
+                        "link": "speedwaymotors.jpg",
+                        "alt": "Speedway Motors"
+                    },
+                    "link": "/speedway-motors",
+                    "title": "Speedway Motors",
+                    "shortDescriptionTitle": "Software Engineering Intern",
+                    "shortDescriptionSubtitle": "August 2019 - Present",
+                    "shortDescription": "Develop and maintain the Speedway Motors ecommerce website using .NET and React.js.",
+                    "description": "My internship at Speedway is a little different than most internships. Instead of being given a project and using the full-time developers as resources,  I am a fully-integrated team member that participates in completing regular issues. This means I am an active participant in common agile processes such as stand ups, sprint planning meetings, and postmortems. I work on the frontend-focused team, so I mostly focus on getting backend information from .NET and displaying it well using React.js. However, I get a wide variety of issues such as:<ul><li>Find a bug in an image file processor / optimizer, where the image thumbnail does not display.</li><li>Add a sliding animation to a product carousel when the user interacts with the carousel.</li><li>Implement the LogRocket tracking pixel onto the site for UX help & debugging information.</li><li>Help create the design framework for the server-side rendered footer.</li></ul>",
+                    "buttons": [
+                        {
+                            "text": "Speedway Motors Ecommerce Website",
+                            "link": "https://www.speedwaymotors.com/"
+                        }
+                    ],
+                    "table": {
+                        "languages": "React.js, Redux, Enzyme, Jest, HTML/CSS, Javascript, .NET, C#",
+                        "tickets": "JIRA",
+                        "versionControl": "BitBucket",
+                        "documentation": "Confluence"
+                    }
+                },
+                {
+                    "image": {
+                        "link": "pmgfamily.jpg",
+                        "alt": "PMG Digital Marketing Agency"
+                    },
+                    "link": "/pmg",
+                    "title": "PMG Digital Marketing Agency",
+                    "shortDescriptionTitle": "Full Stack Development Intern",
+                    "shortDescriptionSubtitle": "June 2019 - August 2019",
+                    "shortDescription": "Created custom, targeted, dynamic advertisements for companies like Madewell and Old Navy.",
+                    "description": "My main accomplishment at PMG was to create a Dynamic+ Banner generator, which wired a basic product feed to a customizable template for a Dynamic+ Banner.</br></br><b>What are Dynamic+ Banners?</b><br/><br/>Let’s say a person — let’s call her Sally — wants to buy a pair of long black socks. She wants to order this pair of socks online at StoreA’s online website. To do this, she hops on Google Chrome, visits StoreA’s website, and finds a good pair of black socks on the site. However, she gets distracted by something else and ends up going off of the page to do something else. A few days later, Sally is visiting one of her favorite blogs when an advertisement appears on the sidebar from StoreA. In this advert, she sees the same pair of socks as before, along with a few other similar pairs of socks!<br/><br/>What Sally just saw was a dynamic+ advertisement. When Sally visited StoreA’s site, StoreA was able to use a tracking pixel to figure out what products Sally viewed. StoreA took a product that they know Sally is interested in and showed them an advertisement that includes that same product. This specific process is called retargeting, since companies are just showing information that they know already exists.</br></br><b>My Dynamic+ Banner Generator</b></br></br>Dynamic+ Banners are a feature that is provided to a large variety of clients that PMG serves, such as Madewell, Old Navy, Ralph Lauren, and many other high-profile companies. Before this tool was made, a developer at PMG had to go in and manually create every one of the 7 or 8 sizes of dynamic banner, and manually hook up the feed to customize the banner and the feed to display custom products. The even more frustrating thing is that the process could easily be automated, since PMG provided a number of templates when presenting Dynamic+ Advertisements to companies. Therefore, many of the banners looked very similar, with only a few customization tweaks made by the company.<br/><br/>The generator I created was a Node.js command line tool. My generator solved that issue by providing both an easy way to generate the basic templates, along with the flexibility to make tweaks to an individual project based on client-specific feedback. It allowed for all of the different banner sizes to use the same Javascript file, so a change to the feed didn’t have to be copied over 7 or 8 times. It also generated zips in the correct format to easily upload to Google Studio (formerly known as Doubleclick Studio). I also created one of the templates for the Dynamic+ banner, so you know who to blame if you get a Madewell ad in the future :).<br/><br/>Overall, my tool allowed for Dynamic+ Banners to be made much more quickly, allowing developers to focus more on productive tasks. I learned a lot about Node, HTML/CSS, and a lot about how the advertising world works.",
+                    "buttons": [
+                        {
+                            "text": "PMG's Website",
+                            "link": "https://www.pmg.com/"
+                        }
+                    ],
+                    "table": {
+                        "languages": "Node.js, Javascript, HTML/CSS, Google Studio (Formerly known as Doubleclick Studio)",
+                        "tickets": "ZenHub",
+                        "versionControl": "GitHub",
+                        "documentation": "Confluence"
+                    }
+                },
+                {
+                    "image": {
+                        "link": "unlchem.jpg",
+                        "alt": "Chemistry of Ice"
+                    },
+                    "link": "/unl-chemistry-department",
+                    "title": "UNL Chemistry Department",
+                    "shortDescriptionTitle": "Web Assistant (Student Worker)",
+                    "shortDescriptionSubtitle": "January 2018 - May 2019",
+                    "shortDescription": "Created websites using the University of Nebraska-Lincoln Web Framework. Collaborated closely with Nebraska professors to deliver a webiste that met their needs.",
+                    "description": "My primary job at the University of Nebraska-Lincoln chemistry department website was to update the various pages of the site to either add new content or update the pages to look better. I would work very closely with professors and faculty in the department, so I got good at setting expectations, and giving an accurate scope of how long a specific project would take. The editing of websites themselves was done strictly by changing the HTML through Drupal, so I had no access to the stylesheet or any scripts. Most of the time I didn’t need either of those, since the University has a pretty extensive web framework that made my job much easier. However, I often times found weird workaround solutions to my problems that required adding my own script tag or style tag.<br/><br/>My other job was to create / update the Colloquium graphics for the semester. I designed a template for the colloquium graphics using Adobe Illustrator, and was expected to maintain the TV screens in the chemistry building to display the correct information at all times.<br/><br/>Overall, I learned a lot about HTML, but my most valuable experience I got out of this job was to manage and set the expectations of others, and to work with clients to get to them what they want.<br/><br/>",
+                    "buttons": [
+                        {
+                            "text": "UNL Chemistry Homepage",
+                            "link": "https://chem.unl.edu/"
+                        },
+                        {
+                            "text": "Sample Page",
+                            "link": "https://chem.unl.edu/prospective-graduate"
+                        }
+                    ]
+                }
+            ]
         },
-        {
-          "image": {
-            "link": "pmgfamily.jpg",
-            "alt": "PMG Digital Marketing Agency"
-          },
-          "link": "/pmg",
-          "title": "PMG Digital Marketing Agency",
-          "shortDescriptionTitle": "Full Stack Development Intern",
-          "shortDescriptionSubtitle": "June 2019 - August 2019",
-          "shortDescription": "Created custom, targeted, dynamic advertisements for companies like Madewell and Old Navy.",
-          "description": "My main accomplishment at PMG was to create a Dynamic+ Banner generator, which wired a basic product feed to a customizable template for a Dynamic+ Banner.</br></br><b>What are Dynamic+ Banners?</b><br/><br/>Let’s say a person — let’s call her Sally — wants to buy a pair of long black socks. She wants to order this pair of socks online at StoreA’s online website. To do this, she hops on Google Chrome, visits StoreA’s website, and finds a good pair of black socks on the site. However, she gets distracted by something else and ends up going off of the page to do something else. A few days later, Sally is visiting one of her favorite blogs when an advertisement appears on the sidebar from StoreA. In this advert, she sees the same pair of socks as before, along with a few other similar pairs of socks!<br/><br/>What Sally just saw was a dynamic+ advertisement. When Sally visited StoreA’s site, StoreA was able to use a tracking pixel to figure out what products Sally viewed. StoreA took a product that they know Sally is interested in and showed them an advertisement that includes that same product. This specific process is called retargeting, since companies are just showing information that they know already exists.</br></br><b>My Dynamic+ Banner Generator</b></br></br>Dynamic+ Banners are a feature that is provided to a large variety of clients that PMG serves, such as Madewell, Old Navy, Ralph Lauren, and many other high-profile companies. Before this tool was made, a developer at PMG had to go in and manually create every one of the 7 or 8 sizes of dynamic banner, and manually hook up the feed to customize the banner and the feed to display custom products. The even more frustrating thing is that the process could easily be automated, since PMG provided a number of templates when presenting Dynamic+ Advertisements to companies. Therefore, many of the banners looked very similar, with only a few customization tweaks made by the company.<br/><br/>The generator I created was a Node.js command line tool. My generator solved that issue by providing both an easy way to generate the basic templates, along with the flexibility to make tweaks to an individual project based on client-specific feedback. It allowed for all of the different banner sizes to use the same Javascript file, so a change to the feed didn’t have to be copied over 7 or 8 times. It also generated zips in the correct format to easily upload to Google Studio (formerly known as Doubleclick Studio). I also created one of the templates for the Dynamic+ banner, so you know who to blame if you get a Madewell ad in the future :).<br/><br/>Overall, my tool allowed for Dynamic+ Banners to be made much more quickly, allowing developers to focus more on productive tasks. I learned a lot about Node, HTML/CSS, and a lot about how the advertising world works.",
-          "buttons": [
-            {
-              "text": "PMG's Website",
-              "link": "https://www.pmg.com/"
-            }
-          ],
-          "table": {
-            "languages": "Node.js, Javascript, HTML/CSS, Google Studio (Formerly known as Doubleclick Studio)",
-            "tickets": "ZenHub",
-            "versionControl": "GitHub",
-            "documentation": "Confluence"
-          }
+        "education": {
+            "title": "Education",
+            "height": 300,
+            "cards": [
+                {
+                    "image": {
+                        "link": "nebraskalincolncampus.jpg",
+                        "alt": "University of Nebraska-Lincoln"
+                    },
+                    "title": "University of Nebraska-Lincoln",
+                    "shortDescriptionTitle": "Software Engineering Major",
+                    "shortDescriptionSubtitle": "Expected Graduation: Spring 2021",
+                    "shortDescription": "<b>GPA is 3.777</b>, with dean's list for Spring 2018, Fall 2018, Spring 2019, and Fall 2019 semesters."
+                },
+                {
+                    "image": {
+                        "link": "griffinschool.jpg",
+                        "alt": "The Griffin School (New Building)"
+                    },
+                    "title": "The Griffin School",
+                    "shortDescriptionTitle": "High School",
+                    "shortDescriptionSubtitle": "Graduated Spring 2017",
+                    "shortDescription": "Graduated with honors."
+                }
+            ]
         },
-        {
-          "image": {
-            "link": "unlchem.jpg",
-            "alt": "Chemistry of Ice"
-          },
-          "link": "/unl-chemistry-department",
-          "title": "UNL Chemistry Department",
-          "shortDescriptionTitle": "Web Assistant (Student Worker)",
-          "shortDescriptionSubtitle": "January 2018 - May 2019",
-          "shortDescription": "Created websites using the University of Nebraska-Lincoln Web Framework. Collaborated closely with Nebraska professors to deliver a webiste that met their needs.",
-          "description": "My primary job at the University of Nebraska-Lincoln chemistry department website was to update the various pages of the site to either add new content or update the pages to look better. I would work very closely with professors and faculty in the department, so I got good at setting expectations, and giving an accurate scope of how long a specific project would take. The editing of websites themselves was done strictly by changing the HTML through Drupal, so I had no access to the stylesheet or any scripts. Most of the time I didn’t need either of those, since the University has a pretty extensive web framework that made my job much easier. However, I often times found weird workaround solutions to my problems that required adding my own script tag or style tag.<br/><br/>My other job was to create / update the Colloquium graphics for the semester. I designed a template for the colloquium graphics using Adobe Illustrator, and was expected to maintain the TV screens in the chemistry building to display the correct information at all times.<br/><br/>Overall, I learned a lot about HTML, but my most valuable experience I got out of this job was to manage and set the expectations of others, and to work with clients to get to them what they want.<br/><br/>",
-          "buttons": [
-            {
-              "text": "UNL Chemistry Homepage",
-              "link": "https://chem.unl.edu/"
-            },
-            {
-              "text": "Sample Page",
-              "link": "https://chem.unl.edu/prospective-graduate"
-            }
-          ]
+        "about": {
+            "title": "About Me",
+            "imageHeight": 200,
+            "cards": [
+                {
+                    "image": {
+                        "link": "bushbanner.jpg",
+                        "alt": "Peyton Tanzillo hiding behind a bush."
+                    },
+                    "shortDescriptionTitle": "Peyton Tanzillo",
+                    "shortDescriptionSubtitle": "June 1999 - Present",
+                    "shortDescription": "Welcome to my website!<br/><br/>My name is Peyton Tanzillo, and I am a Software Engineering student currently attending the University of Nebraska-Lincoln. I am looking for a summer 2020 internship in web development.<br/><br/>I am a motivated web developer with an eye for design and something to prove. I have experience working in fast-paced agile development teams with version control systems. However, what separates me from most candidates is that I can figure stuff out. I used this skill when I taught myself how to make websites with HTML/CSS, how to use Adobe Photoshop + Illustrator, and how to use React.js.<br/><br/>Outside of coding, you’ll likely find me playing video games or learning music production. I am a huge fan of more obscure games like Ori and the Blind Forest, Hollow Knight, Transistor, and a lot more! I also have played Rocket League competitively for a while, and was on UNL’s team for few months! As far as music production goes, you don’t want to hear any of the stuff I make in Ableton. Trust me.<br/><br/>Anyways, that’s about it as far as getting to know me. If you have any questions or want to reach out to me feel free to email me at peytontanzillo@icloud.com. Have a great day!"
+                }
+            ]
+        },
+        "personalProjects": {
+            "title": "Personal Projects",
+            "imageHeight": 300,
+            "cards": [
+                {
+                    "title": "This Website",
+                    "link": "/this-website",
+                    "image": {
+                        "link": "thiswebsite.jpg",
+                        "alt": "Peyton Tanzillo hiding behind a bush."
+                    },
+                    "shortDescriptionTitle": "About This Website",
+                    "shortDescription": "An adaptive website that changes the color scheme based on which website was passed in. For example, the link <a href=\"https://peytontanzillo.com/crazypants/projects\">peytontanzillo.com/crazypants/projects</a> will change this page to look super crazy!",
+                    "buttons": [
+                        {
+                            "text": "Default Theme",
+                            "link": "https://peytontanzillo.com/default/home"
+                        },
+                        {
+                            "text": "Test Theme",
+                            "link": "https://peytontanzillo.com/test/home"
+                        },
+                        {
+                            "text": "GitHub",
+                            "link": "https://github.com/peytontanzillo/dynamic-resume"
+                        }
+                    ],
+                    "table": {
+                        "languages": "React (including Redux, Jest, Enzyme), HTML, CSS, Javascript",
+                        "versionControl": "Github"
+                    },
+                    "description": "<b>Why did I make this website?</b><br/><br/>I wanted to improve upon my first attempt at making a website, which was thrown together one weekend to reflect my resumé. I really liked my old website, however I ran into a lot of issues when I tried to start maintaining the website, and I learned more and more about modern web development:<ul><li>The website was difficult to maintain, as I would need to study and understand my old code in order to do it.</li><li>The technologies I used for the site are old for web development.</li><li>There was no logic behind the code, so it was a better showcase of graphic design skills rather than coding tech.</li></ul>I decided to get to work making a new website, and I learned a lot doing so.<br/><br/><b>What is different about this website?</b><br/><br/>The basic concept of this website is that I’d be able to create a customized web experience for every single company I applied for. Since I was submitting a resumé to a lot of companies, I wanted to make this customization easy on my end, so I wouldn’t have to spend an unnecessary amount of work time getting something to look good. The easiest way to do this, in my eyes, was to change the colors of the website to match the colors of the company I was applying to. That way I have control over the shape and layout of my website, but I can reach that goal.<br/><br/>The content on the website (including the specific themes) is controlled through json files, so I wouldn’t run into the problem I had before where I found it difficult to maintain the website. This time, if I wanted to make a change to the site, it was as easy as saving a change to my json file and pushing it to my repository. In fact, I’ve made a large number of changes to the website since initially publishing it to my domain.<br/><br/>Overall, this was one of the most fun project I have worked on, and I had a really good time figuring out applying my new React knowledge and learning how to use contexts in a meaningful way."
+                },
+                {
+                    "title": "Pente Web",
+                    "link": "/pente-web",
+                    "image": {
+                        "link": "penteweb.jpg",
+                        "alt": "Peyton Tanzillo hiding behind a bush."
+                    },
+                    "shortDescriptionTitle": "Pente Web",
+                    "shortDescription": "A makeover of a board game I love playing called <a href=/“https://www.pente.net/instructions.html/“>Pente</a>! Think of it as advanced, strategic, tic-tac-toe.",
+                    "buttons": [
+                        {
+                            "text": "Pente Rules",
+                            "link": "https://www.pente.net/instructions.html"
+                        },
+                        {
+                            "text": "GitHub",
+                            "link": "https://github.com/peytontanzillo/pente-web"
+                        }
+                    ],
+                    "table": {
+                        "languages": "React (including Redux, Jest, Enzyme), HTML, CSS, Javascript",
+                        "versionControl": "Github"
+                    },
+                    "description": "This project was my first ever experience with React.js, which is why it looks suspiciously like a more advanced version of the React tutorial :). It was honestly the perfect way to get into modern frameworks of web development, and I learned a lot from messing around with this project!<br/><br/><b>Features:</b><ul><li>Scorekeeping & win screen</li><li>Color picker for each team, so somebody can change colors if they want to.</li><li>Undo move (up to 2), so you can give somebody who made a terrible mistake some leeway.</li></ul>"
+                }
+            ]
+        },
+        "schoolProjects": {
+            "title": "School Projects",
+            "imageHeight": 300,
+            "cards": [
+                {
+                    "title": "Senior Design (Junior Year)",
+                    "subtitle": "Fall 2019 and Spring 2020",
+                    "link": "/regular-phil",
+                    "image": {
+                        "link": "reg-phil.jpg",
+                        "alt": "Peyton Tanzillo hiding behind a bush."
+                    },
+                    "shortDescriptionTitle": "Regular Phil App",
+                    "shortDescriptionSubtitle": "A smart scheduling tool for recurring events.",
+                    "shortDescription": "We worked closely with a sponsor to execute his vision of a new scheduling product.<br/>This was a group project with <a href=\"https://www.linkedin.com/in/max-danley/\">Max Danley</a>, <a href=\"https://www.linkedin.com/in/taher-ahmed-53231b150/\">Taher Ahmed</a>, <a href=\"https://www.linkedin.com/in/jessereyescortes0416/\">Jesse Reyes-Cortez</a>, <a href=\"https://github.com/Davidagz\">David Garza</a>, and <a href=\"https://github.com/rinish06\">Rinish Reddy</a>.",
+                    "buttons": [
+                        {
+                            "text": "Regular Phil Website",
+                            "link": "https://regularphil.com"
+                        }
+                    ],
+                    "table": {
+                        "languages": "React.js, Django, Javascript, HTML/CSS, Python",
+                        "tickets": "ZenHub",
+                        "versionControl": "GitHub",
+                        "documentation": "GitHub Wiki"
+                    },
+                    "description": "<b>Senior Design</b><br/><br/>Senior Design is a year-long class where a group of 6 Computer Science / Software Engineering students work with a company as software developers, similar to an internship. The students are expected to follow agile methodologies and focus on communicating with sponsors effectively. I chose to take on a leadership position, and so my focus for this project was more on making sure everyone followed Agile, and working on our development environment.<br/><br/><b>The Regular Phil App</b><br/><br/>Our sponsor was the Regular Phil App. To be blunt, this project started out very much like a startup. Henry, our sponsor, had an idea for an app, and paid for us to execute his idea. The basic idea for the app was that it was like a smart scheduling app. The app would take an input of people, possible times, and possible event titles and set up a poll that gets sent to that list of people, then chooses the best event and creates a calendar invite for that best event. It also incorporates some NLP so that the bot can understand anything that is sent in the group chat and adjust accordingly.<br/><br/>"
+                },
+                {
+                    "title": "Software Security",
+                    "subtitle": "Fall 2019",
+                    "link": "/visual-password",
+                    "image": {
+                        "link": "visual-pass.jpg",
+                        "alt": "Peyton Tanzillo hiding behind a bush."
+                    },
+                    "shortDescriptionTitle": "Visual Password",
+                    "shortDescriptionSubtitle": "A grid-based password concept",
+                    "shortDescription": "An experiment to test the viability of a grid-based password compared to a traditional string password.<br>This was a group project with <a href=\"https://www.linkedin.com/in/jacob-orellana401/\">Jacob Orellana</a>.",
+                    "buttons": [
+                        {
+                            "text": "GitHub",
+                            "link": "https://github.com/peytontanzillo/visual-password"
+                        }
+                    ],
+                    "table": {
+                        "languages": "React.js, Javascript, HTML/CSS",
+                        "versionControl": "GitHub"
+                    },
+                    "description": "The visual password we created was an experiment that we conducted for a software security class to find an alternative to the traditional string password. The basic concept was that, with a grid-based password, we can make a blank space its own set of characters that can make passwords harder to decipher, longer, and stronger. We conducted our own study that showed that users were more likely to remember these grid passwords, rather than a newly created string password. However, we found that the grid password was extremely annoying and frustrating for users to use, and and the time it took to enter their password was around 3x longer than that of a normal password. Overall, it was an interesting experiment that gave us some insight into the challenges of the interfaces behind software security."
+                },
+                {
+                    "title": "Human Computer Interaction",
+                    "subtitle": "Fall 2018",
+                    "link": "/hubio",
+                    "image": {
+                        "link": "hubio.jpg",
+                        "alt": "Peyton Tanzillo hiding behind a bush."
+                    },
+                    "shortDescriptionTitle": "Hub.io",
+                    "shortDescriptionSubtitle": "A streaming service aggregator wireframe.",
+                    "shortDescription": "A web service that conglomerates movies and tv shows (on Netflix, Hulu etc.) all in one place.<br>This was a group project with <a href=\"https://www.linkedin.com/in/joey-ballentine-6459a9194/\">Joey Ballentine</a>, <a href=\"https://www.linkedin.com/in/samir-kashyap-b29566176/\">Samir Kashyap</a>, and Braydon Clyde.<br/>Since we were only testing for human interaction with the software, the project is just a proof-of-concept demo.",
+                    "buttons": [
+                        {
+                            "text": "GitHub",
+                            "link": "https://github.com/peytontanzillo/hci-hubio"
+                        }
+                    ],
+                    "table": {
+                        "languages": "HTML/CSS, Javascript",
+                        "versionControl": "GitHub"
+                    },
+                    "description": "This was a prototype for a class called Human Computer Interaction. This was the demo that we showed to users of a streaming platform aggregator, so people don’t have to search across different platforms to find a show they want to watch. This was a user interface where we made a wireframe, a mockup, and then a prototype and tested it on users."
+                }
+            ]
+        },
+        "codingSkills": {
+            "title": "Coding Skills",
+            "imageHeight": 100,
+            "cards": [
+                {
+                    "title": "React.js",
+                    "image": {
+                        "link": "react.png",
+                        "alt": "Peyton Tanzillo hiding behind a bush."
+                    },
+                    "shortDescriptionTitle": "Experience with this skill",
+                    "shortDescription": "Examples: Speedway Motors, This Website, Pente Web, Visual Password"
+                },
+                {
+                    "title": "Python",
+                    "image": {
+                        "link": "python.jpg",
+                        "alt": "Peyton Tanzillo hiding behind a bush."
+                    },
+                    "shortDescriptionTitle": "Experience with this skill",
+                    "shortDescription": "Examples: Regular Phil App (Django)"
+                },
+                {
+                    "title": "Java",
+                    "image": {
+                        "link": "java.jpg",
+                        "alt": "Peyton Tanzillo hiding behind a bush."
+                    },
+                    "shortDescriptionTitle": "Experience with this skill",
+                    "shortDescription": "Example: Minecraft Plugins (lol)"
+                },
+                {
+                    "title": "C#",
+                    "image": {
+                        "link": "csharp.png",
+                        "alt": "Peyton Tanzillo hiding behind a bush."
+                    },
+                    "shortDescriptionTitle": "Experience with this skill",
+                    "shortDescription": "Example: Speedway Motors"
+                },
+                {
+                    "title": "Git / Version Control",
+                    "image": {
+                        "link": "github.jpg",
+                        "alt": "Peyton Tanzillo hiding behind a bush."
+                    },
+                    "shortDescriptionTitle": "Experience with this skill",
+                    "shortDescription": "Example: My Personal Github"
+                },
+                {
+                    "title": "MySQL",
+                    "image": {
+                        "link": "mysql.jpg",
+                        "alt": "Peyton Tanzillo hiding behind a bush."
+                    },
+                    "shortDescriptionTitle": "Experience with this skill",
+                    "shortDescription": "Example: PMG"
+                },
+                {
+                    "title": "Enzyme / Jest",
+                    "image": {
+                        "link": "enzyme.png",
+                        "alt": "Peyton Tanzillo hiding behind a bush."
+                    },
+                    "shortDescriptionTitle": "Experience with this skill",
+                    "shortDescription": "Examples: Speedway Motors, Pente Web"
+                },
+                {
+                    "title": "Vanilla Javascript",
+                    "image": {
+                        "link": "js.png",
+                        "alt": "Peyton Tanzillo hiding behind a bush."
+                    },
+                    "shortDescriptionTitle": "Experience with this skill",
+                    "shortDescription": "Examples: Hub.io, PMG"
+                },
+                {
+                    "title": "Swift",
+                    "image": {
+                        "link": "swift.jpg",
+                        "alt": "Peyton Tanzillo hiding behind a bush."
+                    },
+                    "shortDescriptionTitle": "Experience with this skill",
+                    "shortDescription": "No published examples."
+                },
+                {
+                    "title": "jQuery",
+                    "image": {
+                        "link": "jquery.jpg",
+                        "alt": "Peyton Tanzillo hiding behind a bush."
+                    },
+                    "shortDescriptionTitle": "Experience with this skill",
+                    "shortDescription": "Examples: UNL Chemistry Department, PMG"
+                },
+                {
+                    "title": "HTML/CSS",
+                    "image": {
+                        "link": "htmlcss.jpg",
+                        "alt": "Peyton Tanzillo hiding behind a bush."
+                    },
+                    "shortDescriptionTitle": "Experience with this skill",
+                    "shortDescription": "Examples: UNL Chemistry Department, This Website"
+                },
+                {
+                    "title": "AWS",
+                    "image": {
+                        "link": "aws.png",
+                        "alt": "Peyton Tanzillo hiding behind a bush."
+                    },
+                    "shortDescriptionTitle": "Experience with this skill",
+                    "shortDescription": "Examples: Regular Phil, This Website"
+                }
+            ]
+        },
+        "graphicDesignSkills": {
+            "title": "Graphic Design Skills",
+            "imageHeight": 100,
+            "cards": [
+                {
+                    "title": "Adobe Illustrator",
+                    "image": {
+                        "link": "ai.jpg",
+                        "alt": "Peyton Tanzillo hiding behind a bush."
+                    },
+                    "shortDescriptionTitle": "Experience with this skill",
+                    "shortDescription": "Examples: Illustator Examples"
+                },
+                {
+                    "title": "Adobe Photoshop",
+                    "image": {
+                        "link": "ps.png",
+                        "alt": "Peyton Tanzillo hiding behind a bush."
+                    },
+                    "shortDescriptionTitle": "Experience with this skill",
+                    "shortDescription": "Examples: Photoshop Examples"
+                },
+                {
+                    "title": "Adobe After Effects",
+                    "image": {
+                        "link": "ae.png",
+                        "alt": "Peyton Tanzillo hiding behind a bush."
+                    },
+                    "shortDescriptionTitle": "Experience with this skill",
+                    "shortDescription": "Examples: After Effects Examples"
+                },
+                {
+                    "title": "Adobe Premiere",
+                    "image": {
+                        "link": "pr.png",
+                        "alt": "Peyton Tanzillo hiding behind a bush."
+                    },
+                    "shortDescriptionTitle": "Experience with this skill",
+                    "shortDescription": "Examples: Premiere Examples"
+                },
+                {
+                    "title": "Figma",
+                    "image": {
+                        "link": "figma.png",
+                        "alt": "Peyton Tanzillo hiding behind a bush."
+                    },
+                    "shortDescriptionTitle": "Experience with this skill",
+                    "shortDescription": "No examples, mostly experimentation."
+                },
+                {
+                    "title": "Cinema4D",
+                    "image": {
+                        "link": "c4d.jpg",
+                        "alt": "Peyton Tanzillo hiding behind a bush."
+                    },
+                    "shortDescriptionTitle": "Experience with this skill",
+                    "shortDescription": "Examples: Cinema4D"
+                }
+            ]
         }
-      ]
-    },
-    "education": {
-      "title": "Education",
-      "height": 300,
-      "cards": [
-        {
-          "image": {
-            "link": "nebraskalincolncampus.jpg",
-            "alt": "University of Nebraska-Lincoln"
-          },
-          "title": "University of Nebraska-Lincoln",
-          "shortDescriptionTitle": "Software Engineering Major",
-          "shortDescriptionSubtitle": "Expected Graduation: Spring 2021",
-          "shortDescription": "<b>GPA is 3.777</b>, with dean's list for Spring 2018, Fall 2018, Spring 2019, and Fall 2019 semesters."
-        },
-        {
-          "image": {
-            "link": "griffinschool.jpg",
-            "alt": "The Griffin School (New Building)"
-          },
-          "title": "The Griffin School",
-          "shortDescriptionTitle": "High School",
-          "shortDescriptionSubtitle": "Graduated Spring 2017",
-          "shortDescription": "Graduated with honors."
-        }
-      ]
-    },
-    "about": {
-      "title": "About Me",
-      "imageHeight": 200,
-      "cards": [
-        {
-          "image": {
-            "link": "bushbanner.jpg",
-            "alt": "Peyton Tanzillo hiding behind a bush."
-          },
-          "shortDescriptionTitle": "Peyton Tanzillo",
-          "shortDescriptionSubtitle": "June 1999 - Present",
-          "shortDescription": "Welcome to my website!<br/><br/>My name is Peyton Tanzillo, and I am a Software Engineering student currently attending the University of Nebraska-Lincoln. I am looking for a summer 2020 internship in web development.<br/><br/>I am a motivated web developer with an eye for design and something to prove. I have experience working in fast-paced agile development teams with version control systems. However, what separates me from most candidates is that I can figure stuff out. I used this skill when I taught myself how to make websites with HTML/CSS, how to use Adobe Photoshop + Illustrator, and how to use React.js.<br/><br/>Outside of coding, you’ll likely find me playing video games or learning music production. I am a huge fan of more obscure games like Ori and the Blind Forest, Hollow Knight, Transistor, and a lot more! I also have played Rocket League competitively for a while, and was on UNL’s team for few months! As far as music production goes, you don’t want to hear any of the stuff I make in Ableton. Trust me.<br/><br/>Anyways, that’s about it as far as getting to know me. If you have any questions or want to reach out to me feel free to email me at peytontanzillo@icloud.com. Have a great day!"
-        }
-      ]
-    },
-    "personalProjects": {
-      "title": "Personal Projects",
-      "imageHeight": 300,
-      "cards": [
-        {
-          "title": "This Website",
-          "link": "/this-website",
-          "image": {
-            "link": "thiswebsite.jpg",
-            "alt": "Peyton Tanzillo hiding behind a bush."
-          },
-          "shortDescriptionTitle": "About This Website",
-          "shortDescription": "An adaptive website that changes the color scheme based on which website was passed in. For example, the link <a href=\"https://peytontanzillo.com/crazypants/projects\">peytontanzillo.com/crazypants/projects</a> will change this page to look super crazy!",
-          "buttons": [
-            {
-              "text": "Default Theme",
-              "link": "https://peytontanzillo.com/default/home"
-            },
-            {
-              "text": "Test Theme",
-              "link": "https://peytontanzillo.com/test/home"
-            },
-            {
-              "text": "GitHub",
-              "link": "https://github.com/peytontanzillo/dynamic-resume"
-            }
-          ],
-          "table": {
-            "languages": "React (including Redux, Jest, Enzyme), HTML, CSS, Javascript",
-            "versionControl": "Github"
-          },
-          "description": "<b>Why did I make this website?</b><br/><br/>I wanted to improve upon my first attempt at making a website, which was thrown together one weekend to reflect my resumé. I really liked my old website, however I ran into a lot of issues when I tried to start maintaining the website, and I learned more and more about modern web development:<ul><li>The website was difficult to maintain, as I would need to study and understand my old code in order to do it.</li><li>The technologies I used for the site are old for web development.</li><li>There was no logic behind the code, so it was a better showcase of graphic design skills rather than coding tech.</li></ul>I decided to get to work making a new website, and I learned a lot doing so.<br/><br/><b>What is different about this website?</b><br/><br/>The basic concept of this website is that I’d be able to create a customized web experience for every single company I applied for. Since I was submitting a resumé to a lot of companies, I wanted to make this customization easy on my end, so I wouldn’t have to spend an unnecessary amount of work time getting something to look good. The easiest way to do this, in my eyes, was to change the colors of the website to match the colors of the company I was applying to. That way I have control over the shape and layout of my website, but I can reach that goal.<br/><br/>The content on the website (including the specific themes) is controlled through json files, so I wouldn’t run into the problem I had before where I found it difficult to maintain the website. This time, if I wanted to make a change to the site, it was as easy as saving a change to my json file and pushing it to my repository. In fact, I’ve made a large number of changes to the website since initially publishing it to my domain.<br/><br/>Overall, this was one of the most fun project I have worked on, and I had a really good time figuring out applying my new React knowledge and learning how to use contexts in a meaningful way."
-        },
-        {
-          "title": "Pente Web",
-          "link": "/pente-web",
-          "image": {
-            "link": "penteweb.jpg",
-            "alt": "Peyton Tanzillo hiding behind a bush."
-          },
-          "shortDescriptionTitle": "Pente Web",
-          "shortDescription": "A makeover of a board game I love playing called <a href=/“https://www.pente.net/instructions.html/“>Pente</a>! Think of it as advanced, strategic, tic-tac-toe.",
-          "buttons": [
-            {
-              "text": "Pente Rules",
-              "link": "https://www.pente.net/instructions.html"
-            },
-            {
-              "text": "GitHub",
-              "link": "https://github.com/peytontanzillo/pente-web"
-            }
-          ],
-          "table": {
-            "languages": "React (including Redux, Jest, Enzyme), HTML, CSS, Javascript",
-            "versionControl": "Github"
-          },
-          "description": "This project was my first ever experience with React.js, which is why it looks suspiciously like a more advanced version of the React tutorial :). It was honestly the perfect way to get into modern frameworks of web development, and I learned a lot from messing around with this project!<br/><br/><b>Features:</b><ul><li>Scorekeeping & win screen</li><li>Color picker for each team, so somebody can change colors if they want to.</li><li>Undo move (up to 2), so you can give somebody who made a terrible mistake some leeway.</li></ul>"
-        }
-      ]
-    },
-    "schoolProjects": {
-      "title": "School Projects",
-      "imageHeight": 300,
-      "cards": [
-        {
-          "title": "Senior Design (Junior Year)",
-          "subtitle": "Fall 2019 and Spring 2020",
-          "link": "/regular-phil",
-          "image": {
-            "link": "reg-phil.jpg",
-            "alt": "Peyton Tanzillo hiding behind a bush."
-          },
-          "shortDescriptionTitle": "Regular Phil App",
-          "shortDescriptionSubtitle": "A smart scheduling tool for recurring events.",
-          "shortDescription": "We worked closely with a sponsor to execute his vision of a new scheduling product.<br/>This was a group project with <a href=\"https://www.linkedin.com/in/max-danley/\">Max Danley</a>, <a href=\"https://www.linkedin.com/in/taher-ahmed-53231b150/\">Taher Ahmed</a>, <a href=\"https://www.linkedin.com/in/jessereyescortes0416/\">Jesse Reyes-Cortez</a>, <a href=\"https://github.com/Davidagz\">David Garza</a>, and <a href=\"https://github.com/rinish06\">Rinish Reddy</a>.",
-          "buttons": [
-            {
-              "text": "Regular Phil Website",
-              "link": "https://regularphil.com"
-            }
-          ],
-          "table": {
-            "languages": "React.js, Django, Javascript, HTML/CSS, Python",
-            "tickets": "ZenHub",
-            "versionControl": "GitHub",
-            "documentation": "GitHub Wiki"
-          },
-          "description": "<b>Senior Design</b><br/><br/>Senior Design is a year-long class where a group of 6 Computer Science / Software Engineering students work with a company as software developers, similar to an internship. The students are expected to follow agile methodologies and focus on communicating with sponsors effectively. I chose to take on a leadership position, and so my focus for this project was more on making sure everyone followed Agile, and working on our development environment.<br/><br/><b>The Regular Phil App</b><br/><br/>Our sponsor was the Regular Phil App. To be blunt, this project started out very much like a startup. Henry, our sponsor, had an idea for an app, and paid for us to execute his idea. The basic idea for the app was that it was like a smart scheduling app. The app would take an input of people, possible times, and possible event titles and set up a poll that gets sent to that list of people, then chooses the best event and creates a calendar invite for that best event. It also incorporates some NLP so that the bot can understand anything that is sent in the group chat and adjust accordingly.<br/><br/>"
-        },
-        {
-          "title": "Software Security",
-          "subtitle": "Fall 2019",
-          "link": "/visual-password",
-          "image": {
-            "link": "visual-pass.jpg",
-            "alt": "Peyton Tanzillo hiding behind a bush."
-          },
-          "shortDescriptionTitle": "Visual Password",
-          "shortDescriptionSubtitle": "A grid-based password concept",
-          "shortDescription": "An experiment to test the viability of a grid-based password compared to a traditional string password.<br>This was a group project with <a href=\"https://www.linkedin.com/in/jacob-orellana401/\">Jacob Orellana</a>.",
-          "buttons": [
-            {
-              "text": "GitHub",
-              "link": "https://github.com/peytontanzillo/visual-password"
-            }
-          ],
-          "table": {
-            "languages": "React.js, Javascript, HTML/CSS",
-            "versionControl": "GitHub"
-          },
-          "description": "The visual password we created was an experiment that we conducted for a software security class to find an alternative to the traditional string password. The basic concept was that, with a grid-based password, we can make a blank space its own set of characters that can make passwords harder to decipher, longer, and stronger. We conducted our own study that showed that users were more likely to remember these grid passwords, rather than a newly created string password. However, we found that the grid password was extremely annoying and frustrating for users to use, and and the time it took to enter their password was around 3x longer than that of a normal password. Overall, it was an interesting experiment that gave us some insight into the challenges of the interfaces behind software security."
-        },
-        {
-          "title": "Human Computer Interaction",
-          "subtitle": "Fall 2018",
-          "link": "/hubio",
-          "image": {
-            "link": "hubio.jpg",
-            "alt": "Peyton Tanzillo hiding behind a bush."
-          },
-          "shortDescriptionTitle": "Hub.io",
-          "shortDescriptionSubtitle": "A streaming service aggregator wireframe.",
-          "shortDescription": "A web service that conglomerates movies and tv shows (on Netflix, Hulu etc.) all in one place.<br>This was a group project with <a href=\"https://www.linkedin.com/in/joey-ballentine-6459a9194/\">Joey Ballentine</a>, <a href=\"https://www.linkedin.com/in/samir-kashyap-b29566176/\">Samir Kashyap</a>, and Braydon Clyde.<br/>Since we were only testing for human interaction with the software, the project is just a proof-of-concept demo.",
-          "buttons": [
-            {
-              "text": "GitHub",
-              "link": "https://github.com/peytontanzillo/hci-hubio"
-            }
-          ],
-          "table": {
-            "languages": "HTML/CSS, Javascript",
-            "versionControl": "GitHub"
-          },
-          "description": "This was a prototype for a class called Human Computer Interaction. This was the demo that we showed to users of a streaming platform aggregator, so people don’t have to search across different platforms to find a show they want to watch. This was a user interface where we made a wireframe, a mockup, and then a prototype and tested it on users."
-        }
-      ]
-    },
-    "codingSkills": {
-      "title": "Coding Skills",
-      "imageHeight": 100,
-      "cards": [
-        {
-          "title": "React.js",
-          "image": {
-            "link": "react.png",
-            "alt": "Peyton Tanzillo hiding behind a bush."
-          },
-          "shortDescriptionTitle": "Experience with this skill",
-          "shortDescription": "Examples: Speedway Motors, This Website, Pente Web, Visual Password"
-        },
-        {
-          "title": "Python",
-          "image": {
-            "link": "python.jpg",
-            "alt": "Peyton Tanzillo hiding behind a bush."
-          },
-          "shortDescriptionTitle": "Experience with this skill",
-          "shortDescription": "Examples: Regular Phil App (Django)"
-        },
-        {
-          "title": "Java",
-          "image": {
-            "link": "java.jpg",
-            "alt": "Peyton Tanzillo hiding behind a bush."
-          },
-          "shortDescriptionTitle": "Experience with this skill",
-          "shortDescription": "Example: Minecraft Plugins (lol)"
-        },
-        {
-          "title": "C#",
-          "image": {
-            "link": "csharp.png",
-            "alt": "Peyton Tanzillo hiding behind a bush."
-          },
-          "shortDescriptionTitle": "Experience with this skill",
-          "shortDescription": "Example: Speedway Motors"
-        },
-        {
-          "title": "Git / Version Control",
-          "image": {
-            "link": "github.jpg",
-            "alt": "Peyton Tanzillo hiding behind a bush."
-          },
-          "shortDescriptionTitle": "Experience with this skill",
-          "shortDescription": "Example: My Personal Github"
-        },
-        {
-          "title": "MySQL",
-          "image": {
-            "link": "mysql.jpg",
-            "alt": "Peyton Tanzillo hiding behind a bush."
-          },
-          "shortDescriptionTitle": "Experience with this skill",
-          "shortDescription": "Example: PMG"
-        },
-        {
-          "title": "Enzyme / Jest",
-          "image": {
-            "link": "enzyme.png",
-            "alt": "Peyton Tanzillo hiding behind a bush."
-          },
-          "shortDescriptionTitle": "Experience with this skill",
-          "shortDescription": "Examples: Speedway Motors, Pente Web"
-        },
-        {
-          "title": "Vanilla Javascript",
-          "image": {
-            "link": "js.png",
-            "alt": "Peyton Tanzillo hiding behind a bush."
-          },
-          "shortDescriptionTitle": "Experience with this skill",
-          "shortDescription": "Examples: Hub.io, PMG"
-        },
-        {
-          "title": "Swift",
-          "image": {
-            "link": "swift.jpg",
-            "alt": "Peyton Tanzillo hiding behind a bush."
-          },
-          "shortDescriptionTitle": "Experience with this skill",
-          "shortDescription": "No published examples."
-        },
-        {
-          "title": "jQuery",
-          "image": {
-            "link": "jquery.jpg",
-            "alt": "Peyton Tanzillo hiding behind a bush."
-          },
-          "shortDescriptionTitle": "Experience with this skill",
-          "shortDescription": "Examples: UNL Chemistry Department, PMG"
-        },
-        {
-          "title": "HTML/CSS",
-          "image": {
-            "link": "htmlcss.jpg",
-            "alt": "Peyton Tanzillo hiding behind a bush."
-          },
-          "shortDescriptionTitle": "Experience with this skill",
-          "shortDescription": "Examples: UNL Chemistry Department, This Website"
-        },
-        {
-          "title": "AWS",
-          "image": {
-            "link": "aws.png",
-            "alt": "Peyton Tanzillo hiding behind a bush."
-          },
-          "shortDescriptionTitle": "Experience with this skill",
-          "shortDescription": "Examples: Regular Phil, This Website"
-        }
-      ]
-    },
-    "graphicDesignSkills": {
-      "title": "Graphic Design Skills",
-      "imageHeight": 100,
-      "cards": [
-        {
-          "title": "Adobe Illustrator",
-          "image": {
-            "link": "ai.jpg",
-            "alt": "Peyton Tanzillo hiding behind a bush."
-          },
-          "shortDescriptionTitle": "Experience with this skill",
-          "shortDescription": "Examples: Illustator Examples"
-        },
-        {
-          "title": "Adobe Photoshop",
-          "image": {
-            "link": "ps.png",
-            "alt": "Peyton Tanzillo hiding behind a bush."
-          },
-          "shortDescriptionTitle": "Experience with this skill",
-          "shortDescription": "Examples: Photoshop Examples"
-        },
-        {
-          "title": "Adobe After Effects",
-          "image": {
-            "link": "ae.png",
-            "alt": "Peyton Tanzillo hiding behind a bush."
-          },
-          "shortDescriptionTitle": "Experience with this skill",
-          "shortDescription": "Examples: After Effects Examples"
-        },
-        {
-          "title": "Adobe Premiere",
-          "image": {
-            "link": "pr.png",
-            "alt": "Peyton Tanzillo hiding behind a bush."
-          },
-          "shortDescriptionTitle": "Experience with this skill",
-          "shortDescription": "Examples: Premiere Examples"
-        },
-        {
-          "title": "Figma",
-          "image": {
-            "link": "figma.png",
-            "alt": "Peyton Tanzillo hiding behind a bush."
-          },
-          "shortDescriptionTitle": "Experience with this skill",
-          "shortDescription": "No examples, mostly experimentation."
-        },
-        {
-          "title": "Cinema4D",
-          "image": {
-            "link": "c4d.jpg",
-            "alt": "Peyton Tanzillo hiding behind a bush."
-          },
-          "shortDescriptionTitle": "Experience with this skill",
-          "shortDescription": "Examples: Cinema4D"
-        }
-      ]
     }
-  }
 }
