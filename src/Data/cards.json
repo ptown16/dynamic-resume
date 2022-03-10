@@ -6,7 +6,7 @@
             "cards": [
                 {
                     "image": {
-                        "link": "adbe.jpeg",
+                        "link": "adbe.png",
                         "alt": "Adobe Logo"
                     },
                     "link": "/adobe",
@@ -30,7 +30,7 @@
                 },
                 {
                     "image": {
-                        "link": "spdwy.jpeg",
+                        "link": "spdwy.png",
                         "alt": "Speedway Motors"
                     },
                     "link": "/speedway-motors",
@@ -54,7 +54,7 @@
                 },
                 {
                     "image": {
-                        "link": "pmg.jpeg",
+                        "link": "pmg.png",
                         "alt": "PMG Digital Marketing Agency"
                     },
                     "link": "/pmg",
