@@ -11,7 +11,7 @@ function About({ overlay }) {
   return (
     <Page overlay={overlay} className="about-page">
       {displayCardSection("about")}
-      <NavigationCards title="To Page" pageOn="About" />
+      <NavigationCards pageOn="About" />
     </Page>
   );
 }

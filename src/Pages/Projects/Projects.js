@@ -13,7 +13,7 @@ function Projects({ overlay }) {
       {displayCardSection("workExperience")}
       {displayCardSection("personalProjects")}
       {displayCardSection("schoolProjects")}
-      <NavigationCards title="To Page" pageOn="Projects" />
+      <NavigationCards pageOn="Projects" />
     </Page>
   );
 }

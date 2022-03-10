@@ -12,7 +12,7 @@ function Skills({ overlay }) {
     <Page overlay={overlay} className="skills-page">
       {displayCardSection("codingSkills")}
       {displayCardSection("graphicDesignSkills")}
-      <NavigationCards title="To Page" pageOn="Skills" />
+      <NavigationCards pageOn="Skills" />
     </Page>
   );
 }

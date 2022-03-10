@@ -6,15 +6,39 @@
             "cards": [
                 {
                     "image": {
-                        "link": "speedwaymotors.jpg",
+                        "link": "adbe.jpeg",
+                        "alt": "Adobe Logo"
+                    },
+                    "link": "/adobe",
+                    "title": "Adobe",
+                    "shortDescriptionTitle": "Software Engineer",
+                    "shortDescriptionSubtitle": "May 2020 - Present",
+                    "shortDescription": "Work with other engineers on the libraries team to develop comprehensive features and ensure smooth integration into other Adobe products.",
+                    "description": "<b>A brief description of CC Libraries</b><br/><br/>Creative Cloud Libraries is a panel that exists within most applications at Adobe that allows designers to have a single source of truth for their assets.<br/><br/>The example I always like to use is this — Imagine that you’re working as a designer at ESPN, and you want to make a graphic promoting the Cleveland Browns vs the Chicago Bears on Monday Night Football. In order to make that easily, you’ll need the logos, colors, and fonts for each team along with the logos, colors, and fonts used for Monday Night Football. This can be an annoying process, as each time you’d have to hunt down the correct information from each team, or import all the assets from a shared dropbox.<br/><br/>Libraries makes this process easier, as it allows for you to create a library containing assets you’d need and share them with the people that will need it. Coming back to our example, there could be a shared library that contains every NFL team’s logo, colors, and fonts that would be shared amongst designers at ESPN. There could also be a shared library containing anything that is consistently used to make Monday Night Football graphics as well. So instead of having a designer hunt down these assets themselves, they would just easily find these assets in a library.<br/><br/><b>My Experience with the Team</b><br/><br/>The Libraries team is a very unique team within Adobe, as it is an independent team integrating the libraries panel into other Adobe applications. This means that the libraries panel has to do the job of mimicking the surrounding application that the panel is hosted in, both in style and functionality. This adds an extra layer of complexity to development, as making anything for the panel requires testing changes in at least a few different application to make sure it works as expected. That said, it is an extremely fun and rewarding experience to understand what value I am bringing to the customer with what I am developing, especially with my personal experience using the product.",
+                    "buttons": [
+                        {
+                            "text": "About Creative Cloud Libraries",
+                            "link": "https://www.adobe.com/creativecloud/libraries.html"
+                        }
+                    ],
+                    "table": {
+                        "languages": "React.js, Jest, Enzyme, MobX",
+                        "tickets": "JIRA",
+                        "versionControl": "GitHub",
+                        "documentation": "JIRA Wiki"
+                    }
+                },
+                {
+                    "image": {
+                        "link": "spdwy.jpeg",
                         "alt": "Speedway Motors"
                     },
                     "link": "/speedway-motors",
                     "title": "Speedway Motors",
                     "shortDescriptionTitle": "Software Engineering Intern",
-                    "shortDescriptionSubtitle": "August 2019 - Present",
+                    "shortDescriptionSubtitle": "August 2019 - May 2020",
                     "shortDescription": "Develop and maintain the Speedway Motors ecommerce website using .NET and React.js.",
-                    "description": "My internship at Speedway is a little different than most internships. Instead of being given a project and using the full-time developers as resources,  I am a fully-integrated team member that participates in completing regular issues. This means I am an active participant in common agile processes such as stand ups, sprint planning meetings, and postmortems. I work on the frontend-focused team, so I mostly focus on getting backend information from .NET and displaying it well using React.js. However, I get a wide variety of issues such as:<ul><li>Find a bug in an image file processor / optimizer, where the image thumbnail does not display.</li><li>Add a sliding animation to a product carousel when the user interacts with the carousel.</li><li>Implement the LogRocket tracking pixel onto the site for UX help & debugging information.</li><li>Help create the design framework for the server-side rendered footer.</li></ul>",
+                    "description": "My internship at Speedway is a little different than most internships. Instead of being given a project and using the full-time developers as resources, I was a fully-integrated team member that participates in completing regular issues. This meant I was an active participant in common agile processes such as stand ups, sprint planning meetings, and postmortems. I worked on the frontend-focused team, so I mostly focused on getting backend information from .NET and displaying it well using React.js. However, I got a wide variety of issues such as:<ul><li>Find a bug in an image file processor / optimizer, where the image thumbnail does not display.</li><li>Add a sliding animation to a product carousel when the user interacts with the carousel.</li><li>Implement the LogRocket tracking pixel onto the site for UX help & debugging information.</li><li>Help create the design framework for the server-side rendered footer.</li></ul>",
                     "buttons": [
                         {
                             "text": "Speedway Motors Ecommerce Website",
@@ -30,7 +54,7 @@
                 },
                 {
                     "image": {
-                        "link": "pmgfamily.jpg",
+                        "link": "pmg.jpeg",
                         "alt": "PMG Digital Marketing Agency"
                     },
                     "link": "/pmg",
@@ -83,22 +107,12 @@
                 {
                     "image": {
                         "link": "nebraskalincolncampus.jpg",
-                        "alt": "University of Nebraska-Lincoln"
+                        "alt": "University of Nebraska-Lincoln Campus"
                     },
                     "title": "University of Nebraska-Lincoln",
                     "shortDescriptionTitle": "Software Engineering Major",
-                    "shortDescriptionSubtitle": "Expected Graduation: Spring 2021",
-                    "shortDescription": "<b>GPA is 3.777</b>, with dean's list for Spring 2018, Fall 2018, Spring 2019, and Fall 2019 semesters."
-                },
-                {
-                    "image": {
-                        "link": "griffinschool.jpg",
-                        "alt": "The Griffin School (New Building)"
-                    },
-                    "title": "The Griffin School",
-                    "shortDescriptionTitle": "High School",
-                    "shortDescriptionSubtitle": "Graduated Spring 2017",
-                    "shortDescription": "Graduated with honors."
+                    "shortDescriptionSubtitle": "Graduated: Spring 2021",
+                    "shortDescription": "<b>GPA: 3.839</b><br/>Dean's list from Spring 2018 through Spring 2021 (7 semesters)"
                 }
             ]
         },
@@ -113,7 +127,7 @@
                     },
                     "shortDescriptionTitle": "Peyton Tanzillo",
                     "shortDescriptionSubtitle": "June 1999 - Present",
-                    "shortDescription": "Welcome to my website!<br/><br/>My name is Peyton Tanzillo, and I am a Software Engineering student currently attending the University of Nebraska-Lincoln. I am looking for a summer 2020 internship in web development.<br/><br/>I am a motivated web developer with an eye for design and something to prove. I have experience working in fast-paced agile development teams with version control systems. However, what separates me from most candidates is that I can figure stuff out. I used this skill when I taught myself how to make websites with HTML/CSS, how to use Adobe Photoshop + Illustrator, and how to use React.js.<br/><br/>Outside of coding, you’ll likely find me playing video games or learning music production. I am a huge fan of more obscure games like Ori and the Blind Forest, Hollow Knight, Transistor, and a lot more! I also have played Rocket League competitively for a while, and was on UNL’s team for few months! As far as music production goes, you don’t want to hear any of the stuff I make in Ableton. Trust me.<br/><br/>Anyways, that’s about it as far as getting to know me. If you have any questions or want to reach out to me feel free to email me at peytontanzillo@icloud.com. Have a great day!"
+                    "shortDescription": "Welcome to my website!<br/><br/>My name is Peyton Tanzillo, and I am a Software Engineer currently working Adobe.<br/><br/>I am a motivated web developer with an eye for design and a drive to create. I am constantly exploring, and I’m not afraid to venture out of my comfort zone to learn new things.<br/><br/>Outside of work, you’ll likely find me playing video games or trying to find new ways to create. I am a huge fan of indie games like Ori and the Blind Forest, Hollow Knight, Transistor, Omori, and a lot more! I have played Rocket League semi-competitively, and have participated on teams both at the University of Nebraska and at Adobe. On top of that, I’m one of those people that still plays Minecraft on a regular basis, and I’d be happy to show off my past builds if you’re somehow interested. Outside of video games, I have been exploring music production, video production, 3d modeling, and even a bit of game development! I don’t feel like I’m good at any of that yet, but it’s been fun to mess around and try to translate what is in my head to the real world.<br/><br/>Anyways, that’s about it as far as getting to know me. If you have any questions or want to reach out to me feel free to email me at <a href=\"mailto:peytontanzillo@icloud.com\">peytontanzillo@icloud.com</a>. Have a great day!"
                 }
             ]
         },
@@ -126,7 +140,7 @@
                     "link": "/this-website",
                     "image": {
                         "link": "thiswebsite.jpg",
-                        "alt": "Peyton Tanzillo hiding behind a bush."
+                        "alt": "A picture of this website!"
                     },
                     "shortDescriptionTitle": "About This Website",
                     "shortDescription": "An adaptive website that changes the color scheme based on which website was passed in. For example, the link <a href=\"https://peytontanzillo.com/crazypants/projects\">peytontanzillo.com/crazypants/projects</a> will change this page to look super crazy!",
@@ -146,16 +160,37 @@
                     ],
                     "table": {
                         "languages": "React (including Redux, Jest, Enzyme), HTML, CSS, Javascript",
-                        "versionControl": "Github"
+                        "versionControl": "GitHub"
                     },
                     "description": "<b>Why did I make this website?</b><br/><br/>I wanted to improve upon my first attempt at making a website, which was thrown together one weekend to reflect my resumé. I really liked my old website, however I ran into a lot of issues when I tried to start maintaining the website, and I learned more and more about modern web development:<ul><li>The website was difficult to maintain, as I would need to study and understand my old code in order to do it.</li><li>The technologies I used for the site are old for web development.</li><li>There was no logic behind the code, so it was a better showcase of graphic design skills rather than coding tech.</li></ul>I decided to get to work making a new website, and I learned a lot doing so.<br/><br/><b>What is different about this website?</b><br/><br/>The basic concept of this website is that I’d be able to create a customized web experience for every single company I applied for. Since I was submitting a resumé to a lot of companies, I wanted to make this customization easy on my end, so I wouldn’t have to spend an unnecessary amount of work time getting something to look good. The easiest way to do this, in my eyes, was to change the colors of the website to match the colors of the company I was applying to. That way I have control over the shape and layout of my website, but I can reach that goal.<br/><br/>The content on the website (including the specific themes) is controlled through json files, so I wouldn’t run into the problem I had before where I found it difficult to maintain the website. This time, if I wanted to make a change to the site, it was as easy as saving a change to my json file and pushing it to my repository. In fact, I’ve made a large number of changes to the website since initially publishing it to my domain.<br/><br/>Overall, this was one of the most fun project I have worked on, and I had a really good time figuring out applying my new React knowledge and learning how to use contexts in a meaningful way."
+                },
+                {
+                    "title": "Minecraft Plugins",
+                    "link": "/minecraft-plugins",
+                    "image": {
+                        "link": "boatracing.png",
+                        "alt": "A picture of the boat racing hub on a Minecraft server I play often."
+                    },
+                    "shortDescriptionTitle": "Minecraft Plugins",
+                    "shortDescription": "As a side hobby I've been recently helping with the development and maintainance of various Minecraft plugins, most notably a racing plugin!",
+                    "buttons": [
+                        {
+                            "text": "Racing Plugin on GitHub",
+                            "link": "https://github.com/ptown16/CVRacing"
+                        }
+                    ],
+                    "table": {
+                        "languages": "Java",
+                        "versionControl": "GitHub"
+                    },
+                    "description": "My racing plugin is my most extensive plugin so I’m just going to talk about that here. As a fair warning, I will be talking about various game mechanics and assuming you have a basic understanding of what Minecraft is and the items and mechanics that Minecraft has. If you don’t a lot of this may end up being quite confusing.<br/><br/>The origins of my racing plugin started on my creative server. I am participating in a survival server with a bunch of my friends, and I was looking for a new project to start working on. I had heard that you can make race tracks by allowing boats to slide on ice, so I ended up spending a night throwing together a pretty simple layout just to see if it was any fun and it was worth pursuing. Turns out — yes — as evidenced by staying up until 2am that night trying to beat my times using my phone’s stopwatch to time myself. The next day I brought a friend onto my server, and we ended up setting up a small ingame timer and spending that night as well trying to compete for the best times we could. As time went on and my friends and I got more and more into getting the best times, I thought I’d apply my coding skills and make a plugin that can record times and save them so that my friends and I could compete for the best scores independently of each other.<br/><br/>That led me down a long path starting with a simple timing plugin for my placeholder racing track, and continuing with a comprehensive plugin for all forms of Minecraft racing. As of now, my plugin can handle checkpoints, splits, leaderboards, and also handle its own multiplayer races so that my friends and I could fairly race against each other.<br/><br/>Overall, this has been a really fun side project to work on, and I’m looking forward to seeing where this continues to take me!"
                 },
                 {
                     "title": "Pente Web",
                     "link": "/pente-web",
                     "image": {
                         "link": "penteweb.jpg",
-                        "alt": "Peyton Tanzillo hiding behind a bush."
+                        "alt": "A picture of the pente web project."
                     },
                     "shortDescriptionTitle": "Pente Web",
                     "shortDescription": "A makeover of a board game I love playing called <a href=/“https://www.pente.net/instructions.html/“>Pente</a>! Think of it as advanced, strategic, tic-tac-toe.",
@@ -171,7 +206,7 @@
                     ],
                     "table": {
                         "languages": "React (including Redux, Jest, Enzyme), HTML, CSS, Javascript",
-                        "versionControl": "Github"
+                        "versionControl": "GitHub"
                     },
                     "description": "This project was my first ever experience with React.js, which is why it looks suspiciously like a more advanced version of the React tutorial :). It was honestly the perfect way to get into modern frameworks of web development, and I learned a lot from messing around with this project!<br/><br/><b>Features:</b><ul><li>Scorekeeping & win screen</li><li>Color picker for each team, so somebody can change colors if they want to.</li><li>Undo move (up to 2), so you can give somebody who made a terrible mistake some leeway.</li></ul>"
                 }
@@ -182,7 +217,25 @@
             "imageHeight": 300,
             "cards": [
                 {
-                    "title": "Senior Design (Junior Year)",
+                    "title": "Softie Startup",
+                    "subtitle": "Fall 2020 and Spring 2021",
+                    "link": "/grouve",
+                    "image": {
+                        "link": "grouve.png",
+                        "alt": "Grouve"
+                    },
+                    "shortDescriptionTitle": "Grouve",
+                    "shortDescriptionSubtitle": "An event planning tool with playlist integration",
+                    "shortDescription": "A project with 8 other software engineering majors in which we were taught the basics of making out own software product and researching its usefulness.<br/>The logo shown here is a logo actually designed by me, with help from <a href=\"https://www.linkedin.com/in/maggie-harder\">Maggie Harder</a>.",
+                    "table": {
+                        "languages": "React.js",
+                        "tickets": "JIRA",
+                        "versionControl": "GitHub"
+                    },
+                    "description": "<b>Softie Startup</b><br/><br/>Softie startup was an initiative spearheaded by my classmates and I as a potential option to having a second year of our Senior Design class. We felt that since we were going through the same curriculum, we did not feel like we were getting any new information out of the class again. Our solution was to have a self-starting version of the class that allowed us to learn more about creating our own products and have more freedom over what we end up creating. The proposal ended up working, and I, along with 8 other students, ended up being the guinea pigs for this new idea.<br/><br/><b>Phase 1: Exploration</b><br/><br/>For our first semester, we came up with three potential ideas — and did market research on the different ideas to determine wether they were viable and worth moving forward with. We conducted interviews, sent out questionnaires, and generally asked around to see if people had a real interest in the product. Once that was done, we got together as a full team and, based on our research, selected one project to move forward with, which was Grouve!<br/><br/><b>Phase 2: Building</b><br/><br/>For our second semester, we were tasked to work on building the project as a team. I worked as a UX designer and QA engineer for the team. I helped design a user flow using Adobe XD, and test that flow on potential users of our product. I also set up a testing framework so that other devs could easily mock expected data, and wrote tests for the project others were building."
+                },
+                {
+                    "title": "Senior Design",
                     "subtitle": "Fall 2019 and Spring 2020",
                     "link": "/regular-phil",
                     "image": {
@@ -283,7 +336,7 @@
                         "alt": "Peyton Tanzillo hiding behind a bush."
                     },
                     "shortDescriptionTitle": "Experience with this skill",
-                    "shortDescription": "Example: Minecraft Plugins (lol)"
+                    "shortDescription": "Example: Minecraft Plugins"
                 },
                 {
                     "title": "C#",
@@ -301,7 +354,7 @@
                         "alt": "Peyton Tanzillo hiding behind a bush."
                     },
                     "shortDescriptionTitle": "Experience with this skill",
-                    "shortDescription": "Example: My Personal Github"
+                    "shortDescription": "Example: My Personal GitHub"
                 },
                 {
                     "title": "MySQL",

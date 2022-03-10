@@ -23,7 +23,7 @@ function Home({ overlay }) {
       />
       {displayCardSection("workExperience")}
       {displayCardSection("education")}
-      <NavigationCards title="Pages" pageOn="Home" />
+      <NavigationCards pageOn="Home" />
     </Page>
   );
 }

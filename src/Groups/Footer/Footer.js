@@ -33,7 +33,7 @@ function Footer() {
         <FooterIcon variant="phone" link="sms:+1512-484-9318" />
         <FooterIcon
           variant="home"
-          link="https://www.google.com/maps/place/3209+Hancock+Dr,+Austin,+TX+78731/@30.3317691,-97.7603905,17z/data=!3m1!4b1!4m5!3m4!1s0x8644cae8ac340963:0xb438e00ae172bed1!8m2!3d30.3317645!4d-97.7582018"
+          link="https://goo.gl/maps/z4o6iPoEp9oT9JCE7"
         />
       </div>
       <div
@@ -43,7 +43,7 @@ function Footer() {
           color: colors.footerExtra
         }}
       >
-        <p className="footer-extra-line">Copyright © 2020 Peyton Tanzillo</p>
+        <p className="footer-extra-line">Copyright © 2020 - 2022 Peyton Tanzillo</p>
         <p className="footer-extra-line">
           Footer Icons made by Flaticon users Freepik (Home, Phone, Email) and
           Dave Gandy (LinkedIn).

@@ -7,6 +7,7 @@ import Card from "Groups/Card/Card";
 import CardSection from "Groups/CardSection/CardSection";
 
 function NavigationCards({ title, pageOn }) {
+  title = title || "Navigate"
   const pageCards = [];
   if (pageData.pages.length > 0) {
     for (const page of pageData.pages) {
